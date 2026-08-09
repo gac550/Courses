@@ -14,9 +14,23 @@ const api = window.courses;
 const state = {
   filters: {},
   sort: 'recomendado',
+  theme: 'light',
   rows: [],
   total: 0,
 };
+
+const THEMES = new Set(['light', 'dark', 'auto']);
+const DEFAULT_THEME = 'light';
+
+/**
+ * Aplica el tema al elemento raíz. Los estilos reaccionan al atributo
+ * data-theme: aquí no se escribe ningún color.
+ */
+function applyTheme(theme) {
+  const value = THEMES.has(theme) ? theme : DEFAULT_THEME;
+  document.documentElement.setAttribute('data-theme', value);
+  state.theme = value;
+}
 
 const SELECT_FILTERS = [
   { key: 'providerType', label: 'Origen', facet: 'providerType' },
@@ -70,6 +84,9 @@ function readUrlState() {
 
   state.filters = filters;
   state.sort = params.get('sort') || 'recomendado';
+
+  // Sin localStorage ni cookies: el tema viaja en la query string.
+  applyTheme(params.get('theme') ?? DEFAULT_THEME);
 }
 
 function writeUrlState() {
@@ -80,6 +97,7 @@ function writeUrlState() {
     else if (value !== null && value !== undefined && value !== '') params.set(key, String(value));
   }
   if (state.sort !== 'recomendado') params.set('sort', state.sort);
+  if (state.theme !== DEFAULT_THEME) params.set('theme', state.theme);
 
   const query = params.toString();
   window.history.replaceState(null, '', query ? `?${query}` : window.location.pathname);
@@ -455,10 +473,27 @@ function bindControls() {
     refresh();
   });
 
+  const theme = el('theme');
+  theme.value = state.theme;
+  theme.addEventListener('change', () => {
+    applyTheme(theme.value);
+    writeUrlState();
+  });
+
+  // Limpia el estado en memoria y los controles, sin recargar la página: así el
+  // tema elegido sobrevive y no se pierde la posición de scroll.
   el('btn-reset').addEventListener('click', () => {
     state.filters = {};
     state.sort = 'recomendado';
-    window.location.search = '';
+
+    el('filter-search').value = '';
+    el('filter-minRelevance').value = '';
+    el('filter-credentialFree').checked = false;
+    el('filter-credentialVerifiable').checked = false;
+    el('sort').value = 'recomendado';
+    for (const select of document.querySelectorAll('#filter-selects select')) select.value = '';
+
+    refresh();
   });
 
   el('btn-update').addEventListener('click', runUpdate);

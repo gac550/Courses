@@ -7,7 +7,7 @@
  * contenido derivado de páginas crawleadas.
  */
 
-import { app, BrowserWindow, shell } from 'electron';
+import { app, BrowserWindow, shell, nativeTheme } from 'electron';
 import { existsSync, copyFileSync, mkdirSync, watch } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -69,7 +69,9 @@ function createWindow() {
     show: false,
     title: 'Courses',
     titleBarStyle: process.platform === 'darwin' ? 'hiddenInset' : 'default',
-    backgroundColor: '#ffffff',
+    // Espeja los tokens --c-white y --c-ink-900 del renderer. Evita el destello
+    // blanco al abrir la ventana mientras el documento aún no pinta.
+    backgroundColor: nativeTheme.shouldUseDarkColors ? '#14171b' : '#ffffff',
     webPreferences: {
       preload: join(__dirname, '..', 'preload', 'index.cjs'),
       contextIsolation: true,

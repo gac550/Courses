@@ -70,6 +70,27 @@ Además, la app vigila `data/courses.json` en todo momento (también empaquetada
 si el archivo cambia — por el pipeline, por una edición manual o por un `git
 pull` —, la base se regenera y la ventana se refresca sola.
 
+## 4.2 Tema y tokens de diseño
+
+Tema **claro por defecto**, con oscuro y automático disponibles desde el selector
+de la cabecera. La elección viaja en la query string (`?theme=dark`): sin
+`localStorage`, cookies ni almacenamiento persistente.
+
+Los colores viven en tres niveles dentro de `src/renderer/styles.css`:
+
+1. **Primitivos** (`--c-*`): la paleta cruda. Nunca se usan en componentes.
+2. **Semánticos** (`--bg`, `--text`, `--free`, `--shadow-overlay`): describen la
+   función, no el color. Es lo único que consumen los componentes.
+3. **Temas**: reasignan los semánticos según `data-theme` en el elemento raíz.
+
+**Regla dura: ningún componente escribe un color literal.** Si hace falta un
+color nuevo, se agrega un primitivo y se expone como semántico. Cada tema define
+también `color-scheme`, para que los controles nativos acompañen.
+
+El `backgroundColor` de la `BrowserWindow` espeja `--c-white` y `--c-ink-900`
+para evitar el destello blanco al abrir en oscuro: al cambiar esos primitivos,
+actualizar también `src/main/index.mjs`.
+
 ## 5. Seguridad (innegociable)
 
 En toda `BrowserWindow`:
