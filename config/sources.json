@@ -3,18 +3,25 @@
     "id": "mit-ocw",
     "institution": "Massachusetts Institute of Technology",
     "country": "US",
-    "domains": ["ocw.mit.edu"],
-    "seed_urls": [],
+    "domains": [
+      "ocw.mit.edu"
+    ],
+    "seed_urls": [
+      "https://ocw.mit.edu/courses/"
+    ],
     "max_depth": 3,
     "enabled": true,
     "adapter": "mit-ocw",
-    "notes": "seed_urls se completa tras verificar cada URL en la fase de discovery."
+    "notes": "seed_urls verificadas con HTTP 200 el 2026-08-09."
   },
   {
     "id": "stanford-online",
     "institution": "Stanford University",
     "country": "US",
-    "domains": ["online.stanford.edu", "stanford.edu"],
+    "domains": [
+      "online.stanford.edu",
+      "stanford.edu"
+    ],
     "seed_urls": [],
     "max_depth": 3,
     "enabled": true,
@@ -25,29 +32,41 @@
     "id": "harvard-pll",
     "institution": "Harvard University",
     "country": "US",
-    "domains": ["pll.harvard.edu", "harvard.edu"],
-    "seed_urls": [],
+    "domains": [
+      "pll.harvard.edu",
+      "harvard.edu"
+    ],
+    "seed_urls": [
+      "https://pll.harvard.edu/catalog/free",
+      "https://pll.harvard.edu/subject/computer-science/free"
+    ],
     "max_depth": 3,
     "enabled": true,
     "adapter": "harvard-pll",
-    "notes": null
+    "notes": "seed_urls verificadas con HTTP 200 el 2026-08-09."
   },
   {
     "id": "harvard-cs50",
     "institution": "Harvard University",
     "country": "US",
-    "domains": ["cs50.harvard.edu"],
-    "seed_urls": [],
+    "domains": [
+      "cs50.harvard.edu"
+    ],
+    "seed_urls": [
+      "https://cs50.harvard.edu/x/"
+    ],
     "max_depth": 2,
     "enabled": true,
     "adapter": "harvard-cs50",
-    "notes": "El CS50 Certificate y el certificado verificado de edX son credenciales distintas: verificar por separado."
+    "notes": "El CS50 Certificate y el certificado verificado de edX son credenciales distintas: verificar por separado. seed_urls verificadas con HTTP 200 el 2026-08-09."
   },
   {
     "id": "berkeley",
     "institution": "University of California, Berkeley",
     "country": "US",
-    "domains": ["berkeley.edu"],
+    "domains": [
+      "berkeley.edu"
+    ],
     "seed_urls": [],
     "max_depth": 3,
     "enabled": false,
@@ -58,18 +77,24 @@
     "id": "edx",
     "institution": null,
     "country": null,
-    "domains": ["edx.org"],
-    "seed_urls": [],
+    "domains": [
+      "edx.org"
+    ],
+    "seed_urls": [
+      "https://www.edx.org/school/idbx"
+    ],
     "max_depth": 2,
     "enabled": true,
     "adapter": "edx",
-    "notes": "Plataforma. Solo es fuente primaria cuando puede verificarse la relación oficial institución-curso."
+    "notes": "Plataforma. Solo es fuente primaria cuando puede verificarse la relación oficial institución-curso. seed_urls verificadas con HTTP 200 el 2026-08-09."
   },
   {
     "id": "coursera",
     "institution": null,
     "country": null,
-    "domains": ["coursera.org"],
+    "domains": [
+      "coursera.org"
+    ],
     "seed_urls": [],
     "max_depth": 2,
     "enabled": false,
@@ -80,7 +105,9 @@
     "id": "pmi",
     "institution": "Project Management Institute",
     "country": "US",
-    "domains": ["pmi.org"],
+    "domains": [
+      "pmi.org"
+    ],
     "seed_urls": [],
     "max_depth": 2,
     "enabled": true,
@@ -91,11 +118,32 @@
     "id": "iadb",
     "institution": "Banco Interamericano de Desarrollo",
     "country": "US",
-    "domains": ["iadb.org", "cursos.iadb.org"],
-    "seed_urls": [],
+    "domains": [
+      "iadb.org",
+      "cursos.iadb.org",
+      "edx.org"
+    ],
+    "seed_urls": [
+      "https://www.edx.org/school/idbx"
+    ],
     "max_depth": 2,
     "enabled": true,
     "adapter": "iadb",
-    "notes": "Relevante para PPP e infraestructura en América Latina."
+    "notes": "Relevante para PPP e infraestructura en América Latina. seed_urls verificadas con HTTP 200 el 2026-08-09. Incluye edx.org en la allowlist porque los cursos del BID se publican en IDBx."
+  },
+  {
+    "id": "openhpi",
+    "institution": "Hasso Plattner Institute",
+    "country": "DE",
+    "domains": [
+      "open.hpi.de"
+    ],
+    "seed_urls": [
+      "https://open.hpi.de/courses"
+    ],
+    "max_depth": 2,
+    "enabled": true,
+    "adapter": "generic",
+    "notes": "Emite credenciales gratuitas: Record of Achievement y Confirmation of Participation. seed_urls verificada con HTTP 200 el 2026-08-09."
   }
 ]

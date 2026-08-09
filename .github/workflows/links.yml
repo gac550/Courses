@@ -1,0 +1,58 @@
+name: Verificar enlaces
+
+on:
+  schedule:
+    # Lunes 09h00 UTC.
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+# Escritura solo en issues: hace falta para reportar enlaces rotos.
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Verificar enlaces
+        run: npm run check-links
+
+      - name: Publicar el reporte
+        uses: actions/upload-artifact@v4
+        with:
+          name: links-report
+          path: reports/links-report.md
+          retention-days: 30
+
+      - name: Abrir o actualizar el issue de enlaces
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! grep -q "## Enlaces con problemas" reports/links-report.md; then
+            echo "Sin enlaces con problemas."
+            exit 0
+          fi
+
+          # Se reutiliza el issue abierto para no duplicarlo cada semana.
+          numero=$(gh issue list --label enlaces --state open --limit 1 --json number --jq '.[0].number // empty')
+
+          if [ -n "$numero" ]; then
+            gh issue comment "$numero" --body-file reports/links-report.md
+          else
+            gh issue create \
+              --title "Enlaces con problemas en el catálogo" \
+              --label enlaces \
+              --body-file reports/links-report.md
+          fi

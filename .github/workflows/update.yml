@@ -1,0 +1,67 @@
+name: Actualizar catálogo
+
+on:
+  schedule:
+    # Lunes 06h00 UTC, antes de la verificación de enlaces.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+# Escritura para abrir el pull request con los cambios propuestos.
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar el pipeline incremental
+        run: npm run update
+
+      - name: Validar el resultado
+        run: npm run validate
+
+      - name: Detectar cambios
+        id: cambios
+        run: |
+          if git diff --quiet data/courses.json; then
+            echo "hay_cambios=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "hay_cambios=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Los datos nuevos NUNCA entran directo a main: siempre vía pull request,
+      # y los candidatos automáticos llegan como PENDIENTE, nunca VERIFICADO.
+      - name: Abrir pull request con los cambios
+        if: steps.cambios.outputs.hay_cambios == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rama="data/actualizacion-$(date -u +%Y-%m-%d)"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$rama"
+          git add data/courses.json data/discovery reports
+          git commit -m "data: actualización automática del catálogo"
+          git push origin "$rama"
+
+          cuerpo="reports/diff-report.md"
+          [ -f "$cuerpo" ] || echo "Sin reporte de cambios disponible." > "$cuerpo"
+
+          gh pr create \
+            --title "data: actualización automática del catálogo" \
+            --body-file "$cuerpo" \
+            --base main \
+            --head "$rama"

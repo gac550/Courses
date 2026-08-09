@@ -1,0 +1,38 @@
+name: Validar catálogo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Mínimo privilegio: este workflow solo necesita leer el repositorio.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar tests
+        run: npm test
+
+      - name: Validar el catálogo
+        run: npm run validate
+
+      - name: Reportar composición
+        run: npm run stats
+
+      - name: Reconstruir la base derivada
+        run: npm run build-db
