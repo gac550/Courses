@@ -8,11 +8,15 @@
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 import { createFetcher } from './lib/fetcher.mjs';
 import { extractLinks } from './lib/extract-lib.mjs';
 import { canonicalUrl, isAllowedHost } from './lib/urls.mjs';
 import { today } from './lib/dates.mjs';
+import {
+  loadMemory, saveMemory, recordSeen, recordMissing, shouldRevisit, summarize,
+} from './lib/memory.mjs';
 
 const root = process.env.COURSES_ROOT ?? process.cwd();
 const configDir = join(root, 'config');
@@ -22,6 +26,11 @@ const config = JSON.parse(readFileSync(join(configDir, 'crawler.json'), 'utf8'))
 const sources = JSON.parse(readFileSync(join(configDir, 'sources.json'), 'utf8'));
 
 const fetcher = createFetcher(config);
+
+// Memoria persistente: lo ya visto no se reprocesa en cada pasada.
+const memoryPath = join(discoveryDir, 'memory.json');
+const memory = loadMemory(memoryPath);
+const incremental = process.env.COURSES_FULL_CRAWL !== '1';
 
 /** Descarta rutas irrelevantes según la configuración. */
 function isRelevant(url) {
@@ -57,23 +66,67 @@ async function crawlSource(source) {
   const blocked = [];
   const queue = seeds.map((url) => ({ url, depth: 0 }));
   let ultimoReporte = -1;
+  let omitidas = 0;
+
+  // Cota de tiempo por fuente: una cola grande no puede volver interminable la
+  // pasada. Lo que queda pendiente se retoma en la siguiente, gracias a la
+  // memoria incremental.
+  const limiteMs = (config.maxSecondsPerSource ?? 300) * 1000;
+  const inicioFuente = Date.now();
 
   while (queue.length > 0 && visited.size < maxPages) {
+    if (Date.now() - inicioFuente > limiteMs) {
+      console.log(`  ${source.id}: límite de tiempo alcanzado, continúa en la próxima pasada.`);
+      break;
+    }
+
     const { url, depth } = queue.shift();
     const canonical = canonicalUrl(url) ?? url;
 
     if (visited.has(canonical)) continue;
     if (!isAllowedHost(url, source.domains)) continue;
+
+    // Modo incremental: lo conocido y estable se pospone, liberando el
+    // presupuesto de páginas para descubrir cosas nuevas.
+    //
+    // Las semillas (profundidad 0) se visitan SIEMPRE: son la puerta de entrada
+    // a cada fuente y sin ellas no hay enlaces nuevos que seguir.
+    if (incremental && depth > 0 && !shouldRevisit(memory, canonical)) {
+      omitidas += 1;
+      const conocido = memory.urls[canonical];
+
+      // Un curso ya conocido sigue contando como candidato de esta pasada.
+      if (conocido?.is_course) {
+        candidates.set(canonical, {
+          url: canonical,
+          source: source.id,
+          institution: source.institution,
+          adapter: source.adapter ?? 'generic',
+          depth,
+          discovered_at: conocido.first_seen ?? today(),
+          from_memory: true,
+        });
+      }
+      continue;
+    }
+
     visited.add(canonical);
 
     const result = await fetcher.get(url);
 
     if (!result.ok) {
+      recordMissing(memory, canonical, { reason: result.reason });
       if (result.manualReview) {
         blocked.push({ url, reason: result.reason, status: result.status });
       }
       continue;
     }
+
+    recordSeen(memory, canonical, {
+      source: source.id,
+      isCourse: looksLikeCourse(url),
+      contentHash: createHash('sha256').update(result.body ?? '').digest('hex').slice(0, 16),
+    });
 
     if (looksLikeCourse(url)) {
       candidates.set(canonical, {
@@ -92,6 +145,9 @@ async function crawlSource(source) {
         `  ${source.id}: ${visited.size}/${maxPages} páginas · ${candidates.size} candidatos`,
       );
       ultimoReporte = candidates.size;
+
+      // Persistencia periódica: una interrupción no pierde lo aprendido.
+      saveMemory(memoryPath, memory);
     }
 
     if (depth >= maxDepth) continue;
@@ -108,12 +164,13 @@ async function crawlSource(source) {
 
   console.log(
     `  ${source.id}: ${visited.size} páginas visitadas, ` +
-    `${candidates.size} candidatos, ${blocked.length} bloqueadas.`,
+    `${candidates.size} candidatos, ${omitidas} desde memoria, ${blocked.length} bloqueadas.`,
   );
 
   return {
     source: source.id,
     visited: visited.size,
+    skipped_from_memory: omitidas,
     candidates: [...candidates.values()],
     blocked,
   };
@@ -143,6 +200,14 @@ const salida = {
 };
 
 writeFileSync(join(discoveryDir, 'crawl.json'), `${JSON.stringify(salida, null, 2)}\n`);
+
+// La memoria persiste entre ejecuciones: es lo que hace incremental al crawler.
+saveMemory(memoryPath, memory);
+const resumen = summarize(memory);
+console.log(
+  `\nMemoria: ${resumen.total} URLs conocidas · ${resumen.activos} activas · ` +
+  `${resumen.inestables} inestables · ${resumen.retirados} retiradas.`,
+);
 
 console.log(
   `\nTotal: ${salida.total_candidates} candidatos, ${salida.total_blocked} páginas bloqueadas ` +

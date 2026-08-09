@@ -19,6 +19,8 @@ import { fileURLToPath } from 'node:url';
 
 import { sortCourses } from './lib/sort.mjs';
 import { today } from './lib/dates.mjs';
+import { loadMemory, retiredUrls } from './lib/memory.mjs';
+import { applyDeprecations } from './lib/deprecate.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = process.env.COURSES_ROOT ?? process.cwd();
@@ -78,6 +80,30 @@ function incorporarCandidatos() {
   return nuevos.length;
 }
 
+/**
+ * Marca como NO_DISPONIBLE los cursos cuya URL dejó de responder de forma
+ * sostenida, y restaura los que volvieron. Nunca borra un registro.
+ */
+function aplicarDeprecaciones() {
+  const memoryPath = join(root, 'data', 'discovery', 'memory.json');
+  if (!existsSync(memoryPath)) return { deprecados: 0, restaurados: 0 };
+
+  const retiradas = retiredUrls(loadMemory(memoryPath));
+  const coursesPath = join(root, 'data', 'courses.json');
+  const catalogo = JSON.parse(readFileSync(coursesPath, 'utf8'));
+
+  const { catalog, deprecados, restaurados } = applyDeprecations(catalogo, retiradas);
+
+  if (deprecados.length > 0 || restaurados.length > 0) {
+    writeFileSync(coursesPath, `${JSON.stringify(catalog, null, 2)}\n`);
+  }
+
+  for (const c of deprecados) console.log(`  deprecado: ${c.id} — ${c.url}`);
+  for (const c of restaurados) console.log(`  restaurado: ${c.id}`);
+
+  return { deprecados: deprecados.length, restaurados: restaurados.length };
+}
+
 console.log(`Pipeline incremental · ${today()}`);
 
 const resultados = [];
@@ -91,8 +117,20 @@ for (const paso of PASOS) {
   }
 }
 
+console.log('\n── deprecación ──');
+const deprecados = aplicarDeprecaciones();
+
 console.log('\n── incorporación ──');
 const incorporados = incorporarCandidatos();
+
+if (deprecados.deprecados === 0 && deprecados.restaurados === 0) {
+  console.log('  Sin cursos retirados ni restaurados.');
+} else {
+  console.log(
+    `  ${deprecados.deprecados} deprecados como NO_DISPONIBLE, ` +
+    `${deprecados.restaurados} restaurados. Los datos se conservan.`,
+  );
+}
 
 if (incorporados > 0) {
   console.log(`${incorporados} cursos nuevos incorporados como PENDIENTE.`);

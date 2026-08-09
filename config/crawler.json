@@ -1,13 +1,13 @@
 {
   "userAgent": "CoursesCatalogBot/0.1 (+catalogo educativo verificable; contacto via repositorio)",
   "concurrency": {
-    "global": 12,
+    "global": 16,
     "perHost": 2
   },
   "delayMsPerHost": 1200,
   "timeoutMs": 15000,
   "maxDepth": 3,
-  "maxPagesPerSource": 60,
+  "maxPagesPerSource": 150,
   "retries": {
     "max": 2,
     "backoffMs": 2000,
@@ -62,5 +62,7 @@
     "instagram.com",
     "youtube.com/watch"
   ],
-  "verificationMaxAgeDays": 90
+  "verificationMaxAgeDays": 90,
+  "revisitAfterDays": 14,
+  "maxSecondsPerSource": 240
 }

@@ -42,11 +42,30 @@ npm run dev
 Se ejecuta con `npm run update`, o desde el botón **Actualizar catálogo** de la
 aplicación.
 
-El crawler respeta una pausa de 1,2 s por host y visita hasta 40 páginas por
-fuente, de modo que **una pasada completa sobre las 8 fuentes habilitadas tarda
-varios minutos**. Es deliberado: un crawler agresivo está prohibido. Para
-acotar una ejecución, reducir `maxPagesPerSource` en `config/crawler.json` o
-deshabilitar fuentes en `config/sources.json`.
+El crawler respeta una pausa de 1,2 s por host, de modo que **la primera pasada
+tarda varios minutos**. Es deliberado: un crawler agresivo está prohibido.
+
+### Memoria incremental
+
+`data/discovery/memory.json` recuerda cada URL vista. Las páginas conocidas y
+estables no se revisitan antes de 14 días, así que **la segunda pasada es mucho
+más rápida** y el presupuesto se gasta en descubrir, no en repetir.
+
+```bash
+npm run update                    # incremental (recomendado)
+COURSES_FULL_CRAWL=1 npm run crawl  # fuerza revisitar todo
+```
+
+### Cursos retirados
+
+Una URL que falla **tres veces consecutivas** se da por retirada, y su curso pasa
+a `NO_DISPONIBLE`.
+
+**Ningún curso se borra jamás.** Conserva todos sus datos y recibe una nota
+`[DEPRECADO fecha]` con el motivo. Si vuelve a responder, se restaura como
+`REVERIFICAR` para que una persona lo confirme.
+
+Un fallo aislado de red no depreca nada.
 
 **Los candidatos descubiertos automáticamente ingresan siempre como
 `PENDIENTE`**, nunca como `VERIFICADO`: el crawler detecta indicios, no

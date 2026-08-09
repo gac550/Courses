@@ -160,6 +160,27 @@ crawling agresivo. Si un sitio impide el crawling automatizado, registrar
 Límites por defecto: concurrencia global 5, por host 2, timeout 15 s, profundidad
 3. Centralizados en configuración, nunca hardcodeados.
 
+## 7.1 Memoria incremental y deprecación
+
+`data/discovery/memory.json` guarda cada URL vista: cuándo apareció, cuándo se
+vio por última vez, si es un curso, la huella de su contenido y cuántas
+verificaciones consecutivas falló.
+
+De ahí salen dos comportamientos:
+
+- **Incremental**: una URL conocida y estable no se revisita antes de 14 días,
+  de modo que el presupuesto de páginas se gasta en descubrir, no en repetir.
+  `COURSES_FULL_CRAWL=1` fuerza una pasada completa.
+- **Deprecación**: una URL que falla **tres veces consecutivas** se da por
+  retirada, y el curso correspondiente pasa a `NO_DISPONIBLE`.
+
+**Regla dura: un curso nunca se borra.** Al deprecarse conserva todos sus datos y
+se le antepone una nota `[DEPRECADO fecha]` con el motivo. Si vuelve a
+responder, se restaura como `REVERIFICAR` — nunca directamente como
+`VERIFICADO`.
+
+Un fallo aislado de red no deprecia nada: hacen falta tres seguidos.
+
 ## 8. Credenciales
 
 Nunca interpretar «free course» como «free certificate». Diferenciar acceso

@@ -3,7 +3,8 @@
   "sources": [
     {
       "source": "mit-ocw",
-      "visited": 60,
+      "visited": 1,
+      "skipped_from_memory": 2,
       "candidates": [
         {
           "url": "https://ocw.mit.edu/courses",
@@ -11,198 +12,6 @@
           "institution": "Massachusetts Institute of Technology",
           "adapter": "mit-ocw",
           "depth": 0,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/9-401-tools-for-robust-science-fall-2022",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/21l-021-comedy-spring-2016",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/1-74-land-water-food-and-climate-fall-2020",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/18-353j-nonlinear-dynamics-i-chaos-fall-2012",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/sts-050-the-history-of-mit-spring-2016",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/18-s191-introduction-to-computational-thinking-fall-2022",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/es-010-chemistry-of-sports-spring-2013",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/21m-s53-chinese-popular-musics-in-dialogue-spring-2014",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/22-51-quantum-theory-of-radiation-interactions-fall-2012",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-15-009-lead-user-innovation-handbook-spring-2026",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/21a-525-oceans-and-us-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/14-129-blockchain-and-the-design-of-financial-systems-spring-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-9-010-bcs-tutorials-optimizing-the-full-stack-for-generative-image-and-video-models-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-6-015-discrete-time-signals-and-systems-an-operator-approach",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/14-454-economic-crises-spring-2026",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/sp-248-the-neet-experience-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/17-449-emerging-technology-and-international-security-fall-2024",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/res-12-003-fluid-motions-sediment-transport-and-current-generated-sedimentary-structures-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/15-392-scaling-entrepreneurial-ventures-spring-2026",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025",
-          "source": "mit-ocw",
-          "institution": "Massachusetts Institute of Technology",
-          "adapter": "mit-ocw",
-          "depth": 2,
           "discovered_at": "2026-08-09"
         }
       ],
@@ -216,7 +25,8 @@
     },
     {
       "source": "harvard-pll",
-      "visited": 60,
+      "visited": 4,
+      "skipped_from_memory": 93,
       "candidates": [
         {
           "url": "https://pll.harvard.edu/course/hks-executive-education-faculty-webinar-machine-learning-leaders",
@@ -224,7 +34,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-science-r-basics",
@@ -232,7 +43,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/principles-statistical-and-computational-tools-reproducible-data-science",
@@ -240,7 +52,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/quantitative-methods-biology",
@@ -248,7 +61,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-analysis-life-sciences-4-high-dimensional-data-analysis",
@@ -256,7 +70,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/health-effects-climate-change",
@@ -264,7 +79,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/innovating-health-care",
@@ -272,7 +88,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/building-personal-resilience-managing-anxiety-and-mental-health",
@@ -280,7 +97,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/energy-electrochemistry-final-exam",
@@ -288,7 +106,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/nonprofit-financial-stewardship-webinar-introduction-accounting-and-financial-statements",
@@ -296,7 +115,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/food-fermentation-science-cooking-microbes",
@@ -304,7 +124,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/introduction-data-wise-collaborative-process-improve-learning-teaching",
@@ -312,7 +133,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-physics/2026-02",
@@ -320,7 +142,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/early-childhood-development-global-strategies-interventions",
@@ -328,7 +151,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-analysis-life-sciences-2-introduction-linear-models-and-matrix-algebra",
@@ -336,7 +160,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/ph556x-practical-improvement-science-health-care-roadmap-getting-results",
@@ -344,7 +169,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/applications-tinyml",
@@ -352,7 +178,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/ancient-masterpieces-world-literature",
@@ -360,7 +187,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/china-part-6-manchus-and-qing",
@@ -368,7 +196,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/introduction-data-science-python/2026-05",
@@ -376,7 +205,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/leadership-purposeful-change-creating-public-value",
@@ -384,7 +214,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/prescription-drug-regulation-cost-and-access-current-controversies-context",
@@ -392,7 +223,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/fundamentals-neuroscience-final-exam",
@@ -400,7 +232,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-science-productivity-tools",
@@ -408,7 +241,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/first-nights-berlioz%E2%80%99s-symphonie-fantastique-and-program-music-19th-century",
@@ -416,7 +250,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/humanitarian-response-conflict-and-disaster",
@@ -424,7 +259,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-science-probability",
@@ -432,7 +268,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/energy-and-thermodynamics",
@@ -440,7 +277,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/data-analysis-life-sciences-5-introduction-bioconductor-annotation-and-analysis-genomes-and",
@@ -448,7 +286,8 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://pll.harvard.edu/course/islam-through-its-scriptures",
@@ -456,7 +295,125 @@
           "institution": "Harvard University",
           "adapter": "harvard-pll",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-scratch",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/machine-learning-and-ai-python",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/introduction-data-science-python",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/using-python-research",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/data-science-building-machine-learning-models",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-databases-sql",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-cybersecurity",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50-lawyers",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-computer-science-business",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         }
       ],
       "blocked": [
@@ -474,7 +431,8 @@
     },
     {
       "source": "harvard-cs50",
-      "visited": 60,
+      "visited": 1,
+      "skipped_from_memory": 41,
       "candidates": [
         {
           "url": "https://cs50.harvard.edu/x/courses",
@@ -482,22 +440,16 @@
           "institution": "Harvard University",
           "adapter": "harvard-cs50",
           "depth": 1,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://cs50.harvard.edu/workshop/courses",
-          "source": "harvard-cs50",
-          "institution": "Harvard University",
-          "adapter": "harvard-cs50",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         }
       ],
       "blocked": []
     },
     {
       "source": "edx",
-      "visited": 60,
+      "visited": 25,
+      "skipped_from_memory": 25,
       "candidates": [
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
@@ -505,7 +457,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-gestion-de-proyectos-de-desarrollo",
@@ -513,7 +466,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-project-management-for-development",
@@ -521,7 +475,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-analisis-del-riesgo-de-desastres-y-cambio-climatico-en-proyectos-de-infraestructura",
@@ -529,7 +484,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/artificial-intelligence/inter-american-development-bank-como-hacer-uso-responsable-de-la-inteligencia-artificial",
@@ -537,7 +493,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/public-policy/inter-american-development-bank-data-for-effective-policy-making",
@@ -545,7 +502,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/international-project-management/inter-american-development-bank-gestion-de-projets-de-developpement",
@@ -553,7 +511,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/public-policy/inter-american-development-bank-datos-para-la-efectividad-de-las-politicas-publicas",
@@ -561,7 +520,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/government/inter-american-development-bank-gestion-por-resultados-para-gobiernos-subnacionales",
@@ -569,7 +529,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/agile/inter-american-development-bank-pm4r-agile-mentalidad-agil-en-proyectos-de-desarrollo",
@@ -577,7 +538,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-liderazgo-femenino-potencia-tus-habilidades-e-impulsa-el-cambio",
@@ -585,7 +547,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-gestion-de-riesgos-en-proyectos-de-desarrollo",
@@ -593,7 +556,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-risk-management-in-development-projects",
@@ -601,7 +565,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-gestao-de-projetos-de-desenvolvimento",
@@ -609,7 +574,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/creativity/inter-american-development-bank-el-valor-de-la-creatividad-y-la-innovacion-la-economia-naranja",
@@ -617,7 +583,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-natural-disaster-and-climate-change-risk-assessment-in-infrastructure-projects",
@@ -625,7 +592,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-women-s-leadership-boost-your-skills-and-drive-change",
@@ -633,7 +601,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/water/inter-american-development-bank-gestion-del-agua-para-las-ciudades-del-futuro",
@@ -641,7 +610,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/agile-project-management/inter-american-development-bank-pm4r-agile-5-pasos-para-la-gestion-hibrida-de-proyectos-de-desarrollo",
@@ -649,7 +619,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/justice/inter-american-development-bank-lideres-para-la-gestion-en-seguridad-ciudadana-y-justicia",
@@ -657,7 +628,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/environmental-studies/inter-american-development-bank-natural-capital-for-development-valuation-investment-and-policy",
@@ -665,7 +637,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/sustainable-development/inter-american-development-bank-infraestructura-sostenible-una-vision-integral-para-el-desarrollo",
@@ -813,22 +786,6 @@
         },
         {
           "url": "https://edx.org/learn/software-engineering",
-          "source": "edx",
-          "institution": null,
-          "adapter": "edx",
-          "depth": 1,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://edx.org/learn/project-management",
-          "source": "edx",
-          "institution": null,
-          "adapter": "edx",
-          "depth": 1,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://edx.org/learn/machine-learning",
           "source": "edx",
           "institution": null,
           "adapter": "edx",
@@ -846,7 +803,8 @@
     },
     {
       "source": "iadb",
-      "visited": 60,
+      "visited": 24,
+      "skipped_from_memory": 27,
       "candidates": [
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
@@ -854,7 +812,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-gestion-de-proyectos-de-desarrollo",
@@ -862,7 +821,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-project-management-for-development",
@@ -870,7 +830,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-analisis-del-riesgo-de-desastres-y-cambio-climatico-en-proyectos-de-infraestructura",
@@ -878,7 +839,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/artificial-intelligence/inter-american-development-bank-como-hacer-uso-responsable-de-la-inteligencia-artificial",
@@ -886,7 +848,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/public-policy/inter-american-development-bank-data-for-effective-policy-making",
@@ -894,7 +857,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/international-project-management/inter-american-development-bank-gestion-de-projets-de-developpement",
@@ -902,7 +866,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/public-policy/inter-american-development-bank-datos-para-la-efectividad-de-las-politicas-publicas",
@@ -910,7 +875,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/government/inter-american-development-bank-gestion-por-resultados-para-gobiernos-subnacionales",
@@ -918,7 +884,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/agile/inter-american-development-bank-pm4r-agile-mentalidad-agil-en-proyectos-de-desarrollo",
@@ -926,7 +893,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-liderazgo-femenino-potencia-tus-habilidades-e-impulsa-el-cambio",
@@ -934,7 +902,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-gestion-de-riesgos-en-proyectos-de-desarrollo",
@@ -942,7 +911,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-risk-management-in-development-projects",
@@ -950,7 +920,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/project-management/inter-american-development-bank-gestao-de-projetos-de-desenvolvimento",
@@ -958,7 +929,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/creativity/inter-american-development-bank-el-valor-de-la-creatividad-y-la-innovacion-la-economia-naranja",
@@ -966,7 +938,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-natural-disaster-and-climate-change-risk-assessment-in-infrastructure-projects",
@@ -974,7 +947,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-women-s-leadership-boost-your-skills-and-drive-change",
@@ -982,7 +956,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/water/inter-american-development-bank-gestion-del-agua-para-las-ciudades-del-futuro",
@@ -990,7 +965,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/agile-project-management/inter-american-development-bank-pm4r-agile-5-pasos-para-la-gestion-hibrida-de-proyectos-de-desarrollo",
@@ -998,7 +974,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/justice/inter-american-development-bank-lideres-para-la-gestion-en-seguridad-ciudadana-y-justicia",
@@ -1006,7 +983,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/environmental-studies/inter-american-development-bank-natural-capital-for-development-valuation-investment-and-policy",
@@ -1014,7 +992,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/sustainable-development/inter-american-development-bank-infraestructura-sostenible-una-vision-integral-para-el-desarrollo",
@@ -1022,7 +1001,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-gestao-de-riscos-em-projetos",
@@ -1167,29 +1147,14 @@
           "adapter": "iadb",
           "depth": 1,
           "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://edx.org/learn/project-management",
-          "source": "iadb",
-          "institution": "Banco Interamericano de Desarrollo",
-          "adapter": "iadb",
-          "depth": 1,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://edx.org/learn/machine-learning",
-          "source": "iadb",
-          "institution": "Banco Interamericano de Desarrollo",
-          "adapter": "iadb",
-          "depth": 1,
-          "discovered_at": "2026-08-09"
         }
       ],
       "blocked": []
     },
     {
       "source": "openhpi",
-      "visited": 60,
+      "visited": 1,
+      "skipped_from_memory": 42,
       "candidates": [
         {
           "url": "https://open.hpi.de/learn/kibiasessus2026",
@@ -1197,7 +1162,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/xmas2025",
@@ -1205,7 +1171,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/weatherpredictions2025",
@@ -1213,7 +1180,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/kianwendungen2025",
@@ -1221,7 +1189,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/kifortbildung2025",
@@ -1229,7 +1198,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/python2025",
@@ -1237,7 +1207,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/applications2025",
@@ -1245,7 +1216,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/chatgpt2025",
@@ -1253,7 +1225,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/timeseries2025",
@@ -1261,7 +1234,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/ferien2025",
@@ -1269,7 +1243,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/aisolutions2025",
@@ -1277,7 +1252,8 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://open.hpi.de/learn/aimethods2025",
@@ -1285,52 +1261,13 @@
           "institution": "Hasso Plattner Institute",
           "adapter": "generic",
           "depth": 1,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://open.hpi.de/learn/computervision2025",
-          "source": "openhpi",
-          "institution": "Hasso Plattner Institute",
-          "adapter": "generic",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://open.hpi.de/learn/kibiases2025",
-          "source": "openhpi",
-          "institution": "Hasso Plattner Institute",
-          "adapter": "generic",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://open.hpi.de/learn/profitableai2024",
-          "source": "openhpi",
-          "institution": "Hasso Plattner Institute",
-          "adapter": "generic",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://open.hpi.de/learn/embeddingsfornlp-kisz2023",
-          "source": "openhpi",
-          "institution": "Hasso Plattner Institute",
-          "adapter": "generic",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
-        },
-        {
-          "url": "https://open.hpi.de/learn/speechtosummary-kisz2023",
-          "source": "openhpi",
-          "institution": "Hasso Plattner Institute",
-          "adapter": "generic",
-          "depth": 2,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         }
       ],
       "blocked": []
     }
   ],
-  "total_candidates": 158,
+  "total_candidates": 137,
   "total_blocked": 2
 }
