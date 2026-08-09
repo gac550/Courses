@@ -52,6 +52,16 @@ carpeta local. Mover la carpeta a otro disco o equipo no debe romper nada.
 
 Si falta `data/courses.db`, la app la reconstruye desde `data/courses.json`.
 
+## 4.1 Desarrollo con recarga en caliente
+
+`npm run dev` levanta la app con recarga automática: el renderer se actualiza al
+guardar sin perder el estado, y el proceso principal se reinicia solo al cambiar
+`src/main`. No hace falta cerrar y reabrir la aplicación.
+
+Además, la app vigila `data/courses.json` en todo momento (también empaquetada):
+si el archivo cambia — por el pipeline, por una edición manual o por un `git
+pull` —, la base se regenera y la ventana se refresca sola.
+
 ## 5. Seguridad (innegociable)
 
 En toda `BrowserWindow`:

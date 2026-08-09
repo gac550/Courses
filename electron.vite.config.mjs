@@ -3,6 +3,8 @@ import { defineConfig } from 'electron-vite';
 
 export default defineConfig({
   main: {
+    // Reinicia el proceso principal al guardar cambios en src/main.
+    // El renderer se actualiza en caliente sin reiniciar nada.
     build: {
       outDir: 'dist/main',
       rollupOptions: {

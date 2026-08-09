@@ -8,7 +8,7 @@
  */
 
 import { app, BrowserWindow, shell } from 'electron';
-import { existsSync, copyFileSync, mkdirSync } from 'node:fs';
+import { existsSync, copyFileSync, mkdirSync, watch } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -109,6 +109,41 @@ function createWindow() {
   return mainWindow;
 }
 
+/**
+ * Recarga en caliente del catálogo.
+ *
+ * Si data/courses.json cambia mientras la app corre — por el pipeline, por una
+ * edición manual o por un git pull —, la base se regenera y la ventana se
+ * refresca sola. Evita tener que cerrar y reabrir la aplicación.
+ */
+function watchCatalog() {
+  const jsonPath = coursesJsonPath();
+  if (!existsSync(jsonPath)) return;
+
+  let pending = null;
+
+  try {
+    watch(jsonPath, () => {
+      // Los editores escriben en varios pasos: se espera a que se asiente.
+      clearTimeout(pending);
+      pending = setTimeout(() => {
+        try {
+          rebuildFrom(db, jsonPath);
+          const total = countCourses(db);
+          if (mainWindow && !mainWindow.isDestroyed()) {
+            mainWindow.webContents.send('catalog:changed', { total });
+          }
+          console.log(`[hot-reload] catálogo actualizado: ${total} cursos`);
+        } catch (error) {
+          console.error(`[hot-reload] no se pudo recargar: ${error.message}`);
+        }
+      }, 250);
+    });
+  } catch (error) {
+    console.error(`[hot-reload] vigilancia no disponible: ${error.message}`);
+  }
+}
+
 app.whenReady().then(() => {
   initDatabase();
   registerIpc({
@@ -117,6 +152,7 @@ app.whenReady().then(() => {
     getWindow: () => mainWindow,
   });
   createWindow();
+  watchCatalog();
 
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow();

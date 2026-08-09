@@ -23,4 +23,12 @@ contextBridge.exposeInMainWorld('courses', {
     ipcRenderer.on('pipeline:progress', listener);
     return () => ipcRenderer.removeListener('pipeline:progress', listener);
   },
+
+  /** Aviso de que el catálogo cambió en disco: permite refrescar sin reiniciar. */
+  onCatalogChanged: (callback) => {
+    if (typeof callback !== 'function') return () => {};
+    const listener = (_event, payload) => callback(payload);
+    ipcRenderer.on('catalog:changed', listener);
+    return () => ipcRenderer.removeListener('catalog:changed', listener);
+  },
 });

@@ -32,6 +32,9 @@ data/discovery/cache/
 Thumbs.db
 desktop.ini
 
+# Herramientas locales
+.claude/
+
 # Editores
 .idea/
 .vscode/*

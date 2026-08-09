@@ -463,6 +463,13 @@ function bindControls() {
   }
 
   api.onPipelineProgress(appendLog);
+
+  // El catálogo cambió en disco: se refresca la vista sin reiniciar la app.
+  api.onCatalogChanged(async () => {
+    await renderDashboard();
+    await renderFilters();
+    await refresh();
+  });
 }
 
 async function init() {
