@@ -3,13 +3,20 @@
   "$id": "https://github.com/gac550/Courses/data/schema.json",
   "title": "Catálogo de cursos",
   "type": "array",
-  "items": { "$ref": "#/$defs/course" },
+  "items": {
+    "$ref": "#/$defs/course"
+  },
   "$defs": {
     "course": {
       "type": "object",
       "required": [
-        "id", "title", "institution", "domain", "url_official",
-        "verification_status", "source_of_truth"
+        "id",
+        "title",
+        "institution",
+        "domain",
+        "url_official",
+        "verification_status",
+        "source_of_truth"
       ],
       "additionalProperties": false,
       "properties": {
@@ -18,47 +25,136 @@
           "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
           "description": "Slug estable en kebab-case."
         },
-        "title": { "type": "string", "minLength": 1 },
-        "institution": { "type": "string", "minLength": 1 },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution": {
+          "type": "string",
+          "minLength": 1
+        },
         "institution_country": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^[A-Z]{2}$"
         },
         "provider_type": {
-          "enum": ["institucion", "proveedor-ia"],
+          "enum": [
+            "institucion",
+            "proveedor-ia"
+          ],
           "description": "Separa universidades y organismos de los proveedores de modelos de IA."
         },
-        "platform": { "type": ["string", "null"], "minLength": 1 },
-        "course_code": { "type": ["string", "null"], "minLength": 1 },
-        "domain": { "enum": ["ai-tecnica", "ai-negocio", "pmo"] },
+        "platform": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "course_code": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "domain": {
+          "enum": [
+            "ai-tecnica",
+            "ai-negocio",
+            "pmo",
+            "finanzas",
+            "gerencia"
+          ]
+        },
         "topics": {
-          "type": ["array", "null"],
-          "items": { "type": "string", "minLength": 1 }
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         },
         "level": {
-          "type": ["string", "null"],
-          "enum": ["introductorio", "intermedio", "avanzado", null]
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "introductorio",
+            "intermedio",
+            "avanzado",
+            null
+          ]
         },
         "language": {
-          "type": ["array", "null"],
-          "items": { "type": "string", "minLength": 2 }
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
         },
         "subtitles": {
-          "type": ["array", "null"],
-          "items": { "type": "string", "minLength": 2 }
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
         },
-        "duration_weeks": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "hours_per_week": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+        "duration_weeks": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "hours_per_week": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
         "pace": {
-          "type": ["string", "null"],
-          "enum": ["autoadministrado", "cohorte", "programado", null]
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "autoadministrado",
+            "cohorte",
+            "programado",
+            null
+          ]
         },
         "cost_access": {
-          "type": ["string", "null"],
-          "enum": ["gratis", "audit gratuito", "pagado", null]
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "gratis",
+            "audit gratuito",
+            "pagado",
+            null
+          ]
         },
         "credential_type": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "enum": [
             "certificado gratuito",
             "badge gratuito",
@@ -68,80 +164,209 @@
             null
           ]
         },
-        "credential_free": { "type": ["boolean", "null"] },
-        "credential_price_usd": { "type": ["number", "null"], "minimum": 0 },
-        "credential_issuer": { "type": ["string", "null"], "minLength": 1 },
-        "credential_verifiable": { "type": ["boolean", "null"] },
-        "url_official": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "credential_free": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "credential_price_usd": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "credential_issuer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "credential_verifiable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "url_official": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
         "url_credential_info": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "format": "uri",
           "pattern": "^https?://"
         },
         "url_syllabus": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "format": "uri",
           "pattern": "^https?://"
         },
-        "prerequisites": { "type": ["string", "null"], "minLength": 1 },
-        "relevance_ppp_infra": { "type": ["integer", "null"], "minimum": 0, "maximum": 3 },
+        "prerequisites": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "relevance_ppp_infra": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 3
+        },
         "verification_status": {
           "enum": [
-            "VERIFICADO", "PENDIENTE", "REVERIFICAR",
-            "NO_DISPONIBLE", "MANUAL_REVIEW_REQUIRED"
+            "VERIFICADO",
+            "PENDIENTE",
+            "REVERIFICAR",
+            "NO_DISPONIBLE",
+            "MANUAL_REVIEW_REQUIRED"
           ]
         },
         "last_verified": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
-        "source_of_truth": { "type": "string", "format": "uri", "pattern": "^https?://" },
-        "notes": { "type": ["string", "null"], "minLength": 1 },
-        "status": {
-          "type": ["string", "null"],
-          "enum": ["activo", "archivado", "no disponible", "desconocido", null]
+        "source_of_truth": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
         },
-        "enrollment_open": { "type": ["boolean", "null"] },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "activo",
+            "archivado",
+            "no disponible",
+            "desconocido",
+            null
+          ]
+        },
+        "enrollment_open": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
         "start_date": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
         "end_date": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
         "access_mode": {
-          "type": ["string", "null"],
-          "enum": ["permanente", "cohorte", "archivo", null]
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "permanente",
+            "cohorte",
+            "archivo",
+            null
+          ]
         },
-        "certificate_requirements": { "type": ["string", "null"], "minLength": 1 },
-        "financial_aid_available": { "type": ["boolean", "null"] },
+        "certificate_requirements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "financial_aid_available": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
         "official_institution_url": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "format": "uri",
           "pattern": "^https?://"
         },
         "discovered_at": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
         "updated_at": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
         },
-        "content_hash": { "type": ["string", "null"], "minLength": 1 }
+        "content_hash": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
       },
       "allOf": [
         {
           "$comment": "Un certificado gratuito no puede tener precio mayor que cero.",
           "if": {
-            "properties": { "credential_free": { "const": true } },
-            "required": ["credential_free"]
+            "properties": {
+              "credential_free": {
+                "const": true
+              }
+            },
+            "required": [
+              "credential_free"
+            ]
           },
           "then": {
             "properties": {
               "credential_price_usd": {
-                "oneOf": [{ "type": "null" }, { "type": "number", "maximum": 0 }]
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "number",
+                    "maximum": 0
+                  }
+                ]
               }
             }
           }

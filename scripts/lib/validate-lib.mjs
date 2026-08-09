@@ -15,7 +15,7 @@ import { isIsoDate, isStale, DEFAULT_MAX_AGE_DAYS } from './dates.mjs';
 const REQUIRED = ['id', 'title', 'institution', 'domain', 'url_official', 'verification_status', 'source_of_truth'];
 
 const ENUMS = {
-  domain: ['ai-tecnica', 'ai-negocio', 'pmo'],
+  domain: ['ai-tecnica', 'ai-negocio', 'pmo', 'finanzas', 'gerencia'],
   provider_type: ['institucion', 'proveedor-ia'],
   level: ['introductorio', 'intermedio', 'avanzado'],
   pace: ['autoadministrado', 'cohorte', 'programado'],

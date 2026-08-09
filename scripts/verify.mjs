@@ -14,7 +14,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { classifyCandidates } from './lib/dedupe.mjs';
-import { isIndexPage } from './lib/extract-lib.mjs';
+import { isIndexPage, isCourseMaterial } from './lib/extract-lib.mjs';
 import { makeId } from './lib/normalize.mjs';
 import { isValidHttpUrl } from './lib/urls.mjs';
 import { today } from './lib/dates.mjs';
@@ -61,8 +61,9 @@ for (const candidate of nuevos) {
     continue;
   }
 
-  // Un listado o buscador no es un curso: no debe entrar al catálogo.
-  if (isIndexPage(candidate.url_official, candidate.title)) {
+  // Un listado, buscador o material suelto no es un curso.
+  if (isIndexPage(candidate.url_official, candidate.title)
+      || isCourseMaterial(candidate.url_official, candidate.title)) {
     indices.push({ url: candidate.url_official, title: candidate.title });
     continue;
   }

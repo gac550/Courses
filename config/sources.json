@@ -7,7 +7,11 @@
       "ocw.mit.edu"
     ],
     "seed_urls": [
-      "https://ocw.mit.edu/courses/"
+      "https://ocw.mit.edu/courses/",
+      "https://ocw.mit.edu/collections/sloan-mba-first-semester-core/",
+      "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/",
+      "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/",
+      "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/"
     ],
     "max_depth": 3,
     "enabled": true,
@@ -24,9 +28,9 @@
     ],
     "seed_urls": [],
     "max_depth": 3,
-    "enabled": true,
+    "enabled": false,
     "adapter": "stanford-online",
-    "notes": null
+    "notes": "Deshabilitado: online.stanford.edu responde HTTP 202 con cuerpo vacio (proteccion anti-bot). Verificado el 2026-08-09. Requiere MANUAL_REVIEW_REQUIRED. No se evade la proteccion."
   },
   {
     "id": "harvard-pll",
@@ -38,7 +42,10 @@
     ],
     "seed_urls": [
       "https://pll.harvard.edu/catalog/free",
-      "https://pll.harvard.edu/subject/computer-science/free"
+      "https://pll.harvard.edu/subject/computer-science/free",
+      "https://pll.harvard.edu/subject/business/free",
+      "https://pll.harvard.edu/subject/management-leadership",
+      "https://pll.harvard.edu/subject/leadership"
     ],
     "max_depth": 3,
     "enabled": true,
@@ -67,11 +74,14 @@
     "domains": [
       "berkeley.edu"
     ],
-    "seed_urls": [],
-    "max_depth": 3,
-    "enabled": false,
+    "seed_urls": [
+      "https://data.berkeley.edu/academics",
+      "https://executive.berkeley.edu/"
+    ],
+    "max_depth": 2,
+    "enabled": true,
     "adapter": "generic",
-    "notes": "Deshabilitado hasta verificar rutas oficiales de cursos abiertos."
+    "notes": "seed_urls verificadas con HTTP 200 el 2026-08-09."
   },
   {
     "id": "edx",
@@ -145,5 +155,20 @@
     "enabled": true,
     "adapter": "generic",
     "notes": "Emite credenciales gratuitas: Record of Achievement y Confirmation of Participation. seed_urls verificada con HTTP 200 el 2026-08-09."
+  },
+  {
+    "id": "openlearn",
+    "institution": "The Open University",
+    "country": "GB",
+    "domains": [
+      "open.edu"
+    ],
+    "seed_urls": [
+      "https://www.open.edu/openlearn/badged-courses"
+    ],
+    "max_depth": 2,
+    "enabled": false,
+    "adapter": "generic",
+    "notes": "Deshabilitado: open.edu usa desafio de Cloudflare y devuelve 403 al acceso automatizado. Sus cursos se incorporaron por verificacion manual. No se evade."
   }
 ]

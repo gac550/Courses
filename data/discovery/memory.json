@@ -67,7 +67,7 @@
       "first_seen": "2026-08-09",
       "last_seen": "2026-08-09",
       "is_course": false,
-      "content_hash": "5c9bd125967e0eba",
+      "content_hash": "7eaeef7bd73d1516",
       "changed_at": "2026-08-09",
       "missing_count": 0,
       "status": "activo"
@@ -2271,10 +2271,10 @@
     },
     "https://accessibility.harvard.edu/": {
       "first_seen": "2026-08-09",
-      "missing_count": 2,
+      "missing_count": 3,
       "last_missing": "2026-08-09",
       "last_reason": "Prohibido por robots.txt",
-      "status": "inestable"
+      "status": "retirado"
     },
     "https://harvard.edu/privacy-statement": {
       "source": "harvard-pll",
@@ -2348,10 +2348,10 @@
     },
     "https://vpal.harvard.edu/": {
       "first_seen": "2026-08-09",
-      "missing_count": 2,
+      "missing_count": 3,
       "last_missing": "2026-08-09",
       "last_reason": "Prohibido por robots.txt",
-      "status": "inestable"
+      "status": "retirado"
     },
     "https://pll.harvard.edu/catalog?price%5B1%5D=1": {
       "source": "harvard-pll",
@@ -6493,6 +6493,4658 @@
       "last_seen": "2026-08-09",
       "is_course": true,
       "content_hash": "69467e630880325d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9b44ef4a3af39352",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "d8760f1b33b0e050",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/students": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a7a33296fc82e855",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ca4fb7e8c0cd8cab",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/business/free": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3f7eb7b18c19117c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/information-and-resources-facultystaff": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fe168e9f4b4fe08f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0564471ac926d5af",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/management-leadership": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ffb5eeb280d0319a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/reserve-space": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ec3131ed97386659",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d6a9fc6bbf5e9fe5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/fund/FD1057000": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "0aeba6d44723fdf6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?d=Sloan+School+of+Management&q=leadership&s=-runs.best_start_date&t=Leadership": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ec7dcc6b6d0351ae",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "698a26b6f54c855b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/remote-work-revolution-everyone": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "7303e66aef8b11b0",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bdec8512e213f45b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a5f4784939a07c22",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategic-finance-nonprofit-leaders": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "49c233255ca2c920",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b368fe395b4ae860",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/people": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5f85a83ec9b8976c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/contractsx-trust-promise-contract": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "fba226ef0c7b383f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "3dc0b6dd1de1be0f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/organizational-chart": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4a412413c8bc096d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/learn/project-management": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "c408636cc23db67d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/course-lists/first-semester-mba-core-required-courses": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1b9da50107ecb86e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/managing-happiness": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "45ec0e39c0253e6a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/departments-and-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3d79f134cdd3ec97",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/course-lists/first-semester-mba-core-elective-courses": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a9b5d46c958b0f26",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/technology-entrepreneurship-lab-market": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "df5b77b7b01cc0f7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/our-vision": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "47db20ee3c95344a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/entrepreneurship-in-emerging-economies": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a6918ac769400afa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9e1f2611af1f82b3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/support-us": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "0aefdcfd492f300d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "6f71fd5014e9548c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/business-transformation-through-culture-health": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "43e2d14c8009ec45",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/job-opportunities": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ac4188f343dbe615",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/womens-leadership-forum": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "16a6d606532fa9ee",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/instructor-insights": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d13f3a8629256923",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/gateway": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7dbf580800bd1339",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leadership-crises": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ef47e4ea2513aecd",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0b0bdf96308fda9e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/facilities/gateway": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "edcf84843c95abff",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategy-building-and-sustaining-competitive-advantage": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e8d7eb83f2881c27",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/recitations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bd50f045f323644e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/about/contact": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "d641c3163f8701c3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ccb.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f043e701438f2a36",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/finance-senior-executives": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f197d9961cd50f12",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/problem-sets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8c401ce89ffb19fe",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://computationalhealth.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a86dfbcc4b35a8db",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategic-marketing-driving-growth": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "938a4e05ac67a1ed",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/dsus": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8ab7ea81058ba6de",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/exams": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "cc984a7f2332d396",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/learn/machine-learning": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f1960131c558d16e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://eecs.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "13a9fc475280d717",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a73e3da793c486b1",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://statistics.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fdd1bcdf8950d8e6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/building-legacy-family-office-wealth-management/2027-03": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2adba95b545cde66",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/undergraduate-education": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "84ec505f802fba51",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/women-boards-succeeding-corporate-director": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e989176d78970c1c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/introduction-and-course-overview": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "52a97d1e9e4a6455",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/advising": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a363fe2bdc6beab7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/compensation-and-human-capital-committees": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0a65d4374baa2c79",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/present-value-relations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "eb2cc98677b60c4e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/college-degree-requirements-and-policies": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e7760d03d881ba93",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/public-narrative-leadership-storytelling-and-action": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "81757264192696a6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/fixed-income-securities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "26f5febcb7a207c8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/undergraduate-education/student-programs-and-opportunities": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "25d0e78b81f4a38d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/high-potentials-leadership-program/2027-05": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bfb9897aca6559a5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/equities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a74cd3a61617f539",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/berkeley-global-computing-and-data-science-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "35839dc9cf3fe194",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/negotiation-mastery": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "de5314f79c2b27e6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/forward-and-futures-contracts": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "40275412bfd0de59",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/graduate-education": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dab0611e5dc93886",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/aligning-strategy-and-sales": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bfac06c2e5221b23",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f48e7083cfdd3f6c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/research_faculty": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5a2ceb7e07559698",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/health-care-strategy": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "759a30a2a119dc40",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/risk-and-return": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "c66019826ca6924d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/research": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "31711fc8f7ee19d7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/learn": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4598d1d01daf2e2f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/making-corporate-boards-more-effective": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "c56a173b44f35270",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/portfolio-theory": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "91c8aebf457123fc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/equity-inclusion": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "53a6122b2e2d3b7f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/the-capm-and-apt": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b3e85f116b73ae86",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/authentic-leader-development": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "648ee81e82247234",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news-events": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1be1686dd5c09a6c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/capital-budgeting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f845692b34c97921",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/transforming-health-care-delivery": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "599da59cba6f7f97",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news-events/college-newsletter": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e300727b378dc2ee",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/efficient-markets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ac2c80a6a3a3c3dc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/competing-age-ai-virtual": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "41842d9626dea251",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news-events/events-calendar": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5511178410f4c1ba",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/course-summary": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2780f723a600f99d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/high-potentials-leadership-program/2027-10": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "448507e4d89c8f42",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/events/college-computing-data-science-and-society-undergraduate-commencement-ceremonies-2026": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "153b788caf1bcafa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?t=Finance": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leading-digital-transformation-health-care": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ac4128f762dead9c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/events/deans-distinguished-lecture-on-shared-futures": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ba61bd57c1d9ce8d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/purpose-perspective-and-persuasion": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d86cdb656449b606",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "415c44599d4d6c95",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news-events/news": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8edf080ebfc5744c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "47f8755d044fd677",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/mastering-strategy-essentials-virtual": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0c76cb4d5a006702",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news-events/cdss-videos": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "693b3d95c336f942",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/cs50": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fa72a4cb5c984031",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/power-and-influence-positive-impact": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "63ec9e9af081c014",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ad3b52db4d2d1ec3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/search": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fd08f023a8a88a4d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "28c12e7741501188",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/management-leadership?page=0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "13a71abf2af3f3a9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/2261": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "84ec505f802fba51",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "fe34228a5984f816",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/management-leadership?page=1": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "05fe227c833d086a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/2262": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dab0611e5dc93886",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/recitations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "3e2910aeb87c3888",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/management-leadership?page=2": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "658cf9ad0841431b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/undergraduate-education?auHash=KUa1MjB_7Y4wuNg3vgPCl1lWJp1Y8Ff_by9h89Z0AHw": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "375b2f68489b5269",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/assignments": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "6dc45ee8ea986497",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/management-leadership?page=3": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dc5e1b4c8f6950bb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://eecs.berkeley.edu/academics/undergraduate": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "31444705a8a0f2b4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://statistics.berkeley.edu/academics/undergrad/program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1c889461770f1b74",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/exams": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f5a065530aaf04d4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/innovation-and-strategy-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "263782101bd20447",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/graduate-education?auHash=aRsnd4YSLp7VfB9KAjhFADbXk5u4XnamJLpbTBtuFhA": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1c2be584a021345b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?t=Management": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/authentic-leadership-0/2026-11": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "cd86e4df601801a6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ccb.berkeley.edu/academics/phd-in-computational-biology": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3d707cb1c324511c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://computationalhealth.berkeley.edu/academics": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "debabf9f8f227f77",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/business-strategy-evaluating-and-executing-strategic-plan-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ba5d86e75799dbad",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a15d2592e7acf724",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/decdse": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "896628914f33d0da",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://eecs.berkeley.edu/academics/graduate": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8fc82446a01e1e26",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/effective-organizational-communciation": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "72a17bba5f7ec225",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "6d9d3fab4c69498a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters/micromasters": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "363a2bf68df7f969",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://statistics.berkeley.edu/academics/programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "2c43171b8f3557ab",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/2990": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a363fe2bdc6beab7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f06cc42efe59dba8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/beyond-strategic-planning-implementation-sustainment-0/2026-11": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9fc9de2d1607a6c0",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/undergraduate-programs/data-science-advising": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "07f5b4b8b481422b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9c67cf4a189e66c8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/introverts-leaders-quiet-power-leadership-strength-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "940dffd035577f72",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://eecs.berkeley.edu/csa": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f5ffac6d8ef97e6c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://statistics.berkeley.edu/academics/student-support": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9b708a2667b7e9f4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "60867573589a2e64",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategic-project-management-0/2026-10": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "00ab03e0b9f31728",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/student-programs-and-opportunities": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "25d0e78b81f4a38d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/recitations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "feef385e916ca995",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/leadership?page=0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8c368ff7ac1f1b41",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/college-degree-requirements-and-policies": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e7760d03d881ba93",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/giftdetails?fund1=FH0106000": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "bd03c2b5c51cfc3e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/assignments": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "35c6a5737aacfb59",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/leadership?page=1": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dcc0c23f3595e86b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/exams": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d30e57558231a1aa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/leadership?page=2": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "47f17e6f06b4a7e5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://dac.berkeley.edu/web-accessibility": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "047f28e60b6c2d04",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ophd.berkeley.edu/policies-and-procedures/nondiscrimination-policy-statement": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "301b859a8423bacb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?t=Accounting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/leadership?page=3": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "51ea2d5d3038644c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://security.berkeley.edu/policy/privacy-statement-uc-berkeley-websites": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e74a2acefaf67e9a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/leadership?page=4": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9c3c90f3655e24ce",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "4e75a382d44e5364",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fe1cced087796476",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors/microbachelors": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c8ce639daf5ef283",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/negotiation-strategies-building-agreement-across-boundaries/2027-04": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b5770f37680ec657",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "33faaa5fac415ac3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/creating-brand-value-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d9a55910a58d3c05",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "64bcbacaee62d2a7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/custom-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5f0482b35766d406",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/group-enrollment": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7e8251e323937c5f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/cultivating-power-positive-impact": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a53ab40154fc53ec",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f3700d9b2f41070e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8a8f66e28cf8ae0a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/berkeley-experience": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b7866a7b7d064c80",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/leadership-communications-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9cf2c945b9dd3437",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=0&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "45d9fe064d842133",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=1&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8da6b2bd33d8bacd",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/assignments": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "be82a37056882b33",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/berkeley-executive-leadership-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "1653ba46729c7090",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?t=Leadership": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b8b8ac1462cf7c66",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=2&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1dd311bc7a2cf8e6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/storytelling-financial-leaders-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e81f46046604c154",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/venture-capital-executive-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b3c4368c9ef06d47",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0a2fee49178778c3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/xseries": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4141c23d8d274598",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=3&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ccbfe6312973559a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/product-management-studio-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "08ec52ec0d3cccb4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "67e3ba1f903c392e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/ai-executives-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "95c7d5151de5c47a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "39f582f9a6959690",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=4&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "059f97ca20a3e737",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/product-management-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9ebd5089d785c541",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/catalog?page=7&topics%5B701%5D=701": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b813146f20022e6c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "da380ce1736dc5d9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/strategic-management": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "516adac87305997e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/assignments": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8eb093695b5c3a55",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/workplace-culture": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "688276a283100f82",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "821ca21760573cdd",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/self-improvement": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "00f3ec044b920633",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/syllabus": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "50942d13333f8ccb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/programs/high-impact-leadership-program": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "5dda5eb24ff33886",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/in-person-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "0479a8c5d433b867",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/tsedal-neeley": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c39d6fc286f59069",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/calendar": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "7b427bada55fbc96",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/tech-ethics-critical-thinking-age-apps-algorithms-and-ai": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8517799870fa9d42",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d32a88b368ce3b12",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/government": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4c9f083e13d08fb5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/supplementary-readings": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "dc3ac7bfb4b25787",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/certificates/ai-certificates": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7e6a413b3eb529ae",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/brian-trelstad": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4a1436e4a0fb1aac",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/online-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5ca403912855c0e9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d13b4551695af84a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategic-management-regulatory-and-enforcement-agencies-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "5f18e06982c4626c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/assignments": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "50cfbdd65306f361",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/blended-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5623e6834f61a6f6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/emerging-leaders": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "7c429d384278a984",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/search?t=Marketing": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c5e1662ef65a268e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/law-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ceea25ba2d09cebf",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/support-center": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b7f6854d2e1cd39a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/thought-leadership/blog/how-use-employer-learning-and-development-funds": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4e2eb3b611a417d4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/download": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "436b1b1495179b32",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/contract-law": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fe817c03baf23389",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_courseoutline": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "1a338f53ce0ec232",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/thought-leadership": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b9313f47b3706f3f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/charles-fried": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f2aaa067a512dd70",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/8kffg5jaoqc": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f6210cb89883c6c0",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/financial-analysis-and-valuation-lawyers/2026-10": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "587d0899af3fec36",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/present-value-relations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9d70dc9bbf4b76ff",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/our-team": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "157b6829647bc913",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leadership-corporate-counsel-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f331a1ab8d43eeaa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/contact-us": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "da849fda1853dd9b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_rec02": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b2daaeba27db348d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leading-ai-transformation-legal-practice": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f6eea728a89d69ee",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/certificates/project-management-certificate": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b6453587db4b4fb7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/terms-use": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "15989e8798ad1139",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://dap.berkeley.edu/get-help/report-web-accessibility-issue": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "047f28e60b6c2d04",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/equities-common-stocks": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "5e070318679cf255",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/arthur-brooks": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "2a94d833e9a7946c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/privacy-policy": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7ba9f16e3200046a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/forward-and-futures-contracts": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "492df3762e5968bb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/building-organizational-cultures-framework-leaders-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0dad7daf4fe6247a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://executive.berkeley.edu/our-commitment-welcoming-experience": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "75c1ffb3a48d3d66",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/academics": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9b44ef4a3af39352",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ee8fccba32a77b73",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/agile-leadership-transforming-mindsets-and-capabilities-your-organization-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f078b576590a3f89",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/discovery": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7f448161baeae631",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/portfolio-theory": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "88dc380b5288981a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/business-intelligence": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "45a5aef44132e726",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/industry-nexus": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "afaf82be1e1f8465",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/capital-asset-pricing-model": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "03ac7962703b82ab",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/business-development-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "13f95fff028f0186",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/capital-budgeting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "dc31e088bdae2c7f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/hello-world": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8241f7e2c4dfb30e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/karim-lakhani": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8143531c09ac341a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/transfer-students": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "b1664f486f6a6864",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_problem_sets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "4d17842ad14e1d1c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/vish-krishnan": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7ad2aa3cf35b395d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/midterm-exam-review-slides": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "fe17a54af4a1c946",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/academics/undergraduate-education/student-advisory-groups": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "eadd108121b535af",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/business-analytics": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "3552b35054907696",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/certificates/data-analytics-certificate": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "34b5ac83c86a1f9f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/student-services-scholarships": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9b8ba54af483ce20",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_midterm": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "5b95f71b95bdb4c4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/admissions": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "033dab69b11e9ea3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/entrepreneurial-marketing": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bb2430ce6eb8fc40",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_midterm_sol": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "78afdc08de6b49e5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/faqs-undergrads": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f5c25bda84f76212",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/equity-inclusion": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "53a6122b2e2d3b7f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/tarun-khanna": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dffa715c8e4cb583",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/final-exam-review-slides": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f4bc4d165715bf1b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e7760d03d881ba93",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/social-entrepreneurship-and-systems-change": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9609a53a4a4dcad1",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_final": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b36bb6308a4d9b47",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/faqs-undergrads": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f5c25bda84f76212",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/environment": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "030cd12a70cf4ceb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_final_sol": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "6f10bb65c3368280",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/academics/graduate-education": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "dab0611e5dc93886",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/howard-koh": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "bc174e5a3e85bc0d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://classes.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f34fc0ab62002e5c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/introduction-and-course-overview": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "886a885835f0d0dc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/amy-edmondson": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4d9cef3d808d0692",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec01": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "387f28d1e865adb9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://calcentral.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "6f60922262f51fcf",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/john-mcdonough": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fb98c92dd2dcd40f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-present-value-relations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "eebb0b9e1764b74d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/jose-alvarez": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5cf56cad54198c14",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-present-value-relations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8563ed1b467a222e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/certificates/it-certificates": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "66e023c58a043fbc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/glorian-sorensen": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fd18ca18b94858b7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-present-value-relations": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "81f6243efa0232e9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/robert-huckman": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "49370d5e520ef050",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec02": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "077e6fd852557782",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/kasisomayajula-viswanath": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "771991f115a1089c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-fixed-income-securities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "545a072a4b6571e4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/raffaella-sadun": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4901d28e575a8155",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-fixed-income-securities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "955de16519f7b25d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/gina-mccarthy": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ca3d6d0d3fa8a1e9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-fixed-income-securities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f53fb90e4b922f5b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/cass-sunstein": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4172d49e07b82f28",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iv-of-fixed-income-securities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "58f2992b49b3f04d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/elizabeth-frates": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "6ddaca88e4224290",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec04": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2f364b9464a72ab5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/eileen-mcneely": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "950682157a1abc6d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/equities": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "efa9f074b3a421de",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/george-serafeim": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "63c90fef02f52c77",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/certificates/professional-certificate": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ca62c0e01efbdd5d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec07": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "85f256e9e9512ff5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/sara-singer": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "20b5e10578cfc443",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-forward-and-futures-contracts": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ae498f0f41358742",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/rakesh-khurana": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3f7bb0b147960707",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://awe.berkeley.edu/": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "robots.txt inaccesible: no se asume permiso",
+      "status": "inestable"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-forward-and-futures-contracts": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "38b0b33f67e2d3dc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/john-quelch": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3834c3e75395c4fe",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://hes.berkeley.edu/about": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "Prohibido por robots.txt",
+      "status": "inestable"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec08": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d091dca781ea6f25",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/rosabeth-moss-kanter": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "73d8bf06f712a4a6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-forward-and-futures-contracts-1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9d3b73fe15c3ffc7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/conflict-feedback-and-negotiation-health-care": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "4f7d0a91fc8be8c1",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://swe.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "2b16557f7c806907",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://biasbusters.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1daf4fdbc99f1795",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "a487bc7e386737fc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leadership-social-impact": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d529dcb5c9b4ea5f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ffaa077dc9b84ccf",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/networking": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "cc29ab53339f37ae",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://blockchain.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "6fff503085239924",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec10": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "69e0a989ba790608",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/preparing-be-corporate-director": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "308f9d900803ebe7",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors/computer-data-sciences": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1c2b401256bd4319",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://sgsa.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4f5564916c4596f6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-risk-and-return": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "49bcb84124941a12",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://hr.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "37630b932bb5beaa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/high-potentials-leadership-program": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "264d465abb71759a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/faculty-governance": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7b8b909ff37b2471",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-risk-and-return": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "cd5b163878120b68",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/rooms-features-capacity": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "236542d0d045fe4c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec12": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "45d401c3ea72371a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/policies": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "59740d6b01de3794",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/home": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "53c1a6ae877004f3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-risk-and-return-1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ff7f38e1f42d3134",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://go.hks.harvard.edu/l/378242/2026-04-06/5v9s4p": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "adb4683a3ac1db75",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-portfolio-theory": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "4c17ca783e903f92",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/public-policy": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "f31f189797191181",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/fund/%60/fund/$%7Bi.id%7D%60": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "HTTP 404",
+      "status": "inestable"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-portfolio-theory": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "1c41b8401908cefc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/dutch-leonard": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "183fa1c37d7818de",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/fund/%60/funddrive/$%7Bi.id%7D%60": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "HTTP 404",
+      "status": "inestable"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec13": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d6fab26556707130",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/fund/%60$%7Bi.path%7D%60": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "HTTP 404",
+      "status": "inestable"
+    },
+    "https://pll.harvard.edu/instructor/arnold-m-howitt": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "671f8361b12d260c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-portfolio-theory-1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "4c6fe3c2377185aa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/executive-leaders-and-government": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "13b78a205ae8695d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/faq": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "baefc89afc856831",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://cdss.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "698a26b6f54c855b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-the-capm-and-apt": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "670b14fd9ff62dc0",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/strategic-leadership-enhancing-your-personal-effectiveness": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e74dc0fc8e7be8ee",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors/psychology": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "db97b410fa34aaa5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=innovation&slug=innovation": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e352aa7e36e1bf94",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-the-capm-and-apt": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "09a06b855092508e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/senior-executive-fellows": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e0d5950f55375085",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=data+science&slug=data-science": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "d7c755b06af00909",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec15": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "71d675e63d8bec1c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/designing-and-executing-corporate-revitalization": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "bb40317ace0f6aa6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=education&slug=education": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "06bb2e90dae11b44",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-the-capm-and-apt-1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2b6dbb5e5ad05533",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/driving-nonprofit-performance-and-innovation-virtual": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "28a45894ac69dea8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=research&slug=research": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e2cc29470dc68b84",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-capital-budgeting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "84141171abe7880d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/corporate-finance": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "10ac911c114e6a12",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=interdisciplinary&slug=interdisciplinary": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "d891d3f972cf1586",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec18": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d076ff6a0da1311b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/succeeding-strategic-cfo": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ec215682a31855d3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=CDSS&slug=cdss": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "77d13c08fd5727c0",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-efficient-markets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "7ea6e7d5ebacf1fb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/audit-and-risk-committees": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0015489473471f72",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=computing&slug=computing": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "35ae2d032cef81ed",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-efficient-markets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "cf5bde55f3cdad1d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/digital-marketing": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "eb8d49f138760a63",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=community&slug=community": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c84656fec148b2f1",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-efficient-markets": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "3b84c13e2292bd05",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/marketing-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3d81a6d7d23cdff4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors/online-bachelors-degree-finance": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "cc24e328e5070da3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://give.berkeley.edu/tagdetails?name=society&slug=society": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "2d2765cd1054a0c3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec21": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "990a58e8ea6032e8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/driving-digital-and-ai-strategy": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0227b8adc9b3ee11",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4c2452d8c8a7bced",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/new-digital-tools-uc-berkeley-researchers-are-helping-joshua-trees-survive-wildfires": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fd5cb0f9f4d208c4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/course-summary": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "704b24b01ff4720f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/marketing-analytics-strategies-driving-business-results-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b8b700113801528a",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/uc-berkeley-and-ucsf-launch-computational-biomedicine-initiative": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "15e399b5fc13f1e5",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_summary": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "10995a82caf7e270",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/investing": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "1776a8f7f21c1cea",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/researchers-electrically-power-nanophotonic-lasers-without-disturbing-light": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "014d613cc5f51a55",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/lecture-videos": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "345bd366a3bd0cff",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/foundations-private-equity-and-venture-capital": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "29051348acef64c1",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/ai-researchers-discover-new-way-detect-sudden-cardiac-death-risk": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c3d481408ee0e8c8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/lecture-notes": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "953bd2410a445994",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/private-equity-and-venture-capital": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "47e24f67a53260eb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/academic-innovation-catalyst-accelerates-berkeleys-pipeline-breakthrough-impact": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3ffac9cc1eee97f2",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec1_intro": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "1670a42613183f05",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/rising-generation-family-enterprise": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "3eabe3902694440f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/human-connection-emphasized-cdss-undergraduate-student-commencement": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "6aded2bac7085710",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec2_valuation": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2c34536a668845e4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/new-gateway-building-creates-dedicated-uc-berkeley-hub-ai-computing": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "fc984092ec51b851",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://go.hks.harvard.edu/l/378242/2026-08-05/5vq5df": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "47f59cbe4d8c8085",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/public-speaking": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7c8f4086db04e3e6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec3_capital_budgeting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2cd42813a3922103",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/michael-i-jordan-speak-cdss-undergraduate-commencement-ceremonies": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "df31b10f6e870355",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/nonprofit-management": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7e9e489766a5672e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors/business": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c555fcf339cf9e0d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec5_real_options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "86090ee0c3694546",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news/uc-berkeley-and-ucsf-researchers-are-using-ai-revolutionize-medical-imaging": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "44d623871dee9fdc",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/public-leadership": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "27e73de26a940b26",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec6_firm_valuation1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "81947314585f6672",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/marshall-ganz": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a00310068b3623aa",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/news": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8edf080ebfc5744c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec7_firm_valuation2": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "79097a6835affe39",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/events": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "5511178410f4c1ba",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/public-leadership-credential": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "d724c67818c2e1ea",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec9_risk_return": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "51357bc4ffdc9082",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/academics/undergraduate-programs": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8ab7ea81058ba6de",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leadership-organizing-and-action-leading-change": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "828a3f01f14e4e7e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec10_portfolio": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "84ea28677d822efe",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://bidmap.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4a1ea86a21b4d255",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/negotiation": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e7d8ed33a33f763d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://bids.berkeley.edu/": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "37b3333d1cfa1b39",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec11_capm": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "669d8e5bd783bba9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://dlab.berkeley.edu/home": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "d68fd2d95991eb2e",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/facts-and-figures": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "68e949eaa3456547",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/risk-management": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "58c9753230d72595",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec12_discount_rates": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "8d303df2d523a785",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/exercising-influence": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "307177f5108dc2ca",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/people/jennifer-chayes": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "afff150d465bd43c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec14_raising_capital": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "ee3ce1ed935ec15b",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/computing-data-science-and-society-advisory-board": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4f729cd3f523be8c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/michael-wheeler": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "2791fed8149d3cf9",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters/online-mba": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "25f86ffdf5815d57",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec15_capital_structure1": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "04d0cf880fab24d3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leading-change-and-organizational-renewal-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "56e58d7d2f17733c",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/13": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3168e352b182ec0f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec16_capital_structure2": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "f863ead32ce0b70f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/leading-finance": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "e60333ddd8284904",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/969": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "738783daafb8f228",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://harvardonline.harvard.edu/course/health-care-strategy": {
+      "first_seen": "2026-08-09",
+      "missing_count": 1,
+      "last_missing": "2026-08-09",
+      "last_reason": "Prohibido por robots.txt",
+      "status": "inestable"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec18_market_efficiency": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "2600235ce9624c9f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/healthcare-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "e74c7f7262b9d126",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/3533": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "4a412413c8bc096d",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec19_options": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "0602ffe0adec1133",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/instructor/leemore-dafny": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ebb438596503851f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/node/1882": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "3d79f134cdd3ec97",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec20_options2": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "b17470e8a1d21533",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ccb.berkeley.edu/principal-investigators-by-research-fields": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "c34eaac828e31ad3",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/subject/artificial-intelligence-0": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "65d2f031890e34f6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://data.berkeley.edu/dsus/data-science-undergraduate-studies-staff": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "8cc33bc762c6f237",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec1_discounting": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "6be6ae25cb95482f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://eecs.berkeley.edu/people": {
+      "source": "berkeley",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "79d605352c32194f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/generative-ai-how-use-it-and-why-it-matters": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "99817678f1255e02",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec2_project_cashflows": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "7eece03456c755a6",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://pll.harvard.edu/course/driving-strategic-decisions-virtual": {
+      "source": "harvard-pll",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "15de9559be0ec3c8",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec3_firm_valuation": {
+      "source": "mit-ocw",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": true,
+      "content_hash": "9b0008b3d2bd4e95",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters/statistics": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "9989f483c28c9d74",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters/online-masters-in-artificial-intelligence": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "15d12930f95e404f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters/online-masters-in-data-science": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "94f2f926a60df30f",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/bachelors": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "a94d468abb6b0f82",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/masters": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "ec5ca49df5e127d4",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/doctorate": {
+      "source": "edx",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "7feca08bcac530cb",
+      "changed_at": null,
+      "missing_count": 0,
+      "status": "activo"
+    },
+    "https://edx.org/verified-certificate": {
+      "source": "iadb",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
+      "is_course": false,
+      "content_hash": "717a910c05dd70e4",
       "changed_at": null,
       "missing_count": 0,
       "status": "activo"

@@ -49,6 +49,8 @@ const DOMAIN_LABELS = {
   'ai-tecnica': 'IA técnica',
   'ai-negocio': 'IA de negocio',
   pmo: 'PMO y proyectos',
+  finanzas: 'Finanzas y evaluación',
+  gerencia: 'Gerencia y liderazgo',
   institucion: 'Universidades y organismos',
   'proveedor-ia': 'Proveedores de IA',
 };

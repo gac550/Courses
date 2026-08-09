@@ -111,6 +111,28 @@ export function isIndexPage(url, title) {
   return /^(search|courses?|cursos?|catalog|catálogo|browse|explore|all courses|home)\b/i.test(name);
 }
 
+/**
+ * Detecta material didáctico suelto que no es un curso: diapositivas, PDFs,
+ * apuntes de una semana, capítulos y recursos individuales.
+ *
+ * Sin este filtro, «lec15_capital_structure1.pdf» o «Portfolio Theory Slides
+ * 1–46» entrarían al catálogo como si fueran cursos completos.
+ */
+export function isCourseMaterial(url, title) {
+  const name = clean(title);
+  if (!name) return false;
+
+  // Nombres de archivo: casi siempre son un recurso descargable.
+  if (/\.(pdf|ppt|pptx|doc|docx|xls|xlsx|zip)$/i.test(name)) return true;
+
+  // Encabezados de material didáctico: «Week 8 Tool», «Part III of…»,
+  // «Portfolio Theory Slides 1–46». No confundir con títulos de curso.
+  return /^(week|lecture|session|unit|module|chapter|part|lec)\s+[\divx]+/i.test(name)
+    || /\bslides?\s+\d/i.test(name)
+    || /\bpart\s+[ivx]+\s+of\b/i.test(name)
+    || /\b(problem set|pset\d|handout|transcript|lecture notes)\b/i.test(name);
+}
+
 /** Texto visible, sin scripts ni estilos. Para búsqueda de indicios. */
 export function extractText(html) {
   return String(html)

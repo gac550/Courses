@@ -29,7 +29,36 @@
         "contract management", "cost management", "scheduling", "earned value",
         "infrastructure project", "construction management", "procurement",
         "public-private partnership", "ppp", "concession", "capex",
-        "stakeholder management", "project finance"
+        "stakeholder management", "project finance", "gestion de proyectos",
+        "gestión de proyectos", "gestion de riesgos", "infraestructura"
+      ]
+    },
+    "finanzas": {
+      "label": "Finanzas y evaluación de proyectos",
+      "keywords": [
+        "finance", "financial", "finanzas", "financiera", "investment",
+        "valuation", "valoracion", "valoración", "accounting", "contabilidad",
+        "corporate finance", "capital", "cash flow", "npv", "discounted cash",
+        "cost-benefit", "cost benefit", "economic evaluation", "evaluacion economica",
+        "evaluación económica", "project appraisal", "feasibility", "factibilidad",
+        "budgeting", "presupuesto", "economics", "economia", "economía",
+        "asset", "portfolio", "banking", "blockchain and the design of financial",
+        "financial systems", "microeconomics", "macroeconomics"
+      ]
+    },
+    "gerencia": {
+      "label": "Gerencia, liderazgo y estrategia",
+      "keywords": [
+        "leadership", "liderazgo", "leader", "management", "gerencia",
+        "gestion", "gestión", "strategy", "strategic", "estrategia",
+        "negotiation", "negociacion", "negociación", "decision-making",
+        "decision making", "toma de decisiones", "organizational",
+        "organizacional", "team", "equipo", "communication", "comunicacion",
+        "comunicación", "change management", "gestion del cambio",
+        "operations management", "supply chain", "cadena de suministro",
+        "governance", "gobernanza", "entrepreneurship", "emprendimiento",
+        "innovation", "innovacion", "innovación", "public value",
+        "emotional intelligence", "coaching", "mentoring"
       ]
     }
   },

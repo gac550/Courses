@@ -3,8 +3,8 @@
   "sources": [
     {
       "source": "mit-ocw",
-      "visited": 1,
-      "skipped_from_memory": 2,
+      "visited": 150,
+      "skipped_from_memory": 238,
       "candidates": [
         {
           "url": "https://ocw.mit.edu/courses",
@@ -13,20 +13,1134 @@
           "adapter": "mit-ocw",
           "depth": 0,
           "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 0,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 0,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 0,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/instructor-insights",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/recitations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/problem-sets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/exams",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/introduction-and-course-overview",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/present-value-relations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/fixed-income-securities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/equities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/forward-and-futures-contracts",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/risk-and-return",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/portfolio-theory",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/the-capm-and-apt",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/capital-budgeting",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/efficient-markets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/pages/video-lectures-and-slides/course-summary",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/recitations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/assignments",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/pages/exams",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/recitations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/assignments",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/pages/exams",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/pages/assignments",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/pages/assignments",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-963-advanced-strategy-spring-2008/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/syllabus",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/calendar",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/supplementary-readings",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/pages/assignments",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-912-technology-strategy-fall-2008/download",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_courseoutline",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/8kffg5jaoqc",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/present-value-relations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_rec02",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/equities-common-stocks",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/forward-and-futures-contracts",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/portfolio-theory",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/capital-asset-pricing-model",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/capital-budgeting",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_problem_sets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/midterm-exam-review-slides",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_midterm",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_midterm_sol",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/final-exam-review-slides",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_final",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_final_sol",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/introduction-and-course-overview",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec01",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-present-value-relations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-present-value-relations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-present-value-relations",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec02",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-fixed-income-securities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-fixed-income-securities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-fixed-income-securities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iv-of-fixed-income-securities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec04",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/equities",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec07",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-forward-and-futures-contracts",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-forward-and-futures-contracts",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec08",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-forward-and-futures-contracts-1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec10",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-risk-and-return",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-risk-and-return",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec12",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-risk-and-return-1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-portfolio-theory",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-portfolio-theory",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec13",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-portfolio-theory-1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-the-capm-and-apt",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-the-capm-and-apt",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec15",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-the-capm-and-apt-1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-capital-budgeting",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec18",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-i-of-efficient-markets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-ii-of-efficient-markets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/part-iii-of-efficient-markets",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_lec21",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/course-summary",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/mit15_401f08_summary",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/lecture-videos",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/resources/lecture-notes",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec1_intro",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec2_valuation",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec3_capital_budgeting",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec5_real_options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec6_firm_valuation1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec7_firm_valuation2",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec9_risk_return",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec10_portfolio",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec11_capm",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec12_discount_rates",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec14_raising_capital",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec15_capital_structure1",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec16_capital_structure2",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec18_market_efficiency",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec19_options",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/lec20_options2",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec1_discounting",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec2_project_cashflows",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/15-414-financial-management-summer-2003/resources/rec3_firm_valuation",
+          "source": "mit-ocw",
+          "institution": "Massachusetts Institute of Technology",
+          "adapter": "mit-ocw",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
         }
       ],
       "blocked": []
     },
     {
-      "source": "stanford-online",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
       "source": "harvard-pll",
-      "visited": 4,
-      "skipped_from_memory": 93,
+      "visited": 150,
+      "skipped_from_memory": 738,
       "candidates": [
         {
           "url": "https://pll.harvard.edu/course/hks-executive-education-faculty-webinar-machine-learning-leaders",
@@ -87,7 +1201,7 @@
           "source": "harvard-pll",
           "institution": "Harvard University",
           "adapter": "harvard-pll",
-          "depth": 1,
+          "depth": 2,
           "discovered_at": "2026-08-09",
           "from_memory": true
         },
@@ -168,7 +1282,7 @@
           "source": "harvard-pll",
           "institution": "Harvard University",
           "adapter": "harvard-pll",
-          "depth": 1,
+          "depth": 2,
           "discovered_at": "2026-08-09",
           "from_memory": true
         },
@@ -213,7 +1327,7 @@
           "source": "harvard-pll",
           "institution": "Harvard University",
           "adapter": "harvard-pll",
-          "depth": 1,
+          "depth": 2,
           "discovered_at": "2026-08-09",
           "from_memory": true
         },
@@ -414,6 +1528,726 @@
           "depth": 1,
           "discovered_at": "2026-08-09",
           "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/remote-work-revolution-everyone",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategic-finance-nonprofit-leaders",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/contractsx-trust-promise-contract",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/managing-happiness",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/technology-entrepreneurship-lab-market",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/exercising-leadership-foundational-principles",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/entrepreneurship-in-emerging-economies",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/business-transformation-through-culture-health",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/changing-game-negotiation-and-competitive-decision-making",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/data-science-business/2026-11",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/adaptive-leadership-practical-strategies-change/2026-11",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/making-corporate-boards-more-effective/2027-07",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/families-business",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/womens-leadership-forum",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leadership-crises",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategy-building-and-sustaining-competitive-advantage",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/global-business",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/finance-senior-executives",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategic-marketing-driving-growth",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/building-legacy-family-office-wealth-management/2027-03",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/women-boards-succeeding-corporate-director",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/compensation-and-human-capital-committees",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/public-narrative-leadership-storytelling-and-action",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/high-potentials-leadership-program/2027-05",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/negotiation-mastery",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/aligning-strategy-and-sales",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/health-care-strategy",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/making-corporate-boards-more-effective",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/authentic-leader-development",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/digital-marketing-strategy-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/transforming-health-care-delivery",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/competing-age-ai-virtual",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/high-potentials-leadership-program/2027-10",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leading-digital-transformation-health-care",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/purpose-perspective-and-persuasion",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/mastering-strategy-essentials-virtual",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/power-and-influence-positive-impact",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/emotional-intelligence-leadership-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/innovation-and-strategy-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/authentic-leadership-0/2026-11",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/business-strategy-evaluating-and-executing-strategic-plan-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/effective-organizational-communciation",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/beyond-strategic-planning-implementation-sustainment-0/2026-11",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/introverts-leaders-quiet-power-leadership-strength-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategic-project-management-0/2026-10",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/consultants-toolkit-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/core-business-essentials",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/ai-strategy-business-leaders-hype-impact-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/negotiation-and-leadership-10",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/data-privacy-and-technology/2026-11",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/communication-strategies-presenting-impact-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/design-thinking-and-innovation",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://pll.harvard.edu/course/negotiation-strategies-building-agreement-across-boundaries/2027-04",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/creating-brand-value-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cultivating-power-positive-impact",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/tech-ethics-critical-thinking-age-apps-algorithms-and-ai",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategic-management-regulatory-and-enforcement-agencies-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/emerging-leaders",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/financial-analysis-and-valuation-lawyers/2026-10",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leadership-corporate-counsel-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leading-ai-transformation-legal-practice",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/building-organizational-cultures-framework-leaders-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/agile-leadership-transforming-mindsets-and-capabilities-your-organization-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/business-analytics",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/entrepreneurial-marketing",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/social-entrepreneurship-and-systems-change",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/conflict-feedback-and-negotiation-health-care",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leadership-social-impact",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/preparing-be-corporate-director",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/high-potentials-leadership-program",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/executive-leaders-and-government",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/strategic-leadership-enhancing-your-personal-effectiveness",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/senior-executive-fellows",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/designing-and-executing-corporate-revitalization",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/driving-nonprofit-performance-and-innovation-virtual",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/succeeding-strategic-cfo",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/audit-and-risk-committees",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/driving-digital-and-ai-strategy",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/marketing-analytics-strategies-driving-business-results-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/foundations-private-equity-and-venture-capital",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/private-equity-and-venture-capital",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/rising-generation-family-enterprise",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/public-leadership-credential",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leadership-organizing-and-action-leading-change",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leading-change-and-organizational-renewal-0",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/leading-finance",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/generative-ai-how-use-it-and-why-it-matters",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/driving-strategic-decisions-virtual",
+          "source": "harvard-pll",
+          "institution": "Harvard University",
+          "adapter": "harvard-pll",
+          "depth": 2,
+          "discovered_at": "2026-08-09"
         }
       ],
       "blocked": [
@@ -424,6 +2258,11 @@
         },
         {
           "url": "https://vpal.harvard.edu/",
+          "reason": "Prohibido por robots.txt",
+          "status": null
+        },
+        {
+          "url": "https://www.harvardonline.harvard.edu/course/health-care-strategy?utm_medium=referral&utm_source=pll&utm_campaign=HCST&utm_content=pll-hcst-page",
           "reason": "Prohibido por robots.txt",
           "status": null
         }
@@ -447,9 +2286,92 @@
       "blocked": []
     },
     {
+      "source": "berkeley",
+      "visited": 150,
+      "skipped_from_memory": 0,
+      "candidates": [
+        {
+          "url": "https://executive.berkeley.edu/programs/leadership-communications-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/berkeley-executive-leadership-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/storytelling-financial-leaders-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/venture-capital-executive-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/product-management-studio-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/ai-executives-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/product-management-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://executive.berkeley.edu/programs/high-impact-leadership-program",
+          "source": "berkeley",
+          "institution": "University of California, Berkeley",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        }
+      ],
+      "blocked": [
+        {
+          "url": "https://awe.berkeley.edu/",
+          "reason": "robots.txt inaccesible: no se asume permiso",
+          "status": null
+        },
+        {
+          "url": "https://hes.berkeley.edu/about/",
+          "reason": "Prohibido por robots.txt",
+          "status": null
+        }
+      ]
+    },
+    {
       "source": "edx",
       "visited": 25,
-      "skipped_from_memory": 25,
+      "skipped_from_memory": 49,
       "candidates": [
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
@@ -646,7 +2568,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/risk-management/inter-american-development-bank-gestao-de-riscos-em-projetos",
@@ -654,7 +2577,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/government/inter-american-development-bank-gobierno-digital",
@@ -662,7 +2586,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-emprendimientos-creativos",
@@ -670,7 +2595,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-creative-enterprises",
@@ -678,7 +2604,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/latin-america/inter-american-development-bank-seguridad-vial-en-america-latina-y-el-caribe-de-la-teoria-a-la-accion",
@@ -686,7 +2613,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-mulheres-na-lideranca-potencialize-suas-habilidades-e-impulsione-a-mudanca",
@@ -694,7 +2622,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/education/inter-american-development-bank-que-funciona-en-educacion-politicas-educativas-basadas-en-evidencia",
@@ -702,7 +2631,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-climate-change-education",
@@ -710,7 +2640,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/water/inter-american-development-bank-agua-en-america-latina-abundancia-en-medio-de-la-escasez-mundial",
@@ -718,7 +2649,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/teaching-strategies/inter-american-development-bank-ensenanza-temprana-de-matematicas-y-ciencias",
@@ -726,7 +2658,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/python",
@@ -734,7 +2667,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/artificial-intelligence",
@@ -742,7 +2676,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/trading",
@@ -750,7 +2685,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/data-analysis",
@@ -758,7 +2694,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/finance",
@@ -766,7 +2703,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/excel",
@@ -774,7 +2712,8 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/data-science",
@@ -782,10 +2721,28 @@
           "institution": null,
           "adapter": "edx",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/software-engineering",
+          "source": "edx",
+          "institution": null,
+          "adapter": "edx",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://edx.org/learn/project-management",
+          "source": "edx",
+          "institution": null,
+          "adapter": "edx",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://edx.org/learn/machine-learning",
           "source": "edx",
           "institution": null,
           "adapter": "edx",
@@ -804,7 +2761,7 @@
     {
       "source": "iadb",
       "visited": 24,
-      "skipped_from_memory": 27,
+      "skipped_from_memory": 51,
       "candidates": [
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
@@ -1010,7 +2967,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/government/inter-american-development-bank-gobierno-digital",
@@ -1018,7 +2976,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-emprendimientos-creativos",
@@ -1026,7 +2985,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/business-management/inter-american-development-bank-creative-enterprises",
@@ -1034,7 +2994,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/latin-america/inter-american-development-bank-seguridad-vial-en-america-latina-y-el-caribe-de-la-teoria-a-la-accion",
@@ -1042,7 +3003,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/leadership/inter-american-development-bank-mulheres-na-lideranca-potencialize-suas-habilidades-e-impulsione-a-mudanca",
@@ -1050,7 +3012,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/education/inter-american-development-bank-que-funciona-en-educacion-politicas-educativas-basadas-en-evidencia",
@@ -1058,7 +3021,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/climate-change/inter-american-development-bank-climate-change-education",
@@ -1066,7 +3030,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/water/inter-american-development-bank-agua-en-america-latina-abundancia-en-medio-de-la-escasez-mundial",
@@ -1074,7 +3039,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/teaching-strategies/inter-american-development-bank-ensenanza-temprana-de-matematicas-y-ciencias",
@@ -1082,7 +3048,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/python",
@@ -1090,7 +3057,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/artificial-intelligence",
@@ -1098,7 +3066,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/trading",
@@ -1106,7 +3075,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/data-analysis",
@@ -1114,7 +3084,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/finance",
@@ -1122,7 +3093,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/excel",
@@ -1130,7 +3102,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/data-science",
@@ -1138,7 +3111,8 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
-          "discovered_at": "2026-08-09"
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         },
         {
           "url": "https://edx.org/learn/software-engineering",
@@ -1146,7 +3120,25 @@
           "institution": "Banco Interamericano de Desarrollo",
           "adapter": "iadb",
           "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
+        },
+        {
+          "url": "https://edx.org/learn/project-management",
+          "source": "iadb",
+          "institution": "Banco Interamericano de Desarrollo",
+          "adapter": "iadb",
+          "depth": 1,
           "discovered_at": "2026-08-09"
+        },
+        {
+          "url": "https://edx.org/learn/machine-learning",
+          "source": "iadb",
+          "institution": "Banco Interamericano de Desarrollo",
+          "adapter": "iadb",
+          "depth": 1,
+          "discovered_at": "2026-08-09",
+          "from_memory": true
         }
       ],
       "blocked": []
@@ -1268,6 +3260,6 @@
       "blocked": []
     }
   ],
-  "total_candidates": 137,
-  "total_blocked": 2
+  "total_candidates": 377,
+  "total_blocked": 5
 }
