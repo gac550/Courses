@@ -52,6 +52,14 @@ carpeta local. Mover la carpeta a otro disco o equipo no debe romper nada.
 
 Si falta `data/courses.db`, la app la reconstruye desde `data/courses.json`.
 
+## 4.0 Lanzadores
+
+`Courses.command` (macOS) y `Courses.bat` (Windows) están en la raíz: doble clic
+para abrir la aplicación. Instalan dependencias en la primera ejecución,
+recompilan solo si el código fuente cambió y abren la ventana. Resuelven todas
+las rutas respecto de su propia ubicación, de modo que mover la carpeta completa
+no rompe nada.
+
 ## 4.1 Desarrollo con recarga en caliente
 
 `npm run dev` levanta la app con recarga automática: el renderer se actualiza al
