@@ -70,7 +70,35 @@ Además, la app vigila `data/courses.json` en todo momento (también empaquetada
 si el archivo cambia — por el pipeline, por una edición manual o por un `git
 pull` —, la base se regenera y la ventana se refresca sola.
 
-## 4.2 Tema y tokens de diseño
+## 4.2 Estructura de la interfaz
+
+La ventana es una rejilla de altura completa que **no hace scroll**: solo lo
+hacen el centro y las sidebars. Así el contenido nunca se monta sobre los
+semáforos de macOS.
+
+```filetree
+  Ventana/
+    titlebar/       # identidad e indicadores del catálogo
+    ribbon/         # grupos de acciones: icono SVG, salto de línea y título
+    workspace/
+      sidebar--left/    # filtros
+      center/
+        hero/           # búsqueda, conteo y orden
+        body/           # tarjetas de curso
+      sidebar--right/   # composición del catálogo
+    statusbar/      # conteo, verificación y estado del pipeline
+```
+
+En el ribbon cada grupo lleva sus botones arriba y el título del grupo debajo.
+Los iconos son SVG embebidos que heredan el color con `currentColor`: acompañan
+al tema sin declarar color propio. Los grupos **Proveedores de IA** e
+**Instituciones** son atajos que alternan filtros y reflejan su estado con
+`aria-pressed`.
+
+Bajo 1100 px se retira la sidebar derecha; bajo 760 px el shell se apila en una
+columna y la ventana recupera el scroll.
+
+## 4.3 Tema y tokens de diseño
 
 Tema **claro por defecto**, con oscuro y automático disponibles desde el selector
 de la cabecera. La elección viaja en la query string (`?theme=dark`): sin

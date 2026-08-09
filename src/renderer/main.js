@@ -17,6 +17,7 @@ const state = {
   theme: 'light',
   rows: [],
   total: 0,
+  stats: null,
 };
 
 const THEMES = new Set(['light', 'dark', 'auto']);
@@ -121,20 +122,86 @@ function statCard(value, label, modifier) {
   return node;
 }
 
+/** Indicadores en la titlebar: compactos, solo los esenciales. */
 async function renderDashboard() {
   const stats = await api.stats();
-  const container = el('dashboard');
-  container.replaceChildren(
+  state.stats = stats;
+
+  el('dashboard').replaceChildren(
     statCard(stats.total, 'Cursos'),
-    statCard(stats.fromInstitutions, 'De universidades'),
-    statCard(stats.fromAiProviders, 'De proveedores de IA'),
-    statCard(stats.freeCertificate, 'Certificado gratuito', 'free'),
-    statCard(stats.freeBadge, 'Badge gratuito', 'free'),
-    statCard(stats.paidCertificate, 'Certificado pagado'),
-    statCard(stats.noCredential, 'Sin credencial'),
-    statCard(stats.institutions, 'Instituciones'),
+    statCard(stats.fromInstitutions, 'Instituciones'),
+    statCard(stats.fromAiProviders, 'Proveedores IA'),
+    statCard(stats.freeCertificate + stats.freeBadge, 'Credencial gratis', 'free'),
     statCard(stats.needsReverify, 'Por reverificar', 'warn'),
   );
+
+  renderStatusbar();
+}
+
+/** Sidebar derecha: composición del catálogo por origen, dominio y credencial. */
+async function renderBreakdown() {
+  const facets = await api.facets();
+  const container = el('breakdown');
+  const fragment = document.createDocumentFragment();
+
+  const section = (heading, rows) => {
+    if (!rows || rows.length === 0) return;
+
+    const box = document.createElement('div');
+    box.className = 'breakdown__section';
+
+    const caption = document.createElement('div');
+    caption.className = 'breakdown__heading';
+    caption.textContent = heading;
+    box.append(caption);
+
+    for (const row of rows.slice(0, 8)) {
+      const line = document.createElement('div');
+      line.className = 'breakdown__row';
+
+      const label = document.createElement('span');
+      label.className = 'breakdown__label';
+      label.textContent = DOMAIN_LABELS[row.value] ?? row.value;
+      label.title = label.textContent;
+
+      const value = document.createElement('span');
+      value.className = 'breakdown__value';
+      value.textContent = row.n;
+
+      line.append(label, value);
+      box.append(line);
+    }
+
+    fragment.append(box);
+  };
+
+  section('Origen', facets.providerType);
+  section('Dominio', facets.domain);
+  section('Credencial', facets.credentialType);
+  section('Plataforma', facets.platform);
+
+  container.replaceChildren(fragment);
+}
+
+/** Statusbar: conteo, verificación y estado del pipeline. */
+function renderStatusbar() {
+  const format = (n) => new Intl.NumberFormat('es-419').format(n ?? 0);
+  const total = state.stats?.total ?? 0;
+
+  el('status-count').textContent = state.total === total
+    ? `${format(total)} cursos`
+    : `${format(state.total)} de ${format(total)} cursos`;
+
+  const pending = state.stats?.needsReverify ?? 0;
+  el('status-verification').textContent = pending === 0
+    ? 'Verificaciones al día'
+    : `${format(pending)} por reverificar`;
+}
+
+function setPipelineStatus(text, active = false) {
+  const node = el('status-pipeline');
+  node.textContent = text;
+  node.classList.toggle('statusbar__item--active', active);
 }
 
 async function renderFilters() {
@@ -360,6 +427,9 @@ async function refresh() {
     ? '1 curso'
     : `${new Intl.NumberFormat('es-419').format(result.total)} cursos`;
 
+  syncRibbonState();
+  renderStatusbar();
+
   if (result.rows.length === 0) {
     renderEmpty(container);
     return;
@@ -392,9 +462,9 @@ async function runUpdate() {
   const panel = el('pipeline');
 
   button.disabled = true;
-  button.textContent = 'Actualizando…';
   panel.hidden = false;
   el('pipeline-log').replaceChildren();
+  setPipelineStatus('Actualizando el catálogo…', true);
 
   try {
     const result = await api.runPipeline({});
@@ -408,13 +478,15 @@ async function runUpdate() {
     if (result.ok) {
       await renderDashboard();
       await renderFilters();
+      await renderBreakdown();
       await refresh();
     }
+    setPipelineStatus(result.ok ? 'Catálogo actualizado' : 'La actualización no se completó');
   } catch (error) {
     appendLog({ level: 'error', message: error.message });
+    setPipelineStatus('Error en la actualización');
   } finally {
     button.disabled = false;
-    button.textContent = 'Actualizar catálogo';
   }
 }
 
@@ -435,6 +507,45 @@ function exportView(format) {
 }
 
 /* ------------------------------------------------------------------ Init */
+
+/**
+ * Atajos del ribbon: alternan un filtro concreto y muestran su estado.
+ * Volver a pulsar el mismo botón quita el filtro.
+ */
+const RIBBON_SHORTCUTS = [
+  { attr: 'data-provider', key: 'providerType' },
+  { attr: 'data-institution', key: 'institution' },
+  { attr: 'data-domain', key: 'domain' },
+];
+
+function syncRibbonState() {
+  for (const { attr, key } of RIBBON_SHORTCUTS) {
+    for (const button of document.querySelectorAll(`[${attr}]`)) {
+      const active = state.filters[key] === button.getAttribute(attr);
+      button.setAttribute('aria-pressed', String(active));
+    }
+  }
+}
+
+function bindRibbonShortcuts() {
+  for (const { attr, key } of RIBBON_SHORTCUTS) {
+    for (const button of document.querySelectorAll(`[${attr}]`)) {
+      const value = button.getAttribute(attr);
+      button.setAttribute('aria-pressed', 'false');
+
+      button.addEventListener('click', () => {
+        if (state.filters[key] === value) delete state.filters[key];
+        else state.filters[key] = value;
+
+        // Los selectores de la sidebar reflejan el atajo aplicado.
+        const select = el(`filter-${key}`);
+        if (select) select.value = state.filters[key] ?? '';
+
+        refresh();
+      });
+    }
+  }
+}
 
 function bindControls() {
   const search = el('filter-search');
@@ -505,12 +616,15 @@ function bindControls() {
     button.addEventListener('click', () => exportView(button.dataset.export));
   }
 
+  bindRibbonShortcuts();
+
   api.onPipelineProgress(appendLog);
 
   // El catálogo cambió en disco: se refresca la vista sin reiniciar la app.
   api.onCatalogChanged(async () => {
     await renderDashboard();
     await renderFilters();
+    await renderBreakdown();
     await refresh();
   });
 }
@@ -520,6 +634,7 @@ async function init() {
   bindControls();
   await renderDashboard();
   await renderFilters();
+  await renderBreakdown();
   await refresh();
 }
 

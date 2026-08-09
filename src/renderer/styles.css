@@ -162,8 +162,24 @@
   box-sizing: border-box;
 }
 
-body {
+/*
+ * Shell de la aplicación.
+ *
+ *   titlebar   — identidad e indicadores
+ *   ribbon     — acciones globales
+ *   workspace  — sidebar izquierda · centro (hero + body) · sidebar derecha
+ *   statusbar  — conteo y estado
+ *
+ * La ventana no hace scroll: solo lo hacen el centro y las sidebars. Así el
+ * contenido nunca se monta sobre los semáforos de macOS.
+ */
+
+body.shell {
   margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  overflow: hidden;
   font-family: var(--font);
   font-size: 14px;
   line-height: 1.5;
@@ -172,66 +188,362 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Barra superior: deja espacio a los controles de ventana de macOS. */
-/*
- * Cabecera fija: con titleBarStyle 'hiddenInset' los semáforos de macOS flotan
- * sobre la ventana, de modo que el contenido no debe pasar por debajo de ellos
- * al hacer scroll. El fondo opaco y el z-index mantienen la zona despejada.
- */
-.app-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+/* --- 1. Titlebar --- */
+
+.titlebar {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  gap: var(--space);
-  padding: 28px 24px 16px;
+  gap: 24px;
+  /* El padding superior deja libres los semáforos de macOS. */
+  padding: 26px 20px 10px 92px;
   border-bottom: 1px solid var(--border);
-  background: var(--bg);
+  background: var(--bg-subtle);
   -webkit-app-region: drag;
 }
 
-.app-header__actions {
+.titlebar__brand {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  align-items: baseline;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
-.app-header__actions,
-.app-header button,
-.app-header select,
-.app-header label {
-  -webkit-app-region: no-drag;
-}
-
-.field__input--compact {
-  width: auto;
-  padding: 5px 8px;
-}
-
-.app-header h1 {
+.titlebar__title {
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 650;
   letter-spacing: -0.01em;
 }
 
-.app-header__subtitle {
-  margin: 2px 0 0;
-  font-size: 12.5px;
+.titlebar__subtitle {
+  margin: 0;
+  font-size: 12px;
   color: var(--text-muted);
 }
 
+.titlebar__stats {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.stat {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.stat__value {
+  font-size: 15px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.stat__label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat--free .stat__value {
+  color: var(--free);
+}
+
+.stat--warn .stat__value {
+  color: var(--warn);
+}
+
+/* --- 2. Ribbon bar --- */
+
+.ribbon {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: 7px 16px 5px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  overflow-x: auto;
+}
+
+/* El selector de tema se alinea al centro, no con los grupos de botones. */
+.ribbon > .ribbon__group:last-child {
+  justify-content: center;
+}
+
+/*
+ * Grupo de cinta: los botones arriba y el título del grupo debajo, centrado,
+ * como en la cinta de Office.
+ */
+.ribbon__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.ribbon__buttons {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+}
+
+.ribbon__group--divider {
+  padding-left: 12px;
+  border-left: 1px solid var(--border);
+}
+
+.ribbon__label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.ribbon__spacer {
+  flex: 1;
+  min-width: 12px;
+}
+
+/*
+ * Botón de cinta: icono SVG arriba, salto de línea, título abajo.
+ * Los SVG heredan el color del texto vía currentColor, así acompañan al tema
+ * sin declarar ningún color propio.
+ */
+.ribbon__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-width: 58px;
+  padding: 5px 8px;
+  font: inherit;
+  font-size: 11px;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: none;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.ribbon__btn:hover {
+  background: var(--bg-subtle);
+  border-color: var(--border);
+}
+
+.ribbon__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.ribbon__btn[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.ribbon__btn[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.ribbon__icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.ribbon__text {
+  white-space: nowrap;
+}
+
+.ribbon__btn--primary {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.ribbon__btn--primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+/* --- 3. Workspace --- */
+
+.workspace {
+  display: grid;
+  grid-template-columns: 244px minmax(0, 1fr) 236px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.sidebar {
+  padding: 14px;
+  overflow-y: auto;
+  background: var(--bg-subtle);
+}
+
+.sidebar--left {
+  border-right: 1px solid var(--border);
+}
+
+.sidebar--right {
+  border-left: 1px solid var(--border);
+}
+
+.sidebar__title {
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 650;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.center {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  min-height: 0;
+  min-width: 0;
+}
+
+/* --- Hero del body --- */
+
+.hero {
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.hero__search {
+  max-width: 620px;
+}
+
+.field__input--hero {
+  font-size: 15px;
+  padding: 9px 12px;
+}
+
+.hero__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space);
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.hero__count {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Body --- */
+
+.body {
+  padding: 16px 20px 24px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+/* --- Sidebar derecha: composición --- */
+
+.breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.breakdown__section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.breakdown__heading {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.breakdown__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12.5px;
+}
+
+.breakdown__label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.breakdown__value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* --- 4. Statusbar --- */
+
+.statusbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 5px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-subtle);
+  font-size: 11.5px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.statusbar__spacer {
+  flex: 1;
+}
+
+.statusbar__item--active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* --- Controles --- */
+
 .button {
   font: inherit;
-  font-size: 13px;
-  padding: 7px 14px;
+  font-size: 12.5px;
+  padding: 5px 11px;
   border-radius: var(--radius);
   border: 1px solid var(--border-strong);
   background: var(--bg);
   color: var(--text);
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -260,76 +572,8 @@ body {
 }
 
 .button--ghost {
-  padding: 5px 10px;
-  font-size: 12.5px;
-}
-
-/* Panel de indicadores */
-.dashboard {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1px;
-  background: var(--border);
-  border-bottom: 1px solid var(--border);
-}
-
-.stat {
-  background: var(--bg);
-  padding: 12px 16px;
-}
-
-.stat__value {
-  font-size: 22px;
-  font-weight: 640;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
-}
-
-.stat__label {
-  font-size: 11.5px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.stat--free .stat__value {
-  color: var(--free);
-}
-
-.stat--warn .stat__value {
-  color: var(--warn);
-}
-
-.layout {
-  display: grid;
-  grid-template-columns: 268px 1fr;
-  align-items: start;
-  min-height: 0;
-}
-
-/* Se ancla bajo la cabecera fija, nunca bajo los semáforos de la ventana. */
-.filters {
-  padding: 16px;
-  border-right: 1px solid var(--border);
-  position: sticky;
-  top: var(--header-height);
-  max-height: calc(100vh - var(--header-height));
-  overflow-y: auto;
-  background: var(--bg);
-}
-
-.filters__group {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-bottom: 14px;
-  margin-bottom: 14px;
-  border-bottom: 1px solid var(--border);
-}
-
-.filters__group:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
+  padding: 4px 9px;
+  font-size: 12px;
 }
 
 .field {
@@ -345,7 +589,7 @@ body {
 }
 
 .field__label {
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -364,53 +608,46 @@ body {
   width: 100%;
 }
 
+.field__input--compact {
+  width: auto;
+  padding: 4px 8px;
+  font-size: 12.5px;
+}
+
 .field__input:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: -1px;
+}
+
+.filters__group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.filters__group:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .checkbox {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 13px;
+  font-size: 12.5px;
   cursor: pointer;
 }
 
-.results {
-  padding: 16px 24px 40px;
-  min-width: 0;
-}
-
-.results__toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: var(--space);
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 16px;
-}
-
-.results__count {
-  margin: 0;
-  font-size: 13px;
-  color: var(--text-muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.results__controls {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  flex-wrap: wrap;
-}
-
-.export {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+/* La zona de arrastre no debe capturar los controles. */
+.titlebar button,
+.titlebar select,
+.titlebar input,
+.titlebar__stats {
+  -webkit-app-region: no-drag;
 }
 
 .cards {
@@ -607,33 +844,64 @@ body {
 }
 
 /* Una sola columna bajo 760 px. */
+/* Bajo 1100 px se retira la sidebar derecha: su contenido es complementario. */
+@media (max-width: 1100px) {
+  .workspace {
+    grid-template-columns: 224px minmax(0, 1fr);
+  }
+
+  .sidebar--right {
+    display: none;
+  }
+}
+
+/* Una sola columna: el shell pasa a apilarse y la ventana recupera el scroll. */
 @media (max-width: 760px) {
-  .layout {
-    grid-template-columns: 1fr;
+  body.shell {
+    height: auto;
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr auto;
+    overflow: auto;
   }
 
-  .filters {
-    position: static;
-    max-height: none;
-    border-right: 0;
-    border-bottom: 1px solid var(--border);
-  }
-
-  /* En una columna la cabecera crece y ocupa demasiado: deja de ser fija. */
-  .app-header {
-    position: static;
+  .titlebar {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    padding-top: 40px;
+    padding: 40px 16px 10px;
   }
 
-  .app-header__actions {
-    width: 100%;
-    justify-content: space-between;
+  .titlebar__stats {
+    justify-content: flex-start;
+    gap: 14px;
   }
 
-  .results {
+  .workspace {
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  .sidebar--left {
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    overflow: visible;
+  }
+
+  .center {
+    grid-template-rows: auto auto;
+  }
+
+  .body {
+    overflow: visible;
     padding: 16px;
+  }
+
+  .hero {
+    padding: 14px 16px 10px;
+  }
+
+  .statusbar {
+    position: sticky;
+    bottom: 0;
   }
 }
