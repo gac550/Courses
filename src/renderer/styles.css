@@ -67,6 +67,8 @@
   /* --- Tokens no cromáticos: iguales en todos los temas --- */
   --radius: 6px;
   --space: 12px;
+  /* Alto de la cabecera fija: ancla al panel de filtros justo debajo. */
+  --header-height: 96px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
@@ -171,13 +173,22 @@ body {
 }
 
 /* Barra superior: deja espacio a los controles de ventana de macOS. */
+/*
+ * Cabecera fija: con titleBarStyle 'hiddenInset' los semáforos de macOS flotan
+ * sobre la ventana, de modo que el contenido no debe pasar por debajo de ellos
+ * al hacer scroll. El fondo opaco y el z-index mantienen la zona despejada.
+ */
 .app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: var(--space);
   padding: 28px 24px 16px;
   border-bottom: 1px solid var(--border);
+  background: var(--bg);
   -webkit-app-region: drag;
 }
 
@@ -296,13 +307,15 @@ body {
   min-height: 0;
 }
 
+/* Se ancla bajo la cabecera fija, nunca bajo los semáforos de la ventana. */
 .filters {
   padding: 16px;
   border-right: 1px solid var(--border);
   position: sticky;
-  top: 0;
-  max-height: 100vh;
+  top: var(--header-height);
+  max-height: calc(100vh - var(--header-height));
   overflow-y: auto;
+  background: var(--bg);
 }
 
 .filters__group {
@@ -606,10 +619,18 @@ body {
     border-bottom: 1px solid var(--border);
   }
 
+  /* En una columna la cabecera crece y ocupa demasiado: deja de ser fija. */
   .app-header {
+    position: static;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
     padding-top: 40px;
+  }
+
+  .app-header__actions {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .results {
