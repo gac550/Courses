@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es-419">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CSP estricta: sin recursos externos, sin eval. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="app-header__title">
+        <h1>Courses</h1>
+        <p class="app-header__subtitle">
+          Catálogo verificable de cursos gratuitos de universidades y organismos de primer nivel
+        </p>
+      </div>
+      <div class="app-header__actions">
+        <button id="btn-update" type="button" class="button button--primary">
+          Actualizar catálogo
+        </button>
+      </div>
+    </header>
+
+    <section class="dashboard" id="dashboard" aria-label="Resumen del catálogo"></section>
+
+    <main class="layout">
+      <aside class="filters" aria-label="Filtros">
+        <div class="filters__group">
+          <label class="field">
+            <span class="field__label">Búsqueda</span>
+            <input
+              type="search"
+              id="filter-search"
+              class="field__input"
+              placeholder="Título, institución, tema o código"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="filters__group" id="filter-selects"></div>
+
+        <div class="filters__group">
+          <label class="field">
+            <span class="field__label">Relevancia mínima</span>
+            <select id="filter-minRelevance" class="field__input">
+              <option value="">Cualquiera</option>
+              <option value="1">1 o más</option>
+              <option value="2">2 o más</option>
+              <option value="3">3</option>
+            </select>
+          </label>
+
+          <label class="checkbox">
+            <input type="checkbox" id="filter-credentialFree" />
+            <span>Solo credencial gratuita</span>
+          </label>
+
+          <label class="checkbox">
+            <input type="checkbox" id="filter-credentialVerifiable" />
+            <span>Solo credencial verificable</span>
+          </label>
+        </div>
+
+        <div class="filters__group">
+          <button id="btn-reset" type="button" class="button button--ghost">
+            Limpiar filtros
+          </button>
+        </div>
+      </aside>
+
+      <section class="results" aria-label="Resultados">
+        <div class="results__toolbar">
+          <p class="results__count" id="results-count" role="status" aria-live="polite"></p>
+
+          <div class="results__controls">
+            <label class="field field--inline">
+              <span class="field__label">Ordenar por</span>
+              <select id="sort" class="field__input">
+                <option value="recomendado">Prioridad recomendada</option>
+                <option value="acreditabilidad">Acreditabilidad</option>
+                <option value="relevancia">Relevancia</option>
+                <option value="institucion">Institución</option>
+                <option value="duracion">Duración</option>
+                <option value="verificacion">Fecha de verificación</option>
+              </select>
+            </label>
+
+            <div class="export" role="group" aria-label="Exportar vista filtrada">
+              <span class="field__label">Exportar</span>
+              <button type="button" class="button button--ghost" data-export="csv">CSV</button>
+              <button type="button" class="button button--ghost" data-export="md">Markdown</button>
+              <button type="button" class="button button--ghost" data-export="json">JSON</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <!-- Consola del pipeline: oculta hasta que se ejecuta una actualización. -->
+    <div id="pipeline" class="pipeline" hidden>
+      <div class="pipeline__header">
+        <h2 class="pipeline__title">Actualización del catálogo</h2>
+        <button type="button" id="pipeline-close" class="button button--ghost">Cerrar</button>
+      </div>
+      <pre id="pipeline-log" class="pipeline__log" role="log" aria-live="polite"></pre>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

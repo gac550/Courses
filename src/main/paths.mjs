@@ -21,7 +21,14 @@ import { dirname, join, resolve } from 'node:path';
  */
 export function portableRoot() {
   if (!app.isPackaged) {
-    // dist/main/index.js -> raíz del repositorio
+    // En desarrollo el punto de entrada es dist/main/index.js, de modo que
+    // getAppPath() puede resolver a dist/main. Se sube hasta la carpeta que
+    // contiene package.json: esa es la raíz real del repositorio.
+    let dir = resolve(app.getAppPath());
+    for (let i = 0; i < 4; i += 1) {
+      if (existsSync(join(dir, 'package.json'))) return dir;
+      dir = dirname(dir);
+    }
     return resolve(app.getAppPath());
   }
 

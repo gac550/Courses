@@ -70,10 +70,16 @@ function buildQuery(filters) {
   const where = [];
   const params = [];
 
+  // Un valor de lista cerrada que no pertenece a ella no puede ampliar el
+  // resultado: se traduce en una condición imposible, nunca en «sin filtro».
   const domain = str(filters.domain, 40);
-  if (domain && DOMAINS.has(domain)) {
-    where.push('domain = ?');
-    params.push(domain);
+  if (domain) {
+    if (DOMAINS.has(domain)) {
+      where.push('domain = ?');
+      params.push(domain);
+    } else {
+      where.push('1 = 0');
+    }
   }
 
   const institution = str(filters.institution, 160);
@@ -107,9 +113,13 @@ function buildQuery(filters) {
   }
 
   const verification = str(filters.verificationStatus, 40);
-  if (verification && VERIFICATION.has(verification)) {
-    where.push('verification_status = ?');
-    params.push(verification);
+  if (verification) {
+    if (VERIFICATION.has(verification)) {
+      where.push('verification_status = ?');
+      params.push(verification);
+    } else {
+      where.push('1 = 0');
+    }
   }
 
   if (filters.credentialFree === true) where.push('credential_free = 1');
