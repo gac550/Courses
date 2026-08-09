@@ -24,6 +24,10 @@
           "type": ["string", "null"],
           "pattern": "^[A-Z]{2}$"
         },
+        "provider_type": {
+          "enum": ["institucion", "proveedor-ia"],
+          "description": "Separa universidades y organismos de los proveedores de modelos de IA."
+        },
         "platform": { "type": ["string", "null"], "minLength": 1 },
         "course_code": { "type": ["string", "null"], "minLength": 1 },
         "domain": { "enum": ["ai-tecnica", "ai-negocio", "pmo"] },

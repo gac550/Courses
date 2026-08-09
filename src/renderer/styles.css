@@ -22,6 +22,8 @@
   --none-bg: #eef0f4;
   --warn: #8a2b25;
   --warn-bg: #fbe9e7;
+  --provider: #3b3a86;
+  --provider-bg: #e8e8f7;
 
   --radius: 6px;
   --space: 12px;
@@ -49,6 +51,8 @@
     --none-bg: #262b33;
     --warn: #f2a49d;
     --warn-bg: #3a1f1d;
+    --provider: #b9b8f0;
+    --provider-bg: #23224a;
   }
 }
 
@@ -350,6 +354,12 @@ body {
 .badge--warn {
   background: var(--warn-bg);
   color: var(--warn);
+}
+
+/* Distingue a los proveedores de modelos de IA de las instituciones. */
+.badge--provider {
+  background: var(--provider-bg);
+  color: var(--provider);
 }
 
 .meta {

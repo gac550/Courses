@@ -60,6 +60,7 @@ console.log(`  Certificado pagado      ${paid}`);
 console.log(`  Sin credencial          ${none}`);
 console.log(`  Verificación vencida    ${stale}`);
 
+table('Por origen', countBy('provider_type'));
 table('Por dominio', countBy('domain'));
 table('Por institución', countBy('institution'));
 table('Por país', countBy('institution_country'));

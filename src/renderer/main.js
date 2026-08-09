@@ -19,6 +19,7 @@ const state = {
 };
 
 const SELECT_FILTERS = [
+  { key: 'providerType', label: 'Origen', facet: 'providerType' },
   { key: 'domain', label: 'Dominio', facet: 'domain' },
   { key: 'institution', label: 'Institución', facet: 'institution' },
   { key: 'country', label: 'País', facet: 'country' },
@@ -32,6 +33,8 @@ const DOMAIN_LABELS = {
   'ai-tecnica': 'IA técnica',
   'ai-negocio': 'IA de negocio',
   pmo: 'PMO y proyectos',
+  institucion: 'Universidades y organismos',
+  'proveedor-ia': 'Proveedores de IA',
 };
 
 const el = (id) => document.getElementById(id);
@@ -105,6 +108,8 @@ async function renderDashboard() {
   const container = el('dashboard');
   container.replaceChildren(
     statCard(stats.total, 'Cursos'),
+    statCard(stats.fromInstitutions, 'De universidades'),
+    statCard(stats.fromAiProviders, 'De proveedores de IA'),
     statCard(stats.freeCertificate, 'Certificado gratuito', 'free'),
     statCard(stats.freeBadge, 'Badge gratuito', 'free'),
     statCard(stats.paidCertificate, 'Certificado pagado'),
@@ -235,6 +240,9 @@ function renderCard(course) {
   const badges = document.createElement('div');
   badges.className = 'badges';
   badges.append(credentialBadge(course));
+
+  // Distingue a simple vista un proveedor de IA de una institución académica.
+  if (course.provider_type === 'proveedor-ia') badges.append(badge('Proveedor de IA', 'provider'));
 
   if (course.domain) badges.append(badge(DOMAIN_LABELS[course.domain] ?? course.domain));
   if (course.level) badges.append(badge(course.level));

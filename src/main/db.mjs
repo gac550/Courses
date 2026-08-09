@@ -24,6 +24,7 @@ CREATE TABLE IF NOT EXISTS courses (
   title                 TEXT NOT NULL,
   institution           TEXT NOT NULL,
   institution_country   TEXT,
+  provider_type         TEXT,          -- institucion | proveedor-ia
   platform              TEXT,
   course_code           TEXT,
   domain                TEXT NOT NULL,
@@ -60,6 +61,7 @@ CREATE TABLE IF NOT EXISTS courses (
 );
 
 CREATE INDEX IF NOT EXISTS idx_courses_domain      ON courses(domain);
+CREATE INDEX IF NOT EXISTS idx_courses_provider    ON courses(provider_type);
 CREATE INDEX IF NOT EXISTS idx_courses_institution ON courses(institution);
 CREATE INDEX IF NOT EXISTS idx_courses_credential  ON courses(credential_type);
 CREATE INDEX IF NOT EXISTS idx_courses_status      ON courses(verification_status);
@@ -99,7 +101,7 @@ END;
 `;
 
 const COLUMNS = [
-  'id', 'title', 'institution', 'institution_country', 'platform', 'course_code',
+  'id', 'title', 'institution', 'institution_country', 'provider_type', 'platform', 'course_code',
   'domain', 'topics', 'level', 'language', 'subtitles', 'duration_weeks',
   'hours_per_week', 'pace', 'cost_access', 'credential_type', 'credential_free',
   'credential_price_usd', 'credential_issuer', 'credential_verifiable',

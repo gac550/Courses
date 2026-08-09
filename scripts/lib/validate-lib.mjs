@@ -16,6 +16,7 @@ const REQUIRED = ['id', 'title', 'institution', 'domain', 'url_official', 'verif
 
 const ENUMS = {
   domain: ['ai-tecnica', 'ai-negocio', 'pmo'],
+  provider_type: ['institucion', 'proveedor-ia'],
   level: ['introductorio', 'intermedio', 'avanzado'],
   pace: ['autoadministrado', 'cohorte', 'programado'],
   cost_access: ['gratis', 'audit gratuito', 'pagado'],

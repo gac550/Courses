@@ -43,7 +43,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-006",
@@ -88,7 +89,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-036",
@@ -134,7 +136,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-s191",
@@ -181,7 +184,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-0002",
@@ -228,7 +232,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-s897",
@@ -274,7 +279,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-6-864",
@@ -320,7 +326,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-1-040",
@@ -366,7 +373,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-esd-36",
@@ -413,7 +421,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-esd-34",
@@ -459,7 +468,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "mit-15-390",
@@ -505,7 +515,8 @@
     "access_mode": "archivo",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50x",
@@ -552,7 +563,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-ai",
@@ -599,7 +611,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-python",
@@ -643,7 +656,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-ml-ai-python",
@@ -690,7 +704,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-intro-data-science-python",
@@ -738,7 +753,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-ds-building-ml-models",
@@ -784,7 +800,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-using-python-research",
@@ -830,7 +847,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-web",
@@ -878,7 +896,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-sql",
@@ -923,7 +942,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-cybersecurity",
@@ -968,7 +988,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-tinyml-applications",
@@ -1015,7 +1036,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-scratch",
@@ -1060,7 +1082,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "harvard-cs50-business",
@@ -1106,7 +1129,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "iadb-project-management-development",
@@ -1152,7 +1176,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "iadb-gestion-proyectos-desarrollo",
@@ -1198,7 +1223,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "iadb-gestion-riesgos-proyectos",
@@ -1244,7 +1270,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "iadb-infraestructura-sostenible",
@@ -1290,7 +1317,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "iadb-riesgo-desastres-infraestructura",
@@ -1336,7 +1364,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "hpi-chatbots-llm",
@@ -1384,7 +1413,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "hpi-time-series-analysis",
@@ -1431,7 +1461,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "hpi-efficient-ai-weather",
@@ -1479,7 +1510,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "hpi-python-beginners",
@@ -1526,7 +1558,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "hpi-enterprise-applications",
@@ -1573,7 +1606,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-project-governance-pmo",
@@ -1618,7 +1652,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-project-management-start-journey",
@@ -1665,7 +1700,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-learn-code-data-analysis",
@@ -1712,7 +1748,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-introduction-artificial-intelligence",
@@ -1759,7 +1796,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-risk-management",
@@ -1805,7 +1843,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "ou-entrepreneurship-ideas-reality",
@@ -1851,7 +1890,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "institucion"
   },
   {
     "id": "anthropic-ai-fluency-framework",
@@ -1897,7 +1937,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-building-claude-api",
@@ -1944,7 +1985,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-intro-mcp",
@@ -1989,7 +2031,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-mcp-advanced",
@@ -2034,7 +2077,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-101",
@@ -2079,7 +2123,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-code-101",
@@ -2124,7 +2169,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-code-in-action",
@@ -2169,7 +2215,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-platform-101",
@@ -2214,7 +2261,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-intro-cowork",
@@ -2259,7 +2307,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-intro-agent-skills",
@@ -2304,7 +2353,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-intro-subagents",
@@ -2349,7 +2399,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-capabilities-limitations",
@@ -2395,7 +2446,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-fluency-builders",
@@ -2440,7 +2492,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-fluency-small-business",
@@ -2485,7 +2538,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-fluency-nonprofits",
@@ -2530,7 +2584,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-amazon-bedrock",
@@ -2576,7 +2631,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-google-cloud",
@@ -2622,7 +2678,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-fluency-educators",
@@ -2667,7 +2724,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-ai-fluency-students",
@@ -2712,7 +2770,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-teaching-ai-fluency",
@@ -2757,7 +2816,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "anthropic-claude-certified-architect",
@@ -2804,7 +2864,8 @@
     "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "openai-ai-foundations",
@@ -2850,7 +2911,8 @@
     "access_mode": null,
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "openai-applied-ai-foundations",
@@ -2896,7 +2958,8 @@
     "access_mode": null,
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
-    "content_hash": null
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
   },
   {
     "id": "openai-agents-and-workflows",
@@ -2940,6 +3003,283 @@
     "start_date": null,
     "end_date": null,
     "access_mode": null,
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null,
+    "provider_type": "proveedor-ia"
+  },
+  {
+    "id": "google-introduction-generative-ai",
+    "title": "Introduction to Generative AI",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-tecnica",
+    "topics": [
+      "generative-ai",
+      "ai-basics"
+    ],
+    "level": "introductorio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/536",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 1,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/536",
+    "notes": "Microcurso introductorio sobre que es la IA generativa y como se diferencia del aprendizaje automatico tradicional. Duracion aproximada de 45 minutos. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null
+  },
+  {
+    "id": "google-introduction-large-language-models",
+    "title": "Introduction to Large Language Models",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-tecnica",
+    "topics": [
+      "large-language-models",
+      "prompt-tuning",
+      "generative-ai"
+    ],
+    "level": "introductorio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/539",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 1,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/539",
+    "notes": "Microcurso sobre modelos de lenguaje de gran tamano, casos de uso y ajuste mediante prompts. Duracion aproximada de 1 hora. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null
+  },
+  {
+    "id": "google-introduction-responsible-ai",
+    "title": "Introduction to Responsible AI",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-negocio",
+    "topics": [
+      "responsible-ai",
+      "ai-principles",
+      "ai-governance"
+    ],
+    "level": "introductorio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/554",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 2,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/554",
+    "notes": "Utilidad profesional clara para gobernanza de IA: concepto de IA responsable y los principios de IA de Google. Duracion aproximada de 15 minutos. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null
+  },
+  {
+    "id": "google-introduction-vertex-ai-studio",
+    "title": "Introduction to Vertex AI Studio",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-tecnica",
+    "topics": [
+      "vertex-ai",
+      "google-cloud",
+      "generative-ai",
+      "prototyping"
+    ],
+    "level": "introductorio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/552",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 1,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/552",
+    "notes": "Uso de Vertex AI Studio para crear prototipos y personalizar modelos generativos en Google Cloud. Duracion aproximada de 2 horas. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null
+  },
+  {
+    "id": "google-introduction-image-generation",
+    "title": "Introduction to Image Generation",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-tecnica",
+    "topics": [
+      "image-generation",
+      "diffusion-models",
+      "generative-ai"
+    ],
+    "level": "introductorio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/541",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 0,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/541",
+    "notes": "Microcurso sobre modelos de difusion para generacion de imagenes. Duracion aproximada de 30 minutos. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
+    "discovered_at": "2026-08-09",
+    "updated_at": "2026-08-09",
+    "content_hash": null
+  },
+  {
+    "id": "google-encoder-decoder-architecture",
+    "title": "Encoder-Decoder Architecture",
+    "institution": "Google",
+    "institution_country": "US",
+    "provider_type": "proveedor-ia",
+    "platform": "Google Skills",
+    "course_code": null,
+    "domain": "ai-tecnica",
+    "topics": [
+      "encoder-decoder",
+      "transformers",
+      "sequence-to-sequence"
+    ],
+    "level": "intermedio",
+    "language": [
+      "en"
+    ],
+    "subtitles": null,
+    "duration_weeks": null,
+    "hours_per_week": null,
+    "pace": "autoadministrado",
+    "cost_access": null,
+    "credential_type": null,
+    "credential_free": null,
+    "credential_price_usd": null,
+    "credential_issuer": "Google Cloud",
+    "credential_verifiable": null,
+    "url_official": "https://www.skills.google/course_templates/543",
+    "url_credential_info": null,
+    "url_syllabus": null,
+    "prerequisites": null,
+    "relevance_ppp_infra": 0,
+    "verification_status": "PENDIENTE",
+    "last_verified": "2026-08-09",
+    "source_of_truth": "https://www.skills.google/course_templates/543",
+    "notes": "Arquitectura codificador-decodificador, base de tareas de secuencia a secuencia como traduccion y resumen. Duracion aproximada de 30 minutos. La ficha oficial declara «Earn a badge today!» pero no indica precio: el blog oficial de Google confirma badges gratuitos y acceso gratuito a la biblioteca para clientes de Google Cloud, sin precisar que cursos son gratuitos para cualquier usuario. Por eso el acceso y la credencial quedan como null y el registro como PENDIENTE, en vez de inferirse. Verificado el 2026-08-09.",
+    "status": "activo",
+    "enrollment_open": null,
+    "start_date": null,
+    "end_date": null,
+    "access_mode": "permanente",
     "discovered_at": "2026-08-09",
     "updated_at": "2026-08-09",
     "content_hash": null

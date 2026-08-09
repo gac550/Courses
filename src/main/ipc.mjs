@@ -12,6 +12,7 @@ import { fromSql } from './db.mjs';
 import { runPipeline } from './pipeline.mjs';
 
 const DOMAINS = new Set(['ai-tecnica', 'ai-negocio', 'pmo']);
+const PROVIDER_TYPES = new Set(['institucion', 'proveedor-ia']);
 const VERIFICATION = new Set([
   'VERIFICADO', 'PENDIENTE', 'REVERIFICAR', 'NO_DISPONIBLE', 'MANUAL_REVIEW_REQUIRED',
 ]);
@@ -77,6 +78,16 @@ function buildQuery(filters) {
     if (DOMAINS.has(domain)) {
       where.push('domain = ?');
       params.push(domain);
+    } else {
+      where.push('1 = 0');
+    }
+  }
+
+  const providerType = str(filters.providerType, 40);
+  if (providerType) {
+    if (PROVIDER_TYPES.has(providerType)) {
+      where.push('provider_type = ?');
+      params.push(providerType);
     } else {
       where.push('1 = 0');
     }
@@ -193,6 +204,7 @@ export function registerIpc({ getDb, setDb, getWindow }) {
       ).all();
 
     return {
+      providerType: distinct('provider_type'),
       domain: distinct('domain'),
       institution: distinct('institution'),
       country: distinct('institution_country'),
@@ -221,6 +233,8 @@ export function registerIpc({ getDb, setDb, getWindow }) {
       ),
       noCredential: scalar('SELECT COUNT(*) AS n FROM courses WHERE credential_type IS NULL'),
       institutions: scalar('SELECT COUNT(DISTINCT institution) AS n FROM courses'),
+      fromInstitutions: scalar(`SELECT COUNT(*) AS n FROM courses WHERE provider_type = 'institucion'`),
+      fromAiProviders: scalar(`SELECT COUNT(*) AS n FROM courses WHERE provider_type = 'proveedor-ia'`),
       verified: scalar(`SELECT COUNT(*) AS n FROM courses WHERE verification_status = 'VERIFICADO'`),
       needsReverify: scalar(
         `SELECT COUNT(*) AS n FROM courses
