@@ -42,6 +42,12 @@ npm run dev
 Se ejecuta con `npm run update`, o desde el botón **Actualizar catálogo** de la
 aplicación.
 
+El crawler respeta una pausa de 1,2 s por host y visita hasta 40 páginas por
+fuente, de modo que **una pasada completa sobre las 8 fuentes habilitadas tarda
+varios minutos**. Es deliberado: un crawler agresivo está prohibido. Para
+acotar una ejecución, reducir `maxPagesPerSource` en `config/crawler.json` o
+deshabilitar fuentes en `config/sources.json`.
+
 **Los candidatos descubiertos automáticamente ingresan siempre como
 `PENDIENTE`**, nunca como `VERIFICADO`: el crawler detecta indicios, no
 evidencia. La promoción a `VERIFICADO` exige revisión humana contra la fuente

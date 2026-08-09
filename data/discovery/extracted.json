@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-09",
+  "courses": [
+    {
+      "url_official": "https://open.hpi.de/learn/kibiasessus2026",
+      "title": "Digitale Gerechtigkeit - Wie du dich für eine fairere KI-Zukunft engagieren kannst",
+      "description": "Künstliche Intelligenz ist längst Teil deines Alltags geworden. Von Empfehlungsalgorithmen in sozialen Medien bis hin zu dem generieren von Geburts...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-digitale-gerechtigkeit-wie-du-dich-fur-eine-fairere-ki-zukunft-engagieren-kannst",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    }
+  ],
+  "failed": []
+}

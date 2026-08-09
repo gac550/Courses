@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-08-09",
+  "accepted": [
+    {
+      "id": "hasso-plattner-institute-digitale-gerechtigkeit-wie-du-dich-fur-eine-fairere-ki-zukunft-engagieren-kannst",
+      "title": "Digitale Gerechtigkeit - Wie du dich für eine fairere KI-Zukunft engagieren kannst",
+      "institution": "Hasso Plattner Institute",
+      "institution_country": null,
+      "provider_type": "institucion",
+      "platform": null,
+      "course_code": null,
+      "domain": null,
+      "topics": null,
+      "level": "introductorio",
+      "language": [
+        "de"
+      ],
+      "subtitles": null,
+      "duration_weeks": null,
+      "hours_per_week": null,
+      "pace": null,
+      "cost_access": null,
+      "credential_type": null,
+      "credential_free": null,
+      "credential_price_usd": null,
+      "credential_issuer": null,
+      "credential_verifiable": null,
+      "url_official": "https://open.hpi.de/learn/kibiasessus2026",
+      "url_credential_info": null,
+      "url_syllabus": null,
+      "prerequisites": null,
+      "relevance_ppp_infra": null,
+      "verification_status": "PENDIENTE",
+      "last_verified": null,
+      "source_of_truth": "https://open.hpi.de/learn/kibiasessus2026",
+      "notes": "Candidato descubierto automaticamente. Requiere verificacion humana contra fuente oficial de titulo, institucion, modalidad de acceso y credencial antes de pasar a VERIFICADO. Indicios detectados en la pagina: gratuidad mencionada, certificado mencionado. Los indicios NO son evidencia suficiente por si solos.",
+      "status": "desconocido",
+      "enrollment_open": null,
+      "start_date": null,
+      "end_date": null,
+      "access_mode": null,
+      "discovered_at": "2026-08-09",
+      "updated_at": "2026-08-09",
+      "content_hash": null
+    }
+  ],
+  "duplicates": [],
+  "ambiguous": [],
+  "incomplete": []
+}

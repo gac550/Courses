@@ -2,48 +2,21 @@
   "generated_at": "2026-08-09",
   "sources": [
     {
-      "source": "mit-ocw",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "stanford-online",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "harvard-pll",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "harvard-cs50",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "edx",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "pmi",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
-    },
-    {
-      "source": "iadb",
-      "visited": 0,
-      "candidates": [],
-      "notes": "sin seed_urls"
+      "source": "openhpi",
+      "visited": 12,
+      "candidates": [
+        {
+          "url": "https://open.hpi.de/learn/kibiasessus2026",
+          "source": "openhpi",
+          "institution": "Hasso Plattner Institute",
+          "adapter": "generic",
+          "depth": 1,
+          "discovered_at": "2026-08-09"
+        }
+      ],
+      "blocked": []
     }
   ],
-  "total_candidates": 0,
+  "total_candidates": 1,
   "total_blocked": 0
 }
