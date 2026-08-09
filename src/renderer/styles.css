@@ -100,6 +100,9 @@
   --provider-bg: var(--c-indigo-100);
 
   --shadow-overlay: 0 6px 24px rgb(0 0 0 / 18%);
+  /* Flecha del desplegable: SVG embebido, sin recursos externos. El color se
+     escribe literal porque un data URI no puede leer variables CSS. */
+  --select-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%235b6472' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
 /* --- Nivel 3: tema oscuro --- */
@@ -127,6 +130,8 @@
   --provider-bg: var(--c-indigo-950);
 
   --shadow-overlay: 0 6px 24px rgb(0 0 0 / 45%);
+
+  --select-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%239aa4b2' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
 /* Modo automático: sigue al sistema solo si el usuario eligió «automático». */
@@ -155,6 +160,8 @@
     --provider-bg: var(--c-indigo-950);
 
     --shadow-overlay: 0 6px 24px rgb(0 0 0 / 45%);
+
+    --select-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%239aa4b2' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   }
 }
 
@@ -600,12 +607,49 @@ body.shell {
 .field__input {
   font: inherit;
   font-size: 13px;
-  padding: 6px 8px;
+  padding: 6px 9px;
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   background: var(--bg);
   color: var(--text);
   width: 100%;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.field__input:hover {
+  border-color: var(--accent);
+}
+
+/*
+ * Desplegables con apariencia propia.
+ *
+ * Sin `appearance: none` el sistema dibuja su propio control, que desentona con
+ * el resto de la interfaz y no respeta el tema. La flecha es un SVG embebido en
+ * data URI: sin recursos externos, coherente con la CSP estricta.
+ *
+ * Se define una por tema porque un SVG en data URI no puede leer variables CSS.
+ */
+select.field__input {
+  appearance: none;
+  padding-right: 28px;
+  background-image: var(--select-arrow);
+  background-repeat: no-repeat;
+  background-position: right 9px center;
+  background-size: 10px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+select.field__input:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Las opciones se pintan con el color del tema, no con el del sistema. */
+select.field__input option {
+  background: var(--bg);
+  color: var(--text);
+  padding: 6px;
 }
 
 .field__input--compact {

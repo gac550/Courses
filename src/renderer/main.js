@@ -55,6 +55,16 @@ const DOMAIN_LABELS = {
   'proveedor-ia': 'Proveedores de IA',
 };
 
+/** Nombres cortos para que el desplegable no corte la institución. */
+const SHORT_NAMES = {
+  'Massachusetts Institute of Technology': 'MIT',
+  'University of California, Berkeley': 'UC Berkeley',
+  'Banco Interamericano de Desarrollo': 'BID',
+  'Hasso Plattner Institute': 'Hasso Plattner',
+  'Harvard University': 'Harvard',
+  'The Open University': 'Open University',
+};
+
 const el = (id) => document.getElementById(id);
 
 function debounce(fn, ms) {
@@ -164,8 +174,8 @@ async function renderBreakdown() {
 
       const label = document.createElement('span');
       label.className = 'breakdown__label';
-      label.textContent = DOMAIN_LABELS[row.value] ?? row.value;
-      label.title = label.textContent;
+      label.textContent = DOMAIN_LABELS[row.value] ?? SHORT_NAMES[row.value] ?? row.value;
+      label.title = row.value;
 
       const value = document.createElement('span');
       value.className = 'breakdown__value';
@@ -235,7 +245,13 @@ async function renderFilters() {
     for (const option of options) {
       const node = document.createElement('option');
       node.value = option.value;
-      node.textContent = `${DOMAIN_LABELS[option.value] ?? option.value} (${option.n})`;
+
+      // Nombres largos de institución se abrevian para que quepan en el
+      // desplegable, pero el título conserva el nombre completo.
+      const etiqueta = DOMAIN_LABELS[option.value] ?? SHORT_NAMES[option.value] ?? option.value;
+      node.textContent = `${etiqueta} (${option.n})`;
+      node.title = `${option.value} — ${option.n} cursos`;
+
       if (state.filters[key] === option.value) node.selected = true;
       select.append(node);
     }
