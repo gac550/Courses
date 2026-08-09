@@ -1,0 +1,52 @@
+appId: cl.courses.catalog
+productName: Courses
+copyright: Courses
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**/*
+  - package.json
+
+# El catálogo viaja dentro del paquete como semilla. En el primer arranque la app
+# lo copia junto al ejecutable para que quede editable y portable.
+extraResources:
+  - from: data/courses.json
+    to: seed/courses.json
+  - from: data/schema.json
+    to: seed/schema.json
+  - from: config
+    to: seed/config
+
+# Sin firma de código: uso local. macOS pedirá autorizar la app una vez.
+mac:
+  category: public.app-category.education
+  target:
+    - target: dir
+      arch: [arm64]
+    - target: dmg
+      arch: [arm64]
+  identity: null
+  hardenedRuntime: false
+  gatekeeperAssess: false
+
+# Portable: un ejecutable único que funciona desde cualquier carpeta.
+win:
+  target:
+    - target: portable
+      arch: [x64]
+    - target: nsis
+      arch: [x64]
+
+portable:
+  artifactName: Courses-portable-${version}.exe
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+
+dmg:
+  artifactName: Courses-${version}-${arch}.dmg

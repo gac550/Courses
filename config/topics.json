@@ -1,0 +1,51 @@
+{
+  "domains": {
+    "ai-tecnica": {
+      "label": "IA técnica",
+      "keywords": [
+        "artificial intelligence", "machine learning", "deep learning",
+        "generative ai", "foundation model", "large language model", "llm",
+        "natural language processing", "nlp", "computer vision",
+        "reinforcement learning", "neural network", "transformer",
+        "ai agent", "retrieval augmented generation", "rag", "algorithms",
+        "data science", "mlops", "ai engineering", "pytorch", "tensorflow"
+      ]
+    },
+    "ai-negocio": {
+      "label": "IA aplicada al negocio",
+      "keywords": [
+        "ai strategy", "ai transformation", "ai leadership", "ai governance",
+        "responsible ai", "ai ethics", "business applications of ai",
+        "digital transformation", "ai product management", "innovation",
+        "technology strategy", "decision making", "change management",
+        "ai for business", "ai for leaders"
+      ]
+    },
+    "pmo": {
+      "label": "Dirección de proyectos y PMO",
+      "keywords": [
+        "project management", "program management", "portfolio management",
+        "pmo", "pmp", "agile", "scrum", "kanban", "lean", "risk management",
+        "contract management", "cost management", "scheduling", "earned value",
+        "infrastructure project", "construction management", "procurement",
+        "public-private partnership", "ppp", "concession", "capex",
+        "stakeholder management", "project finance"
+      ]
+    }
+  },
+  "levels": ["introductorio", "intermedio", "avanzado"],
+  "credentialTypes": [
+    "certificado gratuito",
+    "badge gratuito",
+    "declaracion de logro",
+    "certificado pagado verificable",
+    "certificado pagado"
+  ],
+  "verificationStatuses": [
+    "VERIFICADO",
+    "PENDIENTE",
+    "REVERIFICAR",
+    "NO_DISPONIBLE",
+    "MANUAL_REVIEW_REQUIRED"
+  ]
+}
