@@ -1,13 +1,13 @@
 {
   "userAgent": "CoursesCatalogBot/0.1 (+catalogo educativo verificable; contacto via repositorio)",
   "concurrency": {
-    "global": 5,
+    "global": 12,
     "perHost": 2
   },
   "delayMsPerHost": 1200,
   "timeoutMs": 15000,
   "maxDepth": 3,
-  "maxPagesPerSource": 40,
+  "maxPagesPerSource": 60,
   "retries": {
     "max": 2,
     "backoffMs": 2000,

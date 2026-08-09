@@ -40,8 +40,20 @@ const fallidos = [];
 
 console.log(`Extrayendo metadatos de ${candidatos.length} candidatos…`);
 
-for (const candidato of candidatos) {
+const inicio = Date.now();
+let procesados = 0;
+
+/**
+ * Procesa un candidato. El fetcher mantiene los límites de concurrencia, de
+ * modo que lanzarlos todos a la vez no atropella a ningún host.
+ */
+async function procesar(candidato) {
   const result = await fetcher.get(candidato.url);
+  procesados += 1;
+
+  if (procesados % 5 === 0 || procesados === candidatos.length) {
+    console.log(`  ${procesados}/${candidatos.length} procesados · ${extraidos.length} extraídos`);
+  }
 
   if (!result.ok) {
     fallidos.push({
@@ -49,7 +61,7 @@ for (const candidato of candidatos) {
       reason: result.reason,
       manualReview: Boolean(result.manualReview),
     });
-    continue;
+    return;
   }
 
   const extraido = extractCourse(result.body, candidato.url);
@@ -68,13 +80,17 @@ for (const candidato of candidatos) {
   });
 }
 
+await Promise.all(candidatos.map(procesar));
+
+const segundos = Math.round((Date.now() - inicio) / 1000);
+
 mkdirSync(discoveryDir, { recursive: true });
 writeFileSync(
   join(discoveryDir, 'extracted.json'),
   `${JSON.stringify({ generated_at: today(), courses: extraidos, failed: fallidos }, null, 2)}\n`,
 );
 
-console.log(`Extraídos: ${extraidos.length} · Fallidos: ${fallidos.length}`);
+console.log(`Extraídos: ${extraidos.length} · Fallidos: ${fallidos.length} (${segundos} s)`);
 console.log('Resultado: data/discovery/extracted.json');
 
 const revision = fallidos.filter((f) => f.manualReview).length;

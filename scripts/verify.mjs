@@ -14,6 +14,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { classifyCandidates } from './lib/dedupe.mjs';
+import { isIndexPage } from './lib/extract-lib.mjs';
 import { makeId } from './lib/normalize.mjs';
 import { isValidHttpUrl } from './lib/urls.mjs';
 import { today } from './lib/dates.mjs';
@@ -52,9 +53,17 @@ const { nuevos, duplicados, ambiguos } = classifyCandidates(candidatos, catalog)
 const aceptables = [];
 const incompletos = [];
 
+const indices = [];
+
 for (const candidate of nuevos) {
   if (!tieneMinimos(candidate)) {
     incompletos.push({ url: candidate.url_official, motivo: 'faltan campos obligatorios' });
+    continue;
+  }
+
+  // Un listado o buscador no es un curso: no debe entrar al catálogo.
+  if (isIndexPage(candidate.url_official, candidate.title)) {
+    indices.push({ url: candidate.url_official, title: candidate.title });
     continue;
   }
 
@@ -128,6 +137,7 @@ writeFileSync(
       note: 'No se fusiona automaticamente: requiere revision manual.',
     })),
     incomplete: incompletos,
+    index_pages: indices,
   }, null, 2)}\n`,
 );
 
@@ -136,4 +146,5 @@ console.log(`  Nuevos aceptables (como PENDIENTE): ${aceptables.length}`);
 console.log(`  Duplicados de cursos ya presentes:  ${duplicados.length}`);
 console.log(`  Ambiguos para revisión manual:      ${ambiguos.length}`);
 console.log(`  Incompletos descartados:            ${incompletos.length}`);
+console.log(`  Páginas de índice descartadas:      ${indices.length}`);
 console.log('Resultado: data/discovery/verified.json');

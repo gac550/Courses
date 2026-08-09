@@ -47,6 +47,8 @@ async function crawlSource(source) {
     return { source: source.id, visited: 0, candidates: [], notes: 'sin seed_urls' };
   }
 
+  console.log(`  ${source.id}: iniciando…`);
+
   const maxDepth = source.max_depth ?? config.maxDepth ?? 3;
   const maxPages = config.maxPagesPerSource ?? 300;
 
@@ -54,6 +56,7 @@ async function crawlSource(source) {
   const candidates = new Map();
   const blocked = [];
   const queue = seeds.map((url) => ({ url, depth: 0 }));
+  let ultimoReporte = -1;
 
   while (queue.length > 0 && visited.size < maxPages) {
     const { url, depth } = queue.shift();
@@ -83,6 +86,14 @@ async function crawlSource(source) {
       });
     }
 
+    // Progreso cada pocas páginas: sin esto la ejecución parece detenida.
+    if (visited.size % 5 === 0 || candidates.size !== ultimoReporte) {
+      console.log(
+        `  ${source.id}: ${visited.size}/${maxPages} páginas · ${candidates.size} candidatos`,
+      );
+      ultimoReporte = candidates.size;
+    }
+
     if (depth >= maxDepth) continue;
 
     for (const link of extractLinks(result.body, url)) {
@@ -109,14 +120,20 @@ async function crawlSource(source) {
 }
 
 const enabled = sources.filter((s) => s.enabled !== false);
-console.log(`Recorriendo ${enabled.length} fuentes habilitadas…`);
+console.log(`Recorriendo ${enabled.length} fuentes habilitadas en paralelo…`);
 
 mkdirSync(discoveryDir, { recursive: true });
 
-const resultados = [];
-for (const source of enabled) {
-  resultados.push(await crawlSource(source));
-}
+const inicio = Date.now();
+
+/*
+ * Las fuentes se recorren en paralelo: apuntan a hosts distintos, y el fetcher
+ * mantiene el límite por host y la pausa mínima. En serie, el tiempo era la
+ * suma de todas las fuentes; en paralelo es el de la más lenta.
+ */
+const resultados = await Promise.all(enabled.map((source) => crawlSource(source)));
+
+const segundos = Math.round((Date.now() - inicio) / 1000);
 
 const salida = {
   generated_at: today(),
@@ -127,7 +144,10 @@ const salida = {
 
 writeFileSync(join(discoveryDir, 'crawl.json'), `${JSON.stringify(salida, null, 2)}\n`);
 
-console.log(`\nTotal: ${salida.total_candidates} candidatos, ${salida.total_blocked} páginas bloqueadas.`);
+console.log(
+  `\nTotal: ${salida.total_candidates} candidatos, ${salida.total_blocked} páginas bloqueadas ` +
+  `(${segundos} s).`,
+);
 console.log('Resultado: data/discovery/crawl.json');
 
 if (salida.total_candidates === 0) {

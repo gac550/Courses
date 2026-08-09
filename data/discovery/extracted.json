@@ -2,6 +2,2436 @@
   "generated_at": "2026-08-09",
   "courses": [
     {
+      "url_official": "https://ocw.mit.edu/courses/9-401-tools-for-robust-science-fall-2022",
+      "title": "Tools for Robust Science | Brain and Cognitive Sciences | MIT OpenCourseWare",
+      "description": "This course offers a comprehensive exploration of cutting-edge tools and techniques designed to revitalize and enhance scientific practices in the cognitive and neuro-sciences. Students will identify obstacles to conducting robust scientific research, practice using tools meant to overcome these obstacles, and critically evaluate these tools’ potential and limitations.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-tools-for-robust-science-brain-and-cognitive-sciences-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/18-s191-introduction-to-computational-thinking-fall-2022",
+      "title": "Introduction to Computational Thinking | Mathematics | MIT OpenCourseWare",
+      "description": "This class uses revolutionary programmable interactivity to combine material from three fields -- Computer Science + Mathematics + Applications -- creating an engaging, efficient learning solution to prepare students to be sophisticated and intuitive thinkers, programmers, and solution providers for the modern interconnected online world. Upon completion, students are well trained to be scientific “trilinguals,” seeing and experimenting with mathematics interactively as math is meant to be seen, and ready to participate and contribute to open source development of large projects and ecosystems.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-introduction-to-computational-thinking-mathematics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc",
+      "title": "Social and Ethical Responsibilities of Computing (SERC) | MIT OpenCourseWare | Free Online Course Materials",
+      "description": "{{% resource_link \"dd13741f-4ef0-4d7b-87ee-194df1baaf53\" \"Social and Ethical Responsibilities of Computing (SERC)\" %}}, a cross-cutting initiative of the {{% resource_link \"cc788e81-f598-4e21-a4e9-667f9995ba2d\" \"MIT Schwarzman College of Computing\" %}}, works to train students and facilitate research to assess the broad challenges and opportunities associated with computing, and improve design, policy, implementation, and impacts. This site is a resource for SERC pedagogical materials developed for use in MIT courses. SERC brings together cross-disciplinary teams of faculty, researchers, and students to develop original pedagogical materials that meet our goal of training students to practice responsible technology development through incorporation of insights and methods from the humanities and social sciences, including an emphasis on social responsibility. Materials include the {{% resource_link \"a3d638e6-468c-4ede-bbac-9bfd8d9a0af2\" \"MIT Case Studies Series in Social and Ethical Responsibilities of Computing\" %}}, original Active Learning Projects, and lecture materials that provide students hands-on practice and training in SERC, together with other resources and tools found useful in education at MIT. Original homework assignments and in-class demonstrations are specially created by multidisciplinary teams, to enable instructors to embed SERC-related material into a wide variety of existing courses. The aim of SERC is to facilitate the development of responsible “habits of mind and action” for those who create and deploy computing technologies, and fostering the creation of technologies in the public interest.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-social-and-ethical-responsibilities-of-computing-serc-mit-opencourseware-free-on",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/18-353j-nonlinear-dynamics-i-chaos-fall-2012",
+      "title": "Nonlinear Dynamics I: Chaos | Mathematics | MIT OpenCourseWare",
+      "description": "This course provides an introduction to nonlinear dynamics and chaos in dissipative systems. The content is structured to be of general interest to undergraduates in engineering and science.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-nonlinear-dynamics-i-chaos-mathematics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/sts-050-the-history-of-mit-spring-2016",
+      "title": "The History of MIT | Science, Technology, and Society | MIT OpenCourseWare",
+      "description": "To study MIT is to study the modern world. In 2016, MIT celebrated the 100{{< sup \"th\" >}} anniversary of the move from Boston to Cambridge; therefore, this course examines the history of the Institute through the lens of the history of science and technology, and vice-versa. It is about discovery, exploration, adventure, learning, creative thinking, and the synthesis of big ideas. Additionally, this course is about the importance of the research university, what it has been in the past and what it will be in the future. The course includes guest lecturers and field trips to the Institute Archives and the MIT Museum. The most important prerequisite for this class is curiosity, a desire to think deeply about MIT, and a willingness to communicate your thoughts and ideas. The ultimate aim is to fascinate you as much as to help you improve your skills synthesizing information from diverse sources about science, technology, and culture.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-the-history-of-mit-science-technology-and-society-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/search",
+      "title": "Search | MIT OpenCourseWare | Free Online Course Materials",
+      "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-search-mit-opencourseware-free-online-course-materials",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/21m-s53-chinese-popular-musics-in-dialogue-spring-2014",
+      "title": "Chinese Popular Musics in Dialogue | Music and Theater Arts | MIT OpenCourseWare",
+      "description": "This course provides an introduction to the major popular music cultures of the Chinese-speaking world. We will consider a wide variety of genres, from Shanghainese shidaiqu to Cantopop to Taiwanese rap, with the goal of listening beyond the notion of a monolithic \"Chinese popular music\" to something more dynamic, multivocal, and translocal. We will ask: What, if anything, is so \"Chinese\" about Chinese popular music? How does popular music participate in the formation of identities for artists and audiences in these areas? How does it enable the articulation of diverging social and political values while also facilitating meaningful connections among disparate communities? We will approach these questions through a diverse array of source materials, including sound recordings, music videos, films, and online multimedia.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-chinese-popular-musics-in-dialogue-music-and-theater-arts-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/21l-021-comedy-spring-2016",
+      "title": "Comedy | Literature | MIT OpenCourseWare",
+      "description": "This course is designed around analyzing what’s so funny and why is it that we laugh when we do. How is comedy characterized on the fictional page, the screen, and the stage? And what might the comic teach us about the self and culture(s), especially when we come to understand its patterns of transgression as confounding social norms through jokes and laughter? Tracking a history of comedy, beginning with the first Greek humorists, Aristophanes and Plautus, we will traverse genres, periods and cultures to reflect on various types of humor: satire, farce, slapstick, love, tragedy, parody, and screwball.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-comedy-literature-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-6-015-discrete-time-signals-and-systems-an-operator-approach",
+      "title": "Discrete-Time Signals and Systems: An Operator Approach | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+      "description": "This online textbook introduces a powerful analytical framework for designing systems across engineering disciplines, from electronics to mechanical and thermal applications. Derived from MIT's foundational Signals and Systems course (6.003), it takes a modern perspective. While traditional courses emphasize continuous-time analog circuits, today's engineers rely primarily on digital technology and discrete-time simulation.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-discrete-time-signals-and-systems-an-operator-approach-electrical-engineering-an",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/sp-248-the-neet-experience-fall-2025",
+      "title": "The NEET Experience | Special Programs | MIT OpenCourseWare",
+      "description": "SP.248 gives first-year students an opportunity to explore various interdisciplinary domains, or threads: autonomous machines, climate and sustainability systems, digital cities, and living machines, all of which are a part of the New Engineering Education Transformation (NEET) program. Students gain knowledge and skills in those domains through interactions with NEET faculty, instructors, and students, and exercise their algorithmic, creative, and systems thinking through team-based challenges taken from those domains.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-the-neet-experience-special-programs-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-15-009-lead-user-innovation-handbook-spring-2026",
+      "title": "Lead User Innovation Handbook | MIT OpenCourseWare | Free Online Course Materials",
+      "description": "MIT Lecturer Erdin Beshimov created a short manual that collects and explains a wide range of lead user innovation cases. Lead user innovation is a process where ideas and new products are designed by the consumers of the product and not by a large corporation. Well-known examples include Airbnb, Spanx, and Odwalla, in addition to many more. Educators everywhere can easily download the handbook and share it with their students. Each example will be presented clearly and briefly, with context and key takeaways that make it easy to use in a classroom discussion or assignment.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-lead-user-innovation-handbook-mit-opencourseware-free-online-course-materials",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
+      "title": "Making Science and Engineering Pictures: A Practical Guide to Presenting Your Work | Chemical Engineering | MIT OpenCourseWare",
+      "description": "In this course you will learn the basics of photography and gain an intriguing new perspective into the visual world. We will begin with a gentle introduction to the tools, and after that, we start in earnest. Although we will emphasize photographing science and engineering, most of the material will easily apply to other kinds of macro photography. The course's video tutorials will be accompanied by assignments using a camera, a flatbed scanner, and mobile devices. You will discover how subtle changes in lighting, composition, and background contribute to creating more effective images. You will also learn to think graphically and present your photographs for journal figures, covers, and grant submissions. We will also host interviews with notable image makers and art directors. In 2026, Felice Frankel updated the course with a video where she discusses AI and its role in generating images. Felice brings our attention to the pitfalls and ethics of using generative AI models to document research and outlines the necessary guardrails to ensure the production of honest and communicative images. About the Instructor {{% resource_link \"6b35a5af-9c0b-497a-a81d-6bec097eea82\" \"Felice Frankel\" %}} is an award-winning science photographer and research scientist in the {{% resource_link \"cff9e868-f3ef-42c2-b2f5-b74b16acd102\" \"Department of Chemical Engineering\" %}} at the Massachusetts Institute of Technology. Felice's images have been internationally published in books, journals, and magazines, including *The New York Times*, *Nature,* *Science*, *National Geographic*, and *Discover*. She is a fellow of the American Association for the Advancement of Science, a Gugghenheim Fellow, has received awards and grants from NSF, NEA, the Alfred P. Sloan Foundation, and was a senior research fellow in Harvard University's Faculty of Arts and Sciences. Acknowledgements The production of these videos is supported by OpenCourseWare, MITx, the Center for Materials Science and Engineering and the following departments: Chemical Engineering, Materials Science and Engineering and Mechanical Engineering.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-wor",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-9-010-bcs-tutorials-optimizing-the-full-stack-for-generative-image-and-video-models-fall-2025",
+      "title": "Brain and Cognitive Sciences Computational Tutorial: Optimizing the Full Stack for Generative Image and Video Models | Brain and Cognitive Sciences | MIT OpenCourseWare",
+      "description": "This tutorial covers optimization strategies for diffusion models used in image and video generation; topics include architecture design, hardware efficiency, and inference techniques. Speaker: Sayak Paul, Hugging Face. This tutorial is part of a seminar series led by graduate students and postdocs in the MIT Department of Brain and Cognitive Sciences (BCS) from 2015 to the present, featuring topics relevant to research on intelligence in neuroscience, cognitive science, and artificial intelligence. The tutorials are aimed at participants who have some computational background but are not experts on these topics. This series was organized by Sol Markman and Ajani Stewart, graduate students in the Department of Brain and Cognitive Sciences.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-brain-and-cognitive-sciences-computational-tutorial-optimizing-the-full-stack-fo",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/15-392-scaling-entrepreneurial-ventures-spring-2026",
+      "title": "Scaling Entrepreneurial Ventures | Sloan School of Management | MIT OpenCourseWare",
+      "description": "This course surveys the personal, institutional, and operational challenges involved in scaling an entrepreneurial venture. It examines effective and ineffective solutions while addressing leadership, culture, operations, governance, and human resources. The course includes case studies and guest speakers. The objective is to allow students to examine common challenges to scaling an entrepreneurial venture and empower future entrepreneurial leaders with the skills necessary to scale ventures into large companies with significant impact. **Prerequisites** {{% resource_link \"f4848b39-7f3c-408b-b059-186dbdc4d0f9\" \"*15.390 New Enterprises*\" %}} or demonstrated proficiency with the *Disciplined Entrepreneurship* framework and general startup principles. **Session Topics** - *Founder to CEO Transition:* The shift from startup founder to scaleup CEO. What changes when you go from building a product to building a company. - *Organizational Design:* Frameworks for scaling organizational structure and decision-making at speed — featuring the Formlabs story. - *Boards & Governance:* Building effective scaleup boards and evolving advisory boards as your company grows beyond its founding stage. - *Go-To-Market at Scale:* Building a durable go-to-market engine. How HubSpot evolved from startup scrappiness to scaleup systems. - *Strategy & Category Creation:* Strategy lessons from unconventional sources — including The Grateful Dead — and marketing in an AI-native world. - *Scaleup Fundraising*: How funding rounds differ, raising a Series A, and why Series B is usually the hardest. Featuring Klaviyo co-founder Ed Hallen. - *Product Development at Scale:* Building product development engines that scale beyond heroics. With Toast CTO & co-founder Steve Fredette. - *AI-Native Hypergrowers:* Inside companies like Suno, Rogo, and Profound — designed from day one to scale faster with AI embedded in everything. - *Scaling People & Culture:* Hiring, firing, culture codes, and what happens to careers in an AI-native world. With HubSpot's Alison Elworthy. - *Customer Delight at Scale:* How Chewy profitably scaled customer delight into a competitive moat. Case study and guest lecture with Larry Cheng.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-scaling-entrepreneurial-ventures-sloan-school-of-management-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/21a-525-oceans-and-us-fall-2025",
+      "title": "Oceans and Us | Anthropology | MIT OpenCourseWare",
+      "description": "This course explores how people have understood and encountered the ocean, cross-culturally, as a site of danger, pleasure, travel, food-procurement, commerce, and tourism. Topics include imperial voyaging, piracy, the invention of seaside vacations, the politics of fishing, the culture of onboard living in surface and submarine ships, the rise of undersea entertainment and documentary, regimes of managing maritime spaces and species, and the emergence of the ocean as an object of global ecological concern, particularly around climate change and sea level rise.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-oceans-and-us-anthropology-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-analysis-life-sciences-4-high-dimensional-data-analysis",
+      "title": "High-Dimensional Data Analysis",
+      "description": "A focus on several techniques that are widely used in the analysis of high-dimensional data.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-high-dimensional-data-analysis",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/es-010-chemistry-of-sports-spring-2013",
+      "title": "Chemistry of Sports | Experimental Study Group | MIT OpenCourseWare",
+      "description": "The seminar is designed to look at the science of triathlons and sports from a molecular/chemical biological point of view. We will be able to use our own bodies to see how exercise affects the system, through observations written in a training journal. We will also improve the overall fitness of the class through maintaining a physical fitness program over the course of the term. The end of the term will have us all participate in a mini-triathlon.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-chemistry-of-sports-experimental-study-group-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/14-129-blockchain-and-the-design-of-financial-systems-spring-2025",
+      "title": "Blockchain and the Design of Financial Systems | Economics | MIT OpenCourseWare",
+      "description": "This course synthesizes the computer science technologies underlying cryptocurrency, blockchain, tokenization, platforms, and computational algorithms with the economics tools of contract theory, mechanism design, general equilibrium theory, and monetary theory. The goal is to understand the assumptions, existing shortcomings, and potential impact on legacy systems of distributed ledgers, smart contracts, and encryption and to explore possibilities for new financial designs and for regulation.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-blockchain-and-the-design-of-financial-systems-economics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/quantitative-methods-biology",
+      "title": "Quantitative Methods for Biology",
+      "description": "Learn introductory programming and data analysis in MATLAB, with applications to biology and medicine.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-quantitative-methods-for-biology",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/health-effects-climate-change",
+      "title": "The Health Effects of Climate Change",
+      "description": "Learn how global warming impacts human health, and the ways we can diminish those impacts.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-the-health-effects-of-climate-change",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/22-51-quantum-theory-of-radiation-interactions-fall-2012",
+      "title": "Quantum Theory of Radiation Interactions | Nuclear Science and Engineering | MIT OpenCourseWare",
+      "description": "This subject introduces the key concepts and formalism of quantum mechanics and their relevance to topics in current research and to practical applications. Starting from the foundation of quantum mechanics and its applications in simple discrete systems, it develops the basic principles of interaction of electromagnetic radiation with matter. Topics covered are composite systems and entanglement, open system dynamics and decoherence, quantum theory of radiation, time-dependent perturbation theory, scattering and cross sections. Examples are drawn from active research topics and applications, such as quantum information processing, coherent control of radiation-matter interactions, neutron interferometry and magnetic resonance.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-quantum-theory-of-radiation-interactions-nuclear-science-and-engineering-mit-ope",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-12-003-fluid-motions-sediment-transport-and-current-generated-sedimentary-structures-fall-2025",
+      "title": "Fluid Motions, Sediment Transport, and Current-Generated Sedimentary Structures | Earth, Atmospheric, and Planetary Sciences | MIT OpenCourseWare",
+      "description": "This course provides a comprehensive examination of the physical processes governing sediment transport in aqueous and aeolian environments. Through four integrated lectures, students develop a quantitative understanding of fluid flow mechanics, sediment transport dynamics, and the generation of sedimentary structures preserved in the stratigraphic record.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-fluid-motions-sediment-transport-and-current-generated-sedimentary-structures-ea",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/principles-statistical-and-computational-tools-reproducible-data-science",
+      "title": "Principles, Statistical and Computational Tools for Reproducible Data Science",
+      "description": "Learn skills and tools that support data science and reproducible research, to ensure you can trust your own research results, reproduce them yourself, and communicate them to others.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-principles-statistical-and-computational-tools-for-reproducible-data-science",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/science-cooking-haute-cuisine-soft-matter-science-physics/2026-02",
+      "title": "Science & Cooking: From Haute Cuisine to Soft Matter Science (physics) - February 2026 | Harvard University",
+      "description": null,
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-science-cooking-from-haute-cuisine-to-soft-matter-science-physics-february-2026-",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/1-74-land-water-food-and-climate-fall-2020",
+      "title": "Land, Water, Food, and Climate | Civil and Environmental Engineering | MIT OpenCourseWare",
+      "description": "This reading seminar examines land, water, food, and climate in a changing world, with an emphasis on key scientific questions about the connections between natural resources and food production. Students read and discuss papers on a range of topics, including water and land resources, climate change, demography, agroecology, biotechnology, trade, and food security. The readings are supplemented by short lectures that provide context and summarize main points. The seminar provides a broad perspective on one of the defining global issues of this century. Students consider scientific controversies as well as areas of general agreement and examine practical solutions for addressing critical problems.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-land-water-food-and-climate-civil-and-environmental-engineering-mit-opencoursewa",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025",
+      "title": "Social Problems of Nuclear Energy | Nuclear Science and Engineering | MIT OpenCourseWare",
+      "description": "This course examines nuclear power as a low‑carbon electricity source, balancing its potential role in addressing climate change against longstanding technical, economic, and social challenges. Topics include the ability of nuclear power to help mitigate climate change; challenges associated with ensuring nuclear safety; the effects of nuclear accidents; the management of nuclear waste; the linkages between nuclear power and nuclear weapons, the consequences of nuclear war; and political challenges to the safe and economic regulation of the nuclear industry. Students explore both fission and fusion technologies, emerging reactor designs, policy options, and the institutional and societal constraints shaping nuclear power’s future. Emphasis is placed on critical evaluation of tradeoffs, uncertainties, and value judgments involved in decisions about nuclear energy within an increasingly competitive renewable energy landscape.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-social-problems-of-nuclear-energy-nuclear-science-and-engineering-mit-opencourse",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/food-fermentation-science-cooking-microbes",
+      "title": "Food Fermentation: The Science of Cooking with Microbes",
+      "description": "Explore the roles that microbes play in the production, preservation, and enhancement of diverse foods in a variety of culinary traditions, and learn about the history of food fermentations.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-food-fermentation-the-science-of-cooking-with-microbes",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/innovating-health-care",
+      "title": "Innovating in Health Care",
+      "description": "Find innovation opportunities in health care technology, management, consulting, or investing by examining health care cost, quality, and access.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-innovating-in-health-care",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024",
+      "title": "How to CAD Almost Anything | Aeronautics and Astronautics | MIT OpenCourseWare",
+      "description": "Have you ever wondered how objects from our daily lives are designed? How can we generate a computer 3D model of a mug, a bottle of Diet Coke, or a Saturn V rocket? What about designing the blades of a jet engine? A test dummy? How about making an animation of a LEGO house building itself? Or making a realistic render of a bowl of fruit? In this workshop, you will learn skills to design all these and much more! How to CAD Almost Anything introduces students to CAD (Computer-Aided Design) through various fun examples focused on reverse engineering. In contrast to traditional mechanical design courses, this workshop emphasizes the design process itself, understanding how to plan and best leverage our available tools to arrive at our desired result. Thus, the sessions are less about following the instructions on an engineering drawing and more about independent thinking and strategizing, such as reverse engineering an object into a 3D model. Come and learn how to CAD almost anything! This supplemental resource offers links to the class’s {{% resource_link \"16babc5f-0e62-460a-b4ba-9a58691cc546\" \"Solidworks\" %}}, {{% resource_link \"d10bb908-13c8-4ddb-9bee-fa8f98e6225e\" \"Fusion 360\" %}}, {{% resource_link \"a5453488-8d59-4d4c-a5e1-d12f25cf65b9\" \"Inventor,\" %}} {{% resource_link \"26cd69cf-0058-4f1f-b146-d59f125d7507\" \"Onshape\" %}}, and {{% resource_link \"758fc0d1-c41c-4289-9985-c6b83e34d067\" \"Siemens NX\" %}} website materials and companion playlists of the {{% resource_link \"bb8eabca-d50c-4e54-8c25-b97eea4b6d80\" \"Solidworks\" %}}, {{% resource_link \"b4a6a168-fba3-48e8-bb28-05eb9e011a8b\" \"Fusion 360,\" %}} {{% resource_link \"43925915-3676-446c-b25e-84037183b6ed\" \"Inventor\" %}}, {{% resource_link \"de9839c7-413a-4fc7-9fe0-1b4ad9692ae2\" \"Onshape\" %}}, and {{% resource_link \"9d0754c5-7bd5-43f8-a211-5d359ef51c92\" \"Siemens NX\" %}} session recordings on YouTube.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-how-to-cad-almost-anything-aeronautics-and-astronautics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/14-454-economic-crises-spring-2026",
+      "title": "Economic Crises | Economics | MIT OpenCourseWare",
+      "description": "This half-semester, 13-week course provides a fast-paced description of the canonical macroeconomic models of ﬁnancial frictions and crises. We will cover various topics, including (i) ﬁnancial ampliﬁcation mechanisms; (ii) ﬁnancial intermediation and credit crunches; (iii) coordination failures and bank runs; (iv) speculative bubbles and credit booms; (v) liquidity traps and deleveraging; and (vi) sudden stops and ﬁnancial contagion.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-economic-crises-economics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/hks-executive-education-faculty-webinar-machine-learning-leaders",
+      "title": "HKS Executive Education Faculty Webinar: Machine Learning for Leaders",
+      "description": "HKS Executive Education and Harvard's John A. Paulson School of Engineering and Applied Sciences present a webinar featuring Harvard faculty Martin Wattenberg and Fernanda Viégas.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-hks-executive-education-faculty-webinar-machine-learning-for-leaders",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-science-r-basics",
+      "title": "Data Science: R Basics",
+      "description": "Build a foundation in R and learn how to wrangle, analyze, and visualize data.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-data-science-r-basics",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025",
+      "title": "Economic Applications of Game Theory | Economics | MIT OpenCourseWare",
+      "description": "Game theory is the mathematical analysis of strategic interaction. It is used to analyze situations in which one person’s best decision depends on the decisions taken by others. Examples include traditional games such as chess and poker, but also collusion by cartels, political competition, voting, bargaining, auctions, and evolution. This course will introduce the fundamental tools of game theory and use these tools to analyze applications.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-economic-applications-of-game-theory-economics-mit-opencourseware",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://ocw.mit.edu/courses/17-449-emerging-technology-and-international-security-fall-2024",
+      "title": "Emerging Technology and International Security | Political Science | MIT OpenCourseWare",
+      "description": "This course explores how emerging technologies—including drones, artificial intelligence, social media, additive manufacturing, and cyber warfare—affect international security. It examines how states develop these technologies, identifies barriers to innovation in the security domain, and considers how the proliferation of new military and dual-use technologies affect decisions on war and peace. The course is designed for students interested in international relations, security studies, and emerging technologies.",
+      "institution": "Massachusetts Institute of Technology",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "mit-emerging-technology-and-international-security-political-science-mit-opencoursew",
+      "source_id": "mit-ocw",
+      "adapter": "mit-ocw",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/applications-tinyml",
+      "title": "Applications of TinyML",
+      "description": "Get the opportunity to see TinyML in practice. You will see examples of TinyML applications, and learn first-hand how to train these models for tiny applications such as keyword spotting, visual wake words, and gesture recognition.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-applications-of-tinyml",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/energy-electrochemistry-final-exam",
+      "title": "Energy to Electrochemistry Final Exam",
+      "description": "Demonstrate your chemistry knowledge in the final exam.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-energy-to-electrochemistry-final-exam",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/leadership-purposeful-change-creating-public-value",
+      "title": "Leadership for Purposeful Change: Creating Public Value",
+      "description": "Learn how to face and meet today’s challenges and design a public value proposition that is both actionable and value creating.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-leadership-for-purposeful-change-creating-public-value",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/introduction-data-wise-collaborative-process-improve-learning-teaching",
+      "title": "Introduction to Data Wise: A Collaborative Process to Improve Learning & Teaching",
+      "description": "Learn what is involved in using data wisely to build a culture of collaborative inquiry.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-introduction-to-data-wise-a-collaborative-process-to-improve-learning-teaching",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-analysis-life-sciences-2-introduction-linear-models-and-matrix-algebra",
+      "title": "Introduction to Linear Models and Matrix Algebra",
+      "description": "Learn to use R programming to apply linear models to analyze data in life sciences.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-introduction-to-linear-models-and-matrix-algebra",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/building-personal-resilience-managing-anxiety-and-mental-health",
+      "title": "Building Personal Resilience: Managing Anxiety and Mental Health",
+      "description": "Join Harvard Medical School faculty Dr. Luana Marques to use applied psychology to build personal resilience with five science-driven skills.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-building-personal-resilience-managing-anxiety-and-mental-health",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/islam-through-its-scriptures",
+      "title": "Islam Through Its Scriptures",
+      "description": "Learn about the Quran, the central sacred text of Islam, through an exploration of the rich diversity of roles and interpretations in Muslim societies.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-islam-through-its-scriptures",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/prescription-drug-regulation-cost-and-access-current-controversies-context",
+      "title": "Prescription Drug Regulation, Cost, and Access: Current Controversies in Context",
+      "description": "Understand how the FDA regulates pharmaceuticals and explore debates on prescription drug costs, marketing, and testing.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-prescription-drug-regulation-cost-and-access-current-controversies-in-context",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/ancient-masterpieces-world-literature",
+      "title": "Ancient Masterpieces of World Literature",
+      "description": "Examine how cultures of the ancient world defined themselves through literature and how their vision of literature contributes to our understanding of civilization, culture, and literature today.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-ancient-masterpieces-of-world-literature",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-analysis-life-sciences-5-introduction-bioconductor-annotation-and-analysis-genomes-and",
+      "title": "Introduction to Bioconductor",
+      "description": "The structure, annotation, normalization, and interpretation of genome scale assays.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-introduction-to-bioconductor",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-emprendimientos-creativos",
+      "title": "Emprendimientos creativos",
+      "description": "¿Estás pensando en sacar adelante un emprendimiento en el sector creativo? ¿Estás dando los primeros pasos en el camino de emprender? Entonces este es un curso para ti.",
+      "institution": null,
+      "course_code": "IDBx+IDB28.5x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb28-5x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/china-part-6-manchus-and-qing",
+      "title": "Modern China’s Foundations: The Manchus and the Qing",
+      "description": "Learn how the Manchus conquered the Qing and established the last of the imperial dynasties.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-modern-china-s-foundations-the-manchus-and-the-qing",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-science-productivity-tools",
+      "title": "Data Science: Productivity Tools",
+      "description": "Keep your projects organized and produce reproducible reports using GitHub, git, Unix/Linux, and RStudio.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-data-science-productivity-tools",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/fundamentals-neuroscience-final-exam",
+      "title": "Fundamentals of Neuroscience Final Exam",
+      "description": "The culmination of the MicroBachelors® program.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-fundamentals-of-neuroscience-final-exam",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/early-childhood-development-global-strategies-interventions",
+      "title": "Early Childhood Development: Global Strategies for Interventions",
+      "description": "Examine best practices in child and family policies, advocacy, financing, and pathways to scale.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-early-childhood-development-global-strategies-for-interventions",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://cs50.harvard.edu/x/courses",
+      "title": "Courses - CS50x 2026",
+      "description": "We offer many courses. For each, we offer verified certificates for a fee and a free certificate. Verified certificates involve a verification process...",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-courses-cs50x-2026",
+      "source_id": "harvard-cs50",
+      "adapter": "harvard-cs50",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://cs50.harvard.edu/workshop/courses",
+      "title": "Courses - CS50 Educator Workshop",
+      "description": "We offer many courses. For each, we offer verified certificates for a fee and a free certificate. Verified certificates involve a verification process...",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": null,
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-courses-cs50-educator-workshop",
+      "source_id": "harvard-cs50",
+      "adapter": "harvard-cs50",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/humanitarian-response-conflict-and-disaster",
+      "title": "Humanitarian Response to Conflict and Disaster",
+      "description": "Learn the principles guiding humanitarian response to modern emergencies, and the challenges faced in the field today.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-humanitarian-response-to-conflict-and-disaster",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/first-nights-berlioz%E2%80%99s-symphonie-fantastique-and-program-music-19th-century",
+      "title": "First Nights: Berlioz’s Symphonie Fantastique and Program Music in the 19th Century",
+      "description": "Learn about Hector Berlioz’s Symphonie Fantastique, an iconic Romantic symphony that ushered in an era of narrative “program music.”",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-first-nights-berlioz-s-symphonie-fantastique-and-program-music-in-the-19th-centu",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/nonprofit-financial-stewardship-webinar-introduction-accounting-and-financial-statements",
+      "title": "Nonprofit Financial Stewardship Webinar: Introduction to Accounting and Financial Statements",
+      "description": "The Introduction to Nonprofit Accounting and Financial Statements webinars provide a great opportunity to learn the basic principles of nonprofit accounting.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-nonprofit-financial-stewardship-webinar-introduction-to-accounting-and-financial",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/energy-and-thermodynamics",
+      "title": "Energy and Thermodynamics",
+      "description": "Learn the fundamentals of chemistry and energy, from the types of energy to atomic mass and matter to enthalpy and thermodynamics.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-energy-and-thermodynamics",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/introduction-data-science-python/2026-05",
+      "title": "Introduction to Data Science with Python - May 2026 | Harvard University",
+      "description": null,
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "harvard-introduction-to-data-science-with-python-may-2026-harvard-university",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/ph556x-practical-improvement-science-health-care-roadmap-getting-results",
+      "title": "Practical Improvement Science in Health Care: A Roadmap for Getting Results",
+      "description": "Learn the skills and tools of improvement science to make positive changes in health, healthcare, and your daily life.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-practical-improvement-science-in-health-care-a-roadmap-for-getting-results",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://pll.harvard.edu/course/data-science-probability",
+      "title": "Data Science: Probability",
+      "description": "Learn probability theory — essential for a data scientist — using a case study on the financial crisis of 2007–2008.",
+      "institution": "Harvard University",
+      "course_code": null,
+      "language": null,
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "harvard-data-science-probability",
+      "source_id": "harvard-pll",
+      "adapter": "harvard-pll",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-women-s-leadership-boost-your-skills-and-drive-change",
+      "title": "Women's Leadership: Boost your skills and drive change",
+      "description": "Build your individual personal development plan, strengthen your intrapersonal and communication skills and enhance your leadership competencies.",
+      "institution": null,
+      "course_code": "IDBx+IDB45.1x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb45-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/government/inter-american-development-bank-gestion-por-resultados-para-gobiernos-subnacionales",
+      "title": "Gestión por resultados para gobiernos subnacionales",
+      "description": "¿Cuál es el rol de los funcionarios públicos y el de la ciudadanía en la gestión para resultados? Descubre los 5 pilares para orientar la gestión pública de los gobiernos subnacionales a obtener los resultados que mejoran la calidad de vida de los ciudadanos.",
+      "institution": null,
+      "course_code": "IDBx+IDB1x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-gestion-de-riesgos-en-proyectos-de-desarrollo",
+      "title": "Gestión de riesgos en proyectos de desarrollo",
+      "description": "Aprende a gestionar anticipadamente los eventos positivos y negativos que pueden afectar la ejecución de un proyecto de desarrollo.",
+      "institution": null,
+      "course_code": "IDBx+IDB34.1x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb34-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-mulheres-na-lideranca-potencialize-suas-habilidades-e-impulsione-a-mudanca",
+      "title": "Mulheres na liderança: potencialize suas habilidades e impulsione a mudança",
+      "description": "Crie seu plano individual de desenvolvimento pessoal, fortaleça suas habilidades intrapessoais e de comunicação e potencialize sua liderança.",
+      "institution": null,
+      "course_code": "IDBx+IDB45.2x",
+      "language": [
+        "pt"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb45-2x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/public-policy/inter-american-development-bank-data-for-effective-policy-making",
+      "title": "Data for Effective Policy Making",
+      "description": "This course will help you take control of data and familiarize yourself with the tools to use it in the planning, management, and evaluation of public policies.",
+      "institution": null,
+      "course_code": "IDBx+IDB10-1x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb10-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/trading",
+      "title": "Online trading courses and certificate programs | edX",
+      "description": "Learn trading online with courses from New York Institute of Finance. Build market analysis, risk management, and strategy skills for finance careers.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "online-trading-courses-and-certificate-programs-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/latin-america/inter-american-development-bank-seguridad-vial-en-america-latina-y-el-caribe-de-la-teoria-a-la-accion",
+      "title": "Seguridad vial en América Latina y el Caribe: de la teoría a la acción",
+      "description": "Conoce los principales retos y herramientas de seguridad vial en América Latina y el Caribe. ¡Un curso con expertos de más de 10 países!",
+      "institution": null,
+      "course_code": "IDBx+IDB16x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb16x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/education/inter-american-development-bank-que-funciona-en-educacion-politicas-educativas-basadas-en-evidencia",
+      "title": "Qué funciona en educación: políticas educativas basadas en evidencia",
+      "description": "Aprende qué funciona en educación: cómo identificar, analizar e implementar políticas educativas que efectivamente mejoran aprendizajes.",
+      "institution": null,
+      "course_code": "IDBx+IDB11x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb11x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/international-project-management/inter-american-development-bank-gestion-de-projets-de-developpement",
+      "title": "Gestion de projets de développement",
+      "description": "Apprenez les meilleures pratiques pour gérer des projets visant à promouvoir le développement économique et social en Amérique Latine et les Caraïbes.",
+      "institution": null,
+      "course_code": "IDBx+IDB6.3x",
+      "language": [
+        "fr"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6-3x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-gestion-de-proyectos-de-desarrollo",
+      "title": "Gestión de proyectos de desarrollo",
+      "description": "Un curso desarrollado para aprender mejores prácticas de gestión de proyectos que promuevan el desarrollo económico y social en América Latina y el Caribe.",
+      "institution": null,
+      "course_code": "IDBx+IDB6x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-project-management-for-development",
+      "title": "Project Management for Development",
+      "description": "A MOOC developed in collaboration with the Project Management Institute Educational Foundation (PMIEF). Learn best practices for managing projects that promote economic and social development in Latin America and the Caribbean.",
+      "institution": null,
+      "course_code": "IDBx+IDB6.1x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
+      "title": "Gestión de proyectos para la innovación en infraestructura social",
+      "description": "Si trabajas en proyectos de infraestructura social en sectores como educación, salud, protección social, seguridad, turismo, entre otros, y buscas fortalecer tus capacidades para formular, planificar, gestionar, ejecutar y monitorear proyectos con mayor eficiencia e innovación, este curso es para ti. A lo largo del curso aprenderás las especificidades de las fases clave de un proyecto de infraestructura social, identificar riesgos y aplicar criterios de diseño, así como instrumentos y herrami...",
+      "institution": null,
+      "course_code": "IDBx+IDB71x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb71x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/finance",
+      "title": "Finance courses online from Harvard and the London School of Economics | edX",
+      "description": "Learn finance from Harvard and the London School of Economics on edX. Master financial analysis, investing, and corporate finance.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "finance-courses-online-from-harvard-and-the-london-school-of-economics-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/water/inter-american-development-bank-agua-en-america-latina-abundancia-en-medio-de-la-escasez-mundial",
+      "title": "Agua en América Latina: Abundancia en medio de la escasez mundial",
+      "description": "Un MOOC desarrollado en colaboración con la Universidad de los Andes (Uniandes) de Colombia, donde diferentes visiones y profesiones se unen para construir alternativas que ayudan a comprender la crisis mundial del agua.",
+      "institution": null,
+      "course_code": "IDBx+IDB3x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb3x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-natural-disaster-and-climate-change-risk-assessment-in-infrastructure-projects",
+      "title": "Natural Disaster and Climate Change Risk Assessment in Infrastructure Projects",
+      "description": "Strengthen your technical and decision-making skills by incorporating climate change resilience and natural disaster risk analysis into the design of infrastructure projects.",
+      "institution": null,
+      "course_code": "IDBx+IDB22.3x",
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb22-3x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/artificial-intelligence",
+      "title": "Artificial intelligence courses online | edX",
+      "description": "Explore AI courses from Harvard, MIT, and IBM on edX. Learn machine learning, generative AI, and more.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "artificial-intelligence-courses-online-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/agile/inter-american-development-bank-pm4r-agile-mentalidad-agil-en-proyectos-de-desarrollo",
+      "title": "PM4R Agile: mentalidad ágil en proyectos de desarrollo",
+      "description": "¿Trabajas en proyectos de desarrollo e impacto social y necesitas mejorar el ritmo de ejecución de tu proyecto? ¿Quieres motivar a tu equipo y aplicar un enfoque ágil en tus proyectos? Aprende los principios básicos de la agilidad y a desarrollar una mentalidad ágil que mejore los resultados de tus proyectos y de tu equipo.",
+      "institution": null,
+      "course_code": "IDBx+IDB6.9x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6-9x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/water/inter-american-development-bank-gestion-del-agua-para-las-ciudades-del-futuro",
+      "title": "Gestión del agua para las ciudades del futuro",
+      "description": "Este MOOC brinda herramientas para mejorar la gestión de los recursos hídricos en las ciudades bajo una visión integral y de sostenibilidad.",
+      "institution": null,
+      "course_code": "IDBx+IDB3.2x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb3-2x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-climate-change-education",
+      "title": "Climate Change Education",
+      "description": "Learn how to work with your students to help them explore climate change through the use of interactive and engaging activities. These activities are designed for students at the primary and secondary levels.",
+      "institution": null,
+      "course_code": "IDBx+IDB20.1x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb20-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/creativity/inter-american-development-bank-el-valor-de-la-creatividad-y-la-innovacion-la-economia-naranja",
+      "title": "El valor de la creatividad y la innovación: La Economía Naranja",
+      "description": "El primer curso en abordar la importancia de la creatividad, la innovación y la cultura como herramientas fundamentales para impulsar el desarrollo económico en América Latina.",
+      "institution": null,
+      "course_code": "IDBx+IDB28x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb28x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/teaching-strategies/inter-american-development-bank-ensenanza-temprana-de-matematicas-y-ciencias",
+      "title": "Enseñanza temprana de matemáticas y ciencias",
+      "description": "Aprende los métodos y prácticas centradas en el estudiante para una enseñanza temprana efectiva de matemáticas y ciencias.",
+      "institution": null,
+      "course_code": "IDBx+IDB14x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb14x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/artificial-intelligence/inter-american-development-bank-como-hacer-uso-responsable-de-la-inteligencia-artificial",
+      "title": "¿Cómo hacer uso responsable de la inteligencia artificial?",
+      "description": "Este MOOC aborda los conceptos, principios, desafíos y oportunidades del uso ético y responsable de la inteligencia artificial (IA) para el sector público. Presenta herramientas para garantizar estándares mínimos, así como para fortalecer la calidad de los datos y de los modelos de IA desde su diseño hasta su implementación y monitoreo. Todo ello con el fin de reducir los posibles riesgos asociados a los sistemas de IA para una adopción de dicha tecnología de forma ética y responsable.",
+      "institution": null,
+      "course_code": "IDBx+IDB44x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb44x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/kifortbildung2025",
+      "title": "Lehrkräfteprofessionalisierung für KI in Schule und Unterricht",
+      "description": "Künstliche Intelligenz ist längst Teil des gesellschaftlichen und schulischen Alltags und eröffnet neue Möglichkeiten für das Lehren und Lernen. Be...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-lehrkrafteprofessionalisierung-fur-ki-in-schule-und-unterricht",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/ferien2025",
+      "title": "Summer Coding Ferienkurse",
+      "description": "##### 🎓 Code your Future – Deine Skills. Deine Ferien. Deine Zukunft.🚀 Lust auf was richtig Nützliches in den Ferien? In unseren **Summer Coding K...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-summer-coding-ferienkurse",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/aisolutions2025",
+      "title": "Sustainability in the digital age: AI and Sustainability - Balancing Innovation and Responsibility",
+      "description": "## Welcome to the \"Sustainability in the Digital Age\" series This course explores the critical intersection of AI and sustainability, highlightin...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-sustainability-in-the-digital-age-ai-and-sustainability-balancing-innovation-and",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/chatgpt2025",
+      "title": "Argumentieren lernen mit KI - für Schule & Alltag",
+      "description": "**Du bist überzeugt, aber noch nicht überzeugend?** In diesem Kurs lernst du, wie du deine Meinung klar und verständlich rüberbringen kannst. Schri...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-argumentieren-lernen-mit-ki-fur-schule-alltag",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/timeseries2025",
+      "title": "Time Series Analysis",
+      "description": "In this course, you’ll learn how to work with time series data — one of the most common and challenging types of data across industries. We’ll star...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-time-series-analysis",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/applications2025",
+      "title": "Introduction to Enterprise Applications",
+      "description": "In this course, you’ll get an overview of the key ingredients of enterprise applications - in general as well as on the example of SAP's offerings....",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-introduction-to-enterprise-applications",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/government/inter-american-development-bank-gobierno-digital",
+      "title": "Gobierno digital",
+      "description": "Todo lo que quieres saber sobre gobierno digital: qué es, por qué es importante y cómo promoverlo, en menos de 2 semanas.",
+      "institution": null,
+      "course_code": "IDBx+IDB31x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb31x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management",
+      "title": "Project management courses online | edX",
+      "description": "Learn project management from top universities on edX. Prepare for PMP and CAPM, master Agile, and advance your career.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "project-management-courses-online-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/profitableai2024",
+      "title": "Profitable AI",
+      "description": "This course explores the hype and realities surrounding AI, the challenges companies face in using AI profitably, and how Germany is performing in ...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-profitable-ai",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/embeddingsfornlp-kisz2023",
+      "title": "Understanding Embeddings for Natural Language Processing",
+      "description": "Gain a basic understanding of how numerical representations transform language! Explore the world of text embeddings in this online course, coverin...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-understanding-embeddings-for-natural-language-processing",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-risk-management-in-development-projects",
+      "title": "Risk Management in Development Projects",
+      "description": "Learn to preemptively manage positive and negative events that may affect the execution of a development project.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB34.2x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb34-2x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/machine-learning",
+      "title": "Online machine learning courses and programs | edX",
+      "description": "Explore machine learning courses from universities and industry experts. Learn ML online and earn certificates with edX.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "online-machine-learning-courses-and-programs-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/kibiases2025",
+      "title": "KI-Biases verstehen und vermeiden",
+      "description": "Künstliche Intelligenz durchdringt zunehmend unseren (Arbeits)Alltag. Vor allem generative KI-Systeme haben die Masse der Arbeitnehmerschaft erreic...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-ki-biases-verstehen-und-vermeiden",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/education/inter-american-development-bank-que-funciona-en-educacion-politicas-educativas-basadas-en-evidencia",
+      "title": "Qué funciona en educación: políticas educativas basadas en evidencia",
+      "description": "Aprende qué funciona en educación: cómo identificar, analizar e implementar políticas educativas que efectivamente mejoran aprendizajes.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB11x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb11x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/software-engineering",
+      "title": "Online software engineering courses and programs | edX",
+      "description": "Learn software engineering from Harvard, MIT, and IBM on edX. Master Python, data structures, and algorithms to launch a high-paying tech career.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-online-software-engineering-courses-and-programs-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/teaching-strategies/inter-american-development-bank-ensenanza-temprana-de-matematicas-y-ciencias",
+      "title": "Enseñanza temprana de matemáticas y ciencias",
+      "description": "Aprende los métodos y prácticas centradas en el estudiante para una enseñanza temprana efectiva de matemáticas y ciencias.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB14x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb14x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-gestao-de-projetos-de-desenvolvimento",
+      "title": "Gestão de Projetos de Desenvolvimento",
+      "description": "MOOC desenvolvido em colaboração com o Project Management Institute Educational Foundation (PMI-EF). Aprenda melhores práticas de gestão de projetos governamentais para promover o desenvolvimento social e econômico da América Latina e do Caribe.",
+      "institution": null,
+      "course_code": "IDBx+IDB6.2x",
+      "language": [
+        "pt"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6-2x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-creative-enterprises",
+      "title": "Creative Enterprises",
+      "description": "Are you thinking about starting a business in the creative industry? Are you taking your first steps toward entrepreneurship? If so, this course is for you.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB28.3x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb28-3x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-liderazgo-femenino-potencia-tus-habilidades-e-impulsa-el-cambio",
+      "title": "Liderazgo femenino: potencia tus habilidades e impulsa el cambio",
+      "description": "Construye tu plan individual de desarrollo personal, fortalece tus habilidades intrapersonales y comunicacionales y consigue potenciar tu liderazgo.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB45x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb45x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/data-science",
+      "title": "Data science courses online from MIT and IBM | edX",
+      "description": "Learn data science from MIT, Harvard, and IBM on edX. Explore courses in Python, SQL, machine learning, and data analysis.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "data-science-courses-online-from-mit-and-ibm-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-analisis-del-riesgo-de-desastres-y-cambio-climatico-en-proyectos-de-infraestructura",
+      "title": "Análisis del riesgo de desastres y cambio climático en proyectos de infraestructura",
+      "description": "Fortalece tus capacidades técnicas y toma decisiones, incorporando el análisis de riesgo de desastres naturales y resiliencia al cambio climático en el diseño de proyectos de infraestructura.",
+      "institution": null,
+      "course_code": "IDBx+IDB22.1x",
+      "language": [
+        "es"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb22-1x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/computervision2025",
+      "title": "Practical Computer Vision with PyTorch",
+      "description": "Practical Computer Vision in PyTorch is a comprehensive, hands-on course for developers and practitioners eager to explore computer vision with PyT...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-practical-computer-vision-with-pytorch",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/data-analysis",
+      "title": "Data analysis courses online | edX",
+      "description": "Learn data analysis from Microsoft, MIT, and IBM on edX. Master Python, SQL, Excel, and data visualization to advance your career.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "data-analysis-courses-online-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-creative-enterprises",
+      "title": "Creative Enterprises",
+      "description": "Are you thinking about starting a business in the creative industry? Are you taking your first steps toward entrepreneurship? If so, this course is for you.",
+      "institution": null,
+      "course_code": "IDBx+IDB28.3x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb28-3x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/weatherpredictions2025",
+      "title": "Efficient AI for Weather Forecasting",
+      "description": "Extreme weather events have caused severe damage and loss of life in recent decades. Traditional numerical weather prediction, while accurate, is c...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-efficient-ai-for-weather-forecasting",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/aimethods2025",
+      "title": "Sustainability in the Digital Age: Efficient AI Techniques in the LLM Era",
+      "description": "## Welcome to the \"Sustainability in the Digital Age\" series In an era where digital technologies are reshaping industries and daily life, the envi...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-sustainability-in-the-digital-age-efficient-ai-techniques-in-the-llm-era",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
       "url_official": "https://open.hpi.de/learn/kibiasessus2026",
       "title": "Digitale Gerechtigkeit - Wie du dich für eine fairere KI-Zukunft engagieren kannst",
       "description": "Künstliche Intelligenz ist längst Teil deines Alltags geworden. Von Empfehlungsalgorithmen in sozialen Medien bis hin zu dem generieren von Geburts...",
@@ -22,6 +2452,1230 @@
       "id": "hasso-plattner-institute-digitale-gerechtigkeit-wie-du-dich-fur-eine-fairere-ki-zukunft-engagieren-kannst",
       "source_id": "openhpi",
       "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/public-policy/inter-american-development-bank-datos-para-la-efectividad-de-las-politicas-publicas",
+      "title": "Datos para la efectividad de las políticas públicas",
+      "description": "Este curso te ayudará a tomar el control de los datos y familiarizarte con las herramientas para utilizarlos en la planificación, gestión y evaluación de políticas públicas.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB10x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb10x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-liderazgo-femenino-potencia-tus-habilidades-e-impulsa-el-cambio",
+      "title": "Liderazgo femenino: potencia tus habilidades e impulsa el cambio",
+      "description": "Construye tu plan individual de desarrollo personal, fortalece tus habilidades intrapersonales y comunicacionales y consigue potenciar tu liderazgo.",
+      "institution": null,
+      "course_code": "IDBx+IDB45x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb45x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/python2025",
+      "title": "Python for Beginners",
+      "description": "Join this free online course to learn how to program with Python. You’ll be introduced to the fundamentals of the programming language like variabl...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-python-for-beginners",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/speechtosummary-kisz2023",
+      "title": "Selection and Implementation of AI Models: Speech2Summary",
+      "description": "On 11th July, 2023, the first [KISZ][1] workshop on \"Pre-trained AI Models: The speech-to-summary example\" takes place. The contents of the worksh...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": false,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-selection-and-implementation-of-ai-models-speech2summary",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/public-policy/inter-american-development-bank-datos-para-la-efectividad-de-las-politicas-publicas",
+      "title": "Datos para la efectividad de las políticas públicas",
+      "description": "Este curso te ayudará a tomar el control de los datos y familiarizarte con las herramientas para utilizarlos en la planificación, gestión y evaluación de políticas públicas.",
+      "institution": null,
+      "course_code": "IDBx+IDB10x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb10x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-gestion-de-proyectos-para-la-innovacion-en-infraestructura-social",
+      "title": "Gestión de proyectos para la innovación en infraestructura social",
+      "description": "Si trabajas en proyectos de infraestructura social en sectores como educación, salud, protección social, seguridad, turismo, entre otros, y buscas fortalecer tus capacidades para formular, planificar, gestionar, ejecutar y monitorear proyectos con mayor eficiencia e innovación, este curso es para ti. A lo largo del curso aprenderás las especificidades de las fases clave de un proyecto de infraestructura social, identificar riesgos y aplicar criterios de diseño, así como instrumentos y herrami...",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB71x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb71x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/agile-project-management/inter-american-development-bank-pm4r-agile-5-pasos-para-la-gestion-hibrida-de-proyectos-de-desarrollo",
+      "title": "PM4R Agile: 5 pasos para la gestión híbrida de proyectos de desarrollo",
+      "description": "¿Te gustaría saber una manera de agilizar la ejecución de tu proyecto? Fortalece tu mentalidad ágil aprendiendo cómo aplicar esta metodología de 5 pasos que permite entregar mayor valor de manera continua, adaptarse a los cambios e incorporar el aprendizaje durante la ejecución.",
+      "institution": null,
+      "course_code": "IDBx+IDB6.12x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb6-12x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/sustainable-development/inter-american-development-bank-infraestructura-sostenible-una-vision-integral-para-el-desarrollo",
+      "title": "Infraestructura sostenible: una visión integral para el desarrollo",
+      "description": "Aprende por qué la infraestructura sostenible debe ser la base para que los países de América Latina y el Caribe logren un crecimiento económico inclusivo que permita alcanzar los Objetivos de Desarrollo Sostenible y las metas del Acuerdo de París.",
+      "institution": null,
+      "course_code": "IDBx+IDB32x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb32x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/environmental-studies/inter-american-development-bank-natural-capital-for-development-valuation-investment-and-policy",
+      "title": "Natural Capital for Development: Valuation, Investment and Policy.",
+      "description": "Are you a government official or practitioner involved in decision-making and looking to better integrate nature into policies and investments across sectors? This course is for you. You will learn about Natural Capital Assessment, a process that makes the value of nature visible by mapping, modeling, and quantifying ecosystem services. Learn how to integrate natural capital into public policy and investment decisions, and apply nature-positive strategies that strengthen resilience, support s...",
+      "institution": null,
+      "course_code": "IDBx+70x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-70x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/artificial-intelligence",
+      "title": "Artificial intelligence courses online | edX",
+      "description": "Explore AI courses from Harvard, MIT, and IBM on edX. Learn machine learning, generative AI, and more.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-artificial-intelligence-courses-online-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/kianwendungen2025",
+      "title": "Chatbots leicht gemacht: Große Sprachmodelle einfach nutzen",
+      "description": "Die wachsende Bedeutung von KI-Chatbots in der modernen Arbeitswelt stellt Organisationen vor neue Herausforderungen und Chancen. Wie können intell...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-chatbots-leicht-gemacht-gro-e-sprachmodelle-einfach-nutzen",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://open.hpi.de/learn/xmas2025",
+      "title": "openHPI Adventskalender",
+      "description": "### Der openHPI-Adventskalender ist da! ❄️ Jeden Tag ein neues Türchen, jeden Tag eine neue Aufgabe. Hinter 24 digitalen Türchen warten spannend...",
+      "institution": "Hasso Plattner Institute",
+      "course_code": null,
+      "language": [
+        "de"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": false,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": false
+      },
+      "id": "hasso-plattner-institute-openhpi-adventskalender",
+      "source_id": "openhpi",
+      "adapter": "generic",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-risk-management-in-development-projects",
+      "title": "Risk Management in Development Projects",
+      "description": "Learn to preemptively manage positive and negative events that may affect the execution of a development project.",
+      "institution": null,
+      "course_code": "IDBx+IDB34.2x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb34-2x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/python",
+      "title": "Python courses online from Harvard, MIT and IBM | edX",
+      "description": "Learn Python from Harvard, MIT, and IBM on edX. Build skills in data science, AI, machine learning, and web development.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "python-courses-online-from-harvard-mit-and-ibm-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-gestion-de-proyectos-de-desarrollo",
+      "title": "Gestión de proyectos de desarrollo",
+      "description": "Un curso desarrollado para aprender mejores prácticas de gestión de proyectos que promuevan el desarrollo económico y social en América Latina y el Caribe.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/agile-project-management/inter-american-development-bank-pm4r-agile-5-pasos-para-la-gestion-hibrida-de-proyectos-de-desarrollo",
+      "title": "PM4R Agile: 5 pasos para la gestión híbrida de proyectos de desarrollo",
+      "description": "¿Te gustaría saber una manera de agilizar la ejecución de tu proyecto? Fortalece tu mentalidad ágil aprendiendo cómo aplicar esta metodología de 5 pasos que permite entregar mayor valor de manera continua, adaptarse a los cambios e incorporar el aprendizaje durante la ejecución.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6.12x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6-12x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/excel",
+      "title": "Online Excel courses for data analysis | edX",
+      "description": "Learn Microsoft Excel from top universities on edX. Master data analysis, formulas, dashboards, and more to advance your career.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "online-excel-courses-for-data-analysis-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-gestao-de-riscos-em-projetos",
+      "title": "Gestão de riscos em projetos",
+      "description": "Aprenda a gerenciar com antecedência os eventos positivos e negativos que possam afetar a execução de um projeto de desenvolvimento.",
+      "institution": null,
+      "course_code": "IDBx+IDB34.3x",
+      "language": [
+        "pt"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-idb34-3x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/environmental-studies/inter-american-development-bank-natural-capital-for-development-valuation-investment-and-policy",
+      "title": "Natural Capital for Development: Valuation, Investment and Policy.",
+      "description": "Are you a government official or practitioner involved in decision-making and looking to better integrate nature into policies and investments across sectors? This course is for you. You will learn about Natural Capital Assessment, a process that makes the value of nature visible by mapping, modeling, and quantifying ecosystem services. Learn how to integrate natural capital into public policy and investment decisions, and apply nature-positive strategies that strengthen resilience, support s...",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+70x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-70x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/government/inter-american-development-bank-gobierno-digital",
+      "title": "Gobierno digital",
+      "description": "Todo lo que quieres saber sobre gobierno digital: qué es, por qué es importante y cómo promoverlo, en menos de 2 semanas.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB31x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb31x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/data-analysis",
+      "title": "Data analysis courses online | edX",
+      "description": "Learn data analysis from Microsoft, MIT, and IBM on edX. Master Python, SQL, Excel, and data visualization to advance your career.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-data-analysis-courses-online-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/business-management/inter-american-development-bank-emprendimientos-creativos",
+      "title": "Emprendimientos creativos",
+      "description": "¿Estás pensando en sacar adelante un emprendimiento en el sector creativo? ¿Estás dando los primeros pasos en el camino de emprender? Entonces este es un curso para ti.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB28.5x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb28-5x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/artificial-intelligence/inter-american-development-bank-como-hacer-uso-responsable-de-la-inteligencia-artificial",
+      "title": "¿Cómo hacer uso responsable de la inteligencia artificial?",
+      "description": "Este MOOC aborda los conceptos, principios, desafíos y oportunidades del uso ético y responsable de la inteligencia artificial (IA) para el sector público. Presenta herramientas para garantizar estándares mínimos, así como para fortalecer la calidad de los datos y de los modelos de IA desde su diseño hasta su implementación y monitoreo. Todo ello con el fin de reducir los posibles riesgos asociados a los sistemas de IA para una adopción de dicha tecnología de forma ética y responsable.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB44x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb44x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-mulheres-na-lideranca-potencialize-suas-habilidades-e-impulsione-a-mudanca",
+      "title": "Mulheres na liderança: potencialize suas habilidades e impulsione a mudança",
+      "description": "Crie seu plano individual de desenvolvimento pessoal, fortaleça suas habilidades intrapessoais e de comunicação e potencialize sua liderança.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB45.2x",
+      "language": [
+        "pt"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb45-2x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/sustainable-development/inter-american-development-bank-infraestructura-sostenible-una-vision-integral-para-el-desarrollo",
+      "title": "Infraestructura sostenible: una visión integral para el desarrollo",
+      "description": "Aprende por qué la infraestructura sostenible debe ser la base para que los países de América Latina y el Caribe logren un crecimiento económico inclusivo que permita alcanzar los Objetivos de Desarrollo Sostenible y las metas del Acuerdo de París.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB32x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb32x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/international-project-management/inter-american-development-bank-gestion-de-projets-de-developpement",
+      "title": "Gestion de projets de développement",
+      "description": "Apprenez les meilleures pratiques pour gérer des projets visant à promouvoir le développement économique et social en Amérique Latine et les Caraïbes.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6.3x",
+      "language": [
+        "fr"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6-3x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/trading",
+      "title": "Online trading courses and certificate programs | edX",
+      "description": "Learn trading online with courses from New York Institute of Finance. Build market analysis, risk management, and strategy skills for finance careers.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-online-trading-courses-and-certificate-programs-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/water/inter-american-development-bank-gestion-del-agua-para-las-ciudades-del-futuro",
+      "title": "Gestión del agua para las ciudades del futuro",
+      "description": "Este MOOC brinda herramientas para mejorar la gestión de los recursos hídricos en las ciudades bajo una visión integral y de sostenibilidad.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB3.2x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb3-2x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-project-management-for-development",
+      "title": "Project Management for Development",
+      "description": "A MOOC developed in collaboration with the Project Management Institute Educational Foundation (PMIEF). Learn best practices for managing projects that promote economic and social development in Latin America and the Caribbean.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6.1x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/justice/inter-american-development-bank-lideres-para-la-gestion-en-seguridad-ciudadana-y-justicia",
+      "title": "Líderes para la gestión en seguridad ciudadana y justicia",
+      "description": "Este curso se centra en seguridad ciudadana y justicia en América Latina y el Caribe. Aprende sobre lo último en prevención, modernización policial y de justicia, y reinserción social.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+17.2x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-17-2x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/creativity/inter-american-development-bank-el-valor-de-la-creatividad-y-la-innovacion-la-economia-naranja",
+      "title": "El valor de la creatividad y la innovación: La Economía Naranja",
+      "description": "El primer curso en abordar la importancia de la creatividad, la innovación y la cultura como herramientas fundamentales para impulsar el desarrollo económico en América Latina.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB28x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb28x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/justice/inter-american-development-bank-lideres-para-la-gestion-en-seguridad-ciudadana-y-justicia",
+      "title": "Líderes para la gestión en seguridad ciudadana y justicia",
+      "description": "Este curso se centra en seguridad ciudadana y justicia en América Latina y el Caribe. Aprende sobre lo último en prevención, modernización policial y de justicia, y reinserción social.",
+      "institution": null,
+      "course_code": "IDBx+17.2x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "idbx-17-2x",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management/inter-american-development-bank-gestao-de-projetos-de-desenvolvimento",
+      "title": "Gestão de Projetos de Desenvolvimento",
+      "description": "MOOC desenvolvido em colaboração com o Project Management Institute Educational Foundation (PMI-EF). Aprenda melhores práticas de gestão de projetos governamentais para promover o desenvolvimento social e econômico da América Latina e do Caribe.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6.2x",
+      "language": [
+        "pt"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6-2x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/water/inter-american-development-bank-agua-en-america-latina-abundancia-en-medio-de-la-escasez-mundial",
+      "title": "Agua en América Latina: Abundancia en medio de la escasez mundial",
+      "description": "Un MOOC desarrollado en colaboración con la Universidad de los Andes (Uniandes) de Colombia, donde diferentes visiones y profesiones se unen para construir alternativas que ayudan a comprender la crisis mundial del agua.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB3x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb3x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/finance",
+      "title": "Finance courses online from Harvard and the London School of Economics | edX",
+      "description": "Learn finance from Harvard and the London School of Economics on edX. Master financial analysis, investing, and corporate finance.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-finance-courses-online-from-harvard-and-the-london-school-of-economics-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/agile/inter-american-development-bank-pm4r-agile-mentalidad-agil-en-proyectos-de-desarrollo",
+      "title": "PM4R Agile: mentalidad ágil en proyectos de desarrollo",
+      "description": "¿Trabajas en proyectos de desarrollo e impacto social y necesitas mejorar el ritmo de ejecución de tu proyecto? ¿Quieres motivar a tu equipo y aplicar un enfoque ágil en tus proyectos? Aprende los principios básicos de la agilidad y a desarrollar una mentalidad ágil que mejore los resultados de tus proyectos y de tu equipo.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB6.9x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb6-9x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/latin-america/inter-american-development-bank-seguridad-vial-en-america-latina-y-el-caribe-de-la-teoria-a-la-accion",
+      "title": "Seguridad vial en América Latina y el Caribe: de la teoría a la acción",
+      "description": "Conoce los principales retos y herramientas de seguridad vial en América Latina y el Caribe. ¡Un curso con expertos de más de 10 países!",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB16x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb16x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-natural-disaster-and-climate-change-risk-assessment-in-infrastructure-projects",
+      "title": "Natural Disaster and Climate Change Risk Assessment in Infrastructure Projects",
+      "description": "Strengthen your technical and decision-making skills by incorporating climate change resilience and natural disaster risk analysis into the design of infrastructure projects.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB22.3x",
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb22-3x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-climate-change-education",
+      "title": "Climate Change Education",
+      "description": "Learn how to work with your students to help them explore climate change through the use of interactive and engaging activities. These activities are designed for students at the primary and secondary levels.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB20.1x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb20-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/project-management",
+      "title": "Project management courses online | edX",
+      "description": "Learn project management from top universities on edX. Prepare for PMP and CAPM, master Agile, and advance your career.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-project-management-courses-online-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-gestao-de-riscos-em-projetos",
+      "title": "Gestão de riscos em projetos",
+      "description": "Aprenda a gerenciar com antecedência os eventos positivos e negativos que possam afetar a execução de um projeto de desenvolvimento.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB34.3x",
+      "language": [
+        "pt"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb34-3x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/climate-change/inter-american-development-bank-analisis-del-riesgo-de-desastres-y-cambio-climatico-en-proyectos-de-infraestructura",
+      "title": "Análisis del riesgo de desastres y cambio climático en proyectos de infraestructura",
+      "description": "Fortalece tus capacidades técnicas y toma decisiones, incorporando el análisis de riesgo de desastres naturales y resiliencia al cambio climático en el diseño de proyectos de infraestructura.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB22.1x",
+      "language": [
+        "es"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb22-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/leadership/inter-american-development-bank-women-s-leadership-boost-your-skills-and-drive-change",
+      "title": "Women's Leadership: Boost your skills and drive change",
+      "description": "Build your individual personal development plan, strengthen your intrapersonal and communication skills and enhance your leadership competencies.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB45.1x",
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb45-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/excel",
+      "title": "Online Excel courses for data analysis | edX",
+      "description": "Learn Microsoft Excel from top universities on edX. Master data analysis, formulas, dashboards, and more to advance your career.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-online-excel-courses-for-data-analysis-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/machine-learning",
+      "title": "Online machine learning courses and programs | edX",
+      "description": "Explore machine learning courses from universities and industry experts. Learn ML online and earn certificates with edX.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-online-machine-learning-courses-and-programs-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/data-science",
+      "title": "Data science courses online from MIT and IBM | edX",
+      "description": "Learn data science from MIT, Harvard, and IBM on edX. Explore courses in Python, SQL, machine learning, and data analysis.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": null,
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-data-science-courses-online-from-mit-and-ibm-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/python",
+      "title": "Python courses online from Harvard, MIT and IBM | edX",
+      "description": "Learn Python from Harvard, MIT, and IBM on edX. Build skills in data science, AI, machine learning, and web development.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": true,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-python-courses-online-from-harvard-mit-and-ibm-edx",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/government/inter-american-development-bank-gestion-por-resultados-para-gobiernos-subnacionales",
+      "title": "Gestión por resultados para gobiernos subnacionales",
+      "description": "¿Cuál es el rol de los funcionarios públicos y el de la ciudadanía en la gestión para resultados? Descubre los 5 pilares para orientar la gestión pública de los gobiernos subnacionales a obtener los resultados que mejoran la calidad de vida de los ciudadanos.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB1x",
+      "language": [
+        "es"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/public-policy/inter-american-development-bank-data-for-effective-policy-making",
+      "title": "Data for Effective Policy Making",
+      "description": "This course will help you take control of data and familiarize yourself with the tools to use it in the planning, management, and evaluation of public policies.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB10-1x",
+      "language": [
+        "en"
+      ],
+      "level": "introductorio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb10-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/software-engineering",
+      "title": "Online software engineering courses and programs | edX",
+      "description": "Learn software engineering from Harvard, MIT, and IBM on edX. Master Python, data structures, and algorithms to launch a high-paying tech career.",
+      "institution": null,
+      "course_code": null,
+      "language": [
+        "en"
+      ],
+      "level": "avanzado",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": false,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "online-software-engineering-courses-and-programs-edx",
+      "source_id": "edx",
+      "adapter": "edx",
+      "discovered_at": "2026-08-09",
+      "extracted_at": "2026-08-09"
+    },
+    {
+      "url_official": "https://edx.org/learn/risk-management/inter-american-development-bank-gestion-de-riesgos-en-proyectos-de-desarrollo",
+      "title": "Gestión de riesgos en proyectos de desarrollo",
+      "description": "Aprende a gestionar anticipadamente los eventos positivos y negativos que pueden afectar la ejecución de un proyecto de desarrollo.",
+      "institution": "Banco Interamericano de Desarrollo",
+      "course_code": "IDBx+IDB34.1x",
+      "language": [
+        "es"
+      ],
+      "level": "intermedio",
+      "evidence": {
+        "hasJsonLd": true,
+        "hasCourseEntity": true,
+        "mentionsFree": false,
+        "mentionsCertificate": true,
+        "mentionsBadge": false,
+        "mentionsAudit": true
+      },
+      "id": "iadb-idbx-idb34-1x",
+      "source_id": "iadb",
+      "adapter": "iadb",
       "discovered_at": "2026-08-09",
       "extracted_at": "2026-08-09"
     }

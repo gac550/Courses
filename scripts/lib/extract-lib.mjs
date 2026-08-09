@@ -72,9 +72,43 @@ export function extractMeta(html, property) {
   return null;
 }
 
+/**
+ * Título del documento sin el sufijo del sitio.
+ *
+ * Muchas páginas usan «Título | Sitio» o «Título - Sitio». Se conserva el
+ * segmento más largo, que casi siempre es el título real del curso.
+ */
 export function extractTitle(html) {
   const match = String(html).match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  return match ? clean(match[1]) : null;
+  const raw = match ? clean(match[1]) : null;
+  if (!raw) return null;
+
+  const parts = raw.split(/\s+[|·–—]\s+/).map((p) => p.trim()).filter(Boolean);
+  if (parts.length < 2) return raw;
+
+  return parts.reduce((a, b) => (b.length > a.length ? b : a));
+}
+
+/**
+ * Detecta páginas de índice, búsqueda o listado que no son cursos.
+ * Sin este filtro, entrarían al catálogo como si lo fueran.
+ */
+export function isIndexPage(url, title) {
+  const path = (() => {
+    try {
+      return new URL(url).pathname.replace(/\/$/, '');
+    } catch {
+      return String(url);
+    }
+  })();
+
+  // Rutas que son claramente listados, no fichas de curso.
+  if (/\/(search|courses|cursos|catalog|catalogo|browse|explore|index|all)$/i.test(path)) return true;
+
+  const name = clean(title);
+  if (!name) return false;
+
+  return /^(search|courses?|cursos?|catalog|catálogo|browse|explore|all courses|home)\b/i.test(name);
 }
 
 /** Texto visible, sin scripts ni estilos. Para búsqueda de indicios. */

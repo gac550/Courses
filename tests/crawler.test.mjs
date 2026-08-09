@@ -5,7 +5,7 @@ import { parseRobots, isAllowedByRules, clearRobotsCache } from '../scripts/lib/
 import { createFetcher } from '../scripts/lib/fetcher.mjs';
 import {
   extractJsonLd, findCourseEntity, extractMeta, extractTitle,
-  extractLinks, detectLevel, extractCourse,
+  extractLinks, detectLevel, extractCourse, isIndexPage,
 } from '../scripts/lib/extract-lib.mjs';
 import { similarity, findDuplicate, classifyCandidates } from '../scripts/lib/dedupe.mjs';
 
@@ -162,8 +162,27 @@ test('se leen los metadatos OpenGraph', () => {
   assert.equal(extractMeta(HTML_CURSO, 'og:inexistente'), null);
 });
 
-test('se lee el título del documento', () => {
-  assert.equal(extractTitle(HTML_CURSO), 'Curso de prueba | Plataforma');
+test('el título descarta el sufijo del sitio', () => {
+  assert.equal(extractTitle(HTML_CURSO), 'Curso de prueba');
+  assert.equal(
+    extractTitle('<title>Nonlinear Dynamics I: Chaos | Mathematics | MIT OpenCourseWare</title>'),
+    'Nonlinear Dynamics I: Chaos',
+  );
+});
+
+test('un título sin separador se conserva íntegro', () => {
+  assert.equal(extractTitle('<title>Introduction to Algorithms</title>'), 'Introduction to Algorithms');
+});
+
+test('las páginas de índice se reconocen y no son cursos', () => {
+  assert.equal(isIndexPage('https://ocw.mit.edu/search', 'Search | MIT OpenCourseWare'), true);
+  assert.equal(isIndexPage('https://cs50.harvard.edu/x/courses', 'Courses - CS50x 2026'), true);
+  assert.equal(isIndexPage('https://open.hpi.de/courses', 'Kurse'), true);
+});
+
+test('una ficha de curso no se confunde con un índice', () => {
+  assert.equal(isIndexPage('https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/', 'Introduction to Algorithms'), false);
+  assert.equal(isIndexPage('https://open.hpi.de/courses/python2025', 'Python for Beginners'), false);
 });
 
 test('los enlaces se resuelven a absolutos y se deduplican', () => {

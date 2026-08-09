@@ -274,14 +274,35 @@ function metaItem(key, value) {
   return item;
 }
 
-function externalLink(label, url) {
+function externalLink(label, url, modifier) {
   if (!url) return null;
 
   const link = document.createElement('a');
   link.href = url;
-  link.textContent = label;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
+  link.className = modifier ? `card__link card__link--${modifier}` : 'card__link';
+
+  // Muestra el dominio de destino: el usuario sabe adónde va antes de pulsar.
+  let host = null;
+  try {
+    host = new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    host = null;
+  }
+
+  const text = document.createElement('span');
+  text.textContent = label;
+  link.append(text);
+
+  if (host) {
+    const domain = document.createElement('span');
+    domain.className = 'card__link-host';
+    domain.textContent = host;
+    link.append(domain);
+  }
+
+  link.title = url;
 
   // El proceso principal abre el enlace en el navegador del sistema.
   link.addEventListener('click', (event) => {
@@ -377,7 +398,7 @@ function renderCard(course) {
   }
 
   const links = [
-    externalLink('Curso', course.url_official),
+    externalLink('Ir al curso', course.url_official, 'primary'),
     externalLink('Programa', course.url_syllabus),
     externalLink('Credencial', course.url_credential_info),
     externalLink('Fuente de verificación', course.source_of_truth),

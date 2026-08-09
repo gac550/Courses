@@ -763,21 +763,57 @@ body.shell {
 .card__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  align-items: center;
+  gap: 8px 14px;
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px solid var(--border);
   font-size: 13px;
 }
 
-.card__links a {
+.card__link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
   color: var(--accent);
   text-decoration: none;
   font-weight: 550;
 }
 
-.card__links a:hover {
+.card__link:hover {
   text-decoration: underline;
+}
+
+.card__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* El enlace al curso es la acción principal de la tarjeta: se ve como botón. */
+.card__link--primary {
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 640;
+}
+
+.card__link--primary:hover {
+  filter: brightness(1.08);
+  text-decoration: none;
+}
+
+.card__link--primary .card__link-host {
+  color: inherit;
+  opacity: 0.8;
+}
+
+/* Dominio de destino: el usuario sabe adónde va antes de pulsar. */
+.card__link-host {
+  font-size: 11.5px;
+  font-weight: 450;
+  color: var(--text-muted);
 }
 
 .empty {
