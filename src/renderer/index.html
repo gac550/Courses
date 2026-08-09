@@ -250,14 +250,23 @@
       <span class="statusbar__item" id="status-pipeline">Listo</span>
     </footer>
 
-    <!-- Consola del pipeline: oculta hasta que se ejecuta una actualización. -->
-    <div id="pipeline" class="pipeline" hidden>
+    <!--
+      Consola del pipeline como modal nativo. <dialog> aporta el foco atrapado,
+      el cierre con Escape y el backdrop sin JavaScript adicional.
+    -->
+    <dialog id="pipeline" class="pipeline" aria-labelledby="pipeline-title">
       <div class="pipeline__header">
-        <h2 class="pipeline__title">Actualización del catálogo</h2>
+        <h2 class="pipeline__title" id="pipeline-title">Actualización del catálogo</h2>
+        <span class="pipeline__state" id="pipeline-state"></span>
         <button type="button" id="pipeline-close" class="button button--ghost">Cerrar</button>
       </div>
+
       <pre id="pipeline-log" class="pipeline__log" role="log" aria-live="polite"></pre>
-    </div>
+
+      <div class="pipeline__footer">
+        <button type="button" id="pipeline-done" class="button button--primary">Cerrar</button>
+      </div>
+    </dialog>
 
     <script type="module" src="./main.js"></script>
   </body>

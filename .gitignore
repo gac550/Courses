@@ -13,6 +13,9 @@ release/
 *.db-wal
 *.db-shm
 
+# Estado de Electron: regenerable, vive junto al ejecutable
+data/runtime/
+
 # Logs
 logs/
 *.log

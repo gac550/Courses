@@ -18,6 +18,7 @@ const state = {
   rows: [],
   total: 0,
   stats: null,
+  pipelineRunning: false,
 };
 
 const THEMES = new Set(['light', 'dark', 'auto']);
@@ -459,11 +460,16 @@ function appendLog(payload) {
 
 async function runUpdate() {
   const button = el('btn-update');
-  const panel = el('pipeline');
+  const dialog = el('pipeline');
 
+  state.pipelineRunning = true;
   button.disabled = true;
-  panel.hidden = false;
   el('pipeline-log').replaceChildren();
+  el('pipeline-state').textContent = 'En curso…';
+  el('pipeline-done').disabled = true;
+  el('pipeline-close').disabled = true;
+
+  if (!dialog.open) dialog.showModal();
   setPipelineStatus('Actualizando el catálogo…', true);
 
   try {
@@ -482,11 +488,16 @@ async function runUpdate() {
       await refresh();
     }
     setPipelineStatus(result.ok ? 'Catálogo actualizado' : 'La actualización no se completó');
+    el('pipeline-state').textContent = result.ok ? 'Completada' : 'Con errores';
   } catch (error) {
     appendLog({ level: 'error', message: error.message });
     setPipelineStatus('Error en la actualización');
+    el('pipeline-state').textContent = 'Con errores';
   } finally {
+    state.pipelineRunning = false;
     button.disabled = false;
+    el('pipeline-done').disabled = false;
+    el('pipeline-close').disabled = false;
   }
 }
 
@@ -608,8 +619,20 @@ function bindControls() {
   });
 
   el('btn-update').addEventListener('click', runUpdate);
-  el('pipeline-close').addEventListener('click', () => {
-    el('pipeline').hidden = true;
+  const dialog = el('pipeline');
+  const closePipeline = () => dialog.close();
+
+  el('pipeline-close').addEventListener('click', closePipeline);
+  el('pipeline-done').addEventListener('click', closePipeline);
+
+  // Escape y clic en el fondo cierran, salvo mientras el pipeline corre:
+  // cerrar a medias perdería el registro de una ejecución en curso.
+  dialog.addEventListener('cancel', (event) => {
+    if (state.pipelineRunning) event.preventDefault();
+  });
+
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog && !state.pipelineRunning) dialog.close();
   });
 
   for (const button of document.querySelectorAll('[data-export]')) {

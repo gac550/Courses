@@ -796,43 +796,77 @@ body.shell {
 }
 
 /* Consola del pipeline */
+/*
+ * Modal del pipeline.
+ *
+ * El diálogo cerrado tiene display:none por el agente de usuario. Por eso la
+ * maquetación se aplica SOLO con [open]: declarar display en .pipeline anularía
+ * ese comportamiento y el modal no se podría cerrar.
+ */
 .pipeline {
-  position: fixed;
-  right: 16px;
-  bottom: 16px;
-  width: min(560px, calc(100vw - 32px));
-  max-height: 46vh;
-  display: flex;
-  flex-direction: column;
-  background: var(--bg);
+  width: min(640px, calc(100vw - 48px));
+  max-height: min(70vh, 560px);
+  padding: 0;
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
   box-shadow: var(--shadow-overlay);
+}
+
+.pipeline[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.pipeline::backdrop {
+  background: rgb(0 0 0 / 45%);
 }
 
 .pipeline__header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 8px 12px;
+  gap: 10px;
+  padding: 10px 14px;
   border-bottom: 1px solid var(--border);
+  background: var(--bg-subtle);
 }
 
 .pipeline__title {
   margin: 0;
   font-size: 13px;
   font-weight: 640;
+  flex-shrink: 0;
+}
+
+.pipeline__state {
+  flex: 1;
+  font-size: 11.5px;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .pipeline__log {
   margin: 0;
-  padding: 10px 12px;
+  padding: 12px 14px;
   overflow-y: auto;
+  flex: 1;
+  min-height: 160px;
   font-family: var(--mono);
   font-size: 11.5px;
   line-height: 1.55;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+.pipeline__footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 14px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-subtle);
 }
 
 .log-line--error {
