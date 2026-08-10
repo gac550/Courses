@@ -11,7 +11,9 @@ import { ipcMain, shell } from 'electron';
 import { fromSql } from './db.mjs';
 import { runPipeline } from './pipeline.mjs';
 
-const DOMAINS = new Set(['ai-tecnica', 'ai-negocio', 'pmo', 'finanzas', 'gerencia']);
+const DOMAINS = new Set([
+  'ai-tecnica', 'ai-negocio', 'pmo', 'finanzas', 'gerencia', 'derecho', 'sostenibilidad', 'datos', 'salud', 'ciencias', 'humanidades',
+]);
 const PROVIDER_TYPES = new Set(['institucion', 'proveedor-ia']);
 const VERIFICATION = new Set([
   'VERIFICADO', 'PENDIENTE', 'REVERIFICAR', 'NO_DISPONIBLE', 'MANUAL_REVIEW_REQUIRED',

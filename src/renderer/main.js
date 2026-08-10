@@ -51,6 +51,12 @@ const DOMAIN_LABELS = {
   pmo: 'PMO y proyectos',
   finanzas: 'Finanzas y evaluación',
   gerencia: 'Gerencia y liderazgo',
+  derecho: 'Derecho y contratos',
+  sostenibilidad: 'Sostenibilidad y energía',
+  datos: 'Datos y estadística',
+  salud: 'Salud y bienestar',
+  ciencias: 'Ingeniería y ciencias',
+  humanidades: 'Humanidades y sociales',
   institucion: 'Universidades y organismos',
   'proveedor-ia': 'Proveedores de IA',
 };

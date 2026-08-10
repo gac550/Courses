@@ -25,8 +25,10 @@ export function slugify(value) {
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 80) || null;
+    // El recorte va ANTES de limpiar los guiones: cortar después puede dejar
+    // uno suelto al final y romper el patrón kebab-case.
+    .slice(0, 80)
+    .replace(/^-+|-+$/g, '') || null;
 }
 
 const INSTITUTION_ABBREV = {
