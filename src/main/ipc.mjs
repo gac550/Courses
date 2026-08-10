@@ -8,8 +8,12 @@
  */
 
 import { ipcMain, shell } from 'electron';
+import { readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+
 import { fromSql } from './db.mjs';
 import { runPipeline } from './pipeline.mjs';
+import { portableRoot as root } from './paths.mjs';
 
 const DOMAINS = new Set([
   'ai-tecnica', 'ai-negocio', 'pmo', 'finanzas', 'gerencia', 'derecho', 'sostenibilidad', 'datos', 'salud', 'ciencias', 'humanidades',
@@ -193,6 +197,33 @@ export function registerIpc({ getDb, setDb, getWindow }) {
       .get(...values).n;
 
     return { rows, total };
+  });
+
+  /**
+   * Proveedores registrados que hoy no ofrecen formación propia.
+   *
+   * Se exponen a la interfaz para que su ausencia del catálogo sea explicable:
+   * sin esto, un proveedor conocido simplemente no aparece y parece un olvido.
+   */
+  ipcMain.handle('sources:unavailable', () => {
+    const db = getDb();
+
+    try {
+      const path = join(root(), 'config', 'sources.json');
+      if (!existsSync(path) || !db) return [];
+
+      const conCursos = new Set(
+        db.prepare('SELECT DISTINCT institution FROM courses').all().map((r) => r.institution),
+      );
+
+      // Solo las que de verdad no aportan cursos. Una fuente deshabilitada por
+      // anti-bot pero cuyos cursos se verificaron a mano sí está representada.
+      return JSON.parse(readFileSync(path, 'utf8'))
+        .filter((s) => s.enabled === false && s.institution && !conCursos.has(s.institution))
+        .map((s) => ({ institution: s.institution, reason: s.notes ?? null }));
+    } catch {
+      return [];
+    }
   });
 
   ipcMain.handle('courses:facets', () => {

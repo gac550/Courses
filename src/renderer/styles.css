@@ -516,6 +516,16 @@ body.shell {
   flex-shrink: 0;
 }
 
+/* Fuente registrada sin formación propia: presente, pero sin cursos. */
+.breakdown__row--muted {
+  color: var(--text-muted);
+  cursor: help;
+}
+
+.breakdown__row--muted:hover {
+  color: var(--text);
+}
+
 /* --- 4. Statusbar --- */
 
 .statusbar {

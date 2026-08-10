@@ -200,6 +200,39 @@ async function renderBreakdown() {
   section('Plataforma', facets.platform);
 
   container.replaceChildren(fragment);
+
+  // Fuentes sin formación propia: su ausencia del catálogo debe ser explicable,
+  // no parecer un olvido.
+  const ausentes = await api.unavailableSources();
+  if (ausentes.length === 0) return;
+
+  const box = document.createElement('div');
+  box.className = 'breakdown__section';
+
+  const heading = document.createElement('div');
+  heading.className = 'breakdown__heading';
+  heading.textContent = 'Sin cursos propios';
+  box.append(heading);
+
+  for (const fuente of ausentes) {
+    const row = document.createElement('div');
+    row.className = 'breakdown__row breakdown__row--muted';
+
+    const label = document.createElement('span');
+    label.className = 'breakdown__label';
+    label.textContent = SHORT_NAMES[fuente.institution] ?? fuente.institution;
+
+    const mark = document.createElement('span');
+    mark.className = 'breakdown__value';
+    mark.textContent = '—';
+
+    // El motivo verificado queda a la vista al pasar el cursor.
+    row.title = fuente.reason ?? 'Sin formación propia verificable.';
+    row.append(label, mark);
+    box.append(row);
+  }
+
+  container.append(box);
 }
 
 /** Statusbar: conteo, verificación y estado del pipeline. */

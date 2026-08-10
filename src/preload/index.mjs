@@ -12,6 +12,7 @@ contextBridge.exposeInMainWorld('courses', {
   query: (filters) => ipcRenderer.invoke('courses:query', filters),
   facets: () => ipcRenderer.invoke('courses:facets'),
   stats: () => ipcRenderer.invoke('courses:stats'),
+  unavailableSources: () => ipcRenderer.invoke('sources:unavailable'),
   openExternal: (url) => ipcRenderer.invoke('app:openExternal', url),
 
   runPipeline: (options) => ipcRenderer.invoke('pipeline:run', options),
