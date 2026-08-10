@@ -95,7 +95,8 @@ for (const candidate of nuevos) {
     duration_weeks: null,
     hours_per_week: null,
     pace: null,
-    cost_access: null,
+    // El acceso llega verificado desde extract.mjs, que descarta los de pago.
+    cost_access: candidate.cost_access ?? null,
     credential_type: null,
     credential_free: null,
     credential_price_usd: null,

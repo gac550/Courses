@@ -61,6 +61,31 @@ const DOMAIN_LABELS = {
   'proveedor-ia': 'Proveedores de IA',
 };
 
+/** Etiquetas legibles para valores que en los datos van en crudo. */
+const VALUE_LABELS = {
+  'certificado gratuito': 'Certificado gratuito',
+  'badge gratuito': 'Badge gratuito',
+  'declaracion de logro': 'Declaración de logro',
+  'certificado pagado verificable': 'Certificado pagado verificable',
+  'certificado pagado': 'Certificado pagado',
+  VERIFICADO: 'Verificado',
+  PENDIENTE: 'Pendiente',
+  REVERIFICAR: 'Por reverificar',
+  NO_DISPONIBLE: 'No disponible',
+  MANUAL_REVIEW_REQUIRED: 'Revisión manual',
+  introductorio: 'Introductorio',
+  intermedio: 'Intermedio',
+  avanzado: 'Avanzado',
+  US: 'Estados Unidos',
+  GB: 'Reino Unido',
+  DE: 'Alemania',
+  CA: 'Canadá',
+  CH: 'Suiza',
+  AU: 'Australia',
+  FR: 'Francia',
+  CN: 'China',
+};
+
 /** Nombres cortos para que el desplegable no corte la institución. */
 const SHORT_NAMES = {
   'Massachusetts Institute of Technology': 'MIT',
@@ -70,6 +95,54 @@ const SHORT_NAMES = {
   'Harvard University': 'Harvard',
   'The Open University': 'Open University',
 };
+
+/** Proveedores de modelos de IA, para separarlos de las instituciones. */
+const AI_PROVIDERS = new Set(['Anthropic', 'OpenAI', 'Google', 'xAI', 'DeepSeek', 'Meta', 'Mistral AI']);
+
+/** Dominios agrupados por familia temática. */
+const DOMAIN_GROUPS = [
+  { label: 'Inteligencia artificial', values: ['ai-tecnica', 'ai-negocio'] },
+  { label: 'Gestión y negocio', values: ['pmo', 'finanzas', 'gerencia', 'derecho'] },
+  { label: 'Ciencia y sociedad', values: ['datos', 'ciencias', 'sostenibilidad', 'salud', 'humanidades'] },
+];
+
+/** Credenciales por lo que cuestan: es la distinción que más importa. */
+const CREDENTIAL_GROUPS = [
+  { label: 'Gratuitas', values: ['certificado gratuito', 'badge gratuito', 'declaracion de logro'] },
+  { label: 'De pago', values: ['certificado pagado verificable', 'certificado pagado'] },
+];
+
+/** Estados por si exigen acción de una persona o no. */
+const VERIFICATION_GROUPS = [
+  { label: 'Confirmado', values: ['VERIFICADO'] },
+  { label: 'Requiere revisión', values: ['PENDIENTE', 'REVERIFICAR', 'MANUAL_REVIEW_REQUIRED'] },
+  { label: 'Retirado', values: ['NO_DISPONIBLE'] },
+];
+
+/**
+ * Reparte las opciones de un filtro en grupos con encabezado.
+ * Devuelve null cuando el filtro no tiene una partición que aporte claridad.
+ */
+function groupOptions(key, options) {
+  const byValues = (grupos) => grupos.map(({ label, values }) => ({
+    label,
+    rows: options.filter((o) => values.includes(o.value)),
+  }));
+
+  if (key === 'institution') {
+    return [
+      { label: 'Universidades y organismos', rows: options.filter((o) => !AI_PROVIDERS.has(o.value)) },
+      { label: 'Proveedores de IA', rows: options.filter((o) => AI_PROVIDERS.has(o.value)) },
+    ];
+  }
+
+  if (key === 'domain') return byValues(DOMAIN_GROUPS);
+  if (key === 'credentialType') return byValues(CREDENTIAL_GROUPS);
+  if (key === 'verificationStatus') return byValues(VERIFICATION_GROUPS);
+
+  // Origen, país, plataforma y nivel son listas cortas: agruparlas estorba.
+  return null;
+}
 
 const el = (id) => document.getElementById(id);
 
@@ -180,7 +253,10 @@ async function renderBreakdown() {
 
       const label = document.createElement('span');
       label.className = 'breakdown__label';
-      label.textContent = DOMAIN_LABELS[row.value] ?? SHORT_NAMES[row.value] ?? row.value;
+      label.textContent = DOMAIN_LABELS[row.value]
+        ?? SHORT_NAMES[row.value]
+        ?? VALUE_LABELS[row.value]
+        ?? row.value;
       label.title = row.value;
 
       const value = document.createElement('span');
@@ -276,23 +352,46 @@ async function renderFilters() {
     select.className = 'field__input';
     select.id = `filter-${key}`;
 
+    // Sin conteo: la suma de las opciones no equivale al total del catálogo
+    // cuando hay cursos sin ese campo, y mostrarla induciría a error.
     const any = document.createElement('option');
     any.value = '';
     any.textContent = 'Todas';
     select.append(any);
 
-    for (const option of options) {
+    /** Crea una opción con su etiqueta corta y el nombre completo en el título. */
+    const buildOption = (option) => {
       const node = document.createElement('option');
       node.value = option.value;
 
-      // Nombres largos de institución se abrevian para que quepan en el
-      // desplegable, pero el título conserva el nombre completo.
-      const etiqueta = DOMAIN_LABELS[option.value] ?? SHORT_NAMES[option.value] ?? option.value;
-      node.textContent = `${etiqueta} (${option.n})`;
+      const etiqueta = DOMAIN_LABELS[option.value]
+        ?? SHORT_NAMES[option.value]
+        ?? VALUE_LABELS[option.value]
+        ?? option.value;
+
+      node.textContent = `${etiqueta} · ${option.n}`;
       node.title = `${option.value} — ${option.n} cursos`;
 
       if (state.filters[key] === option.value) node.selected = true;
-      select.append(node);
+      return node;
+    };
+
+    // Las opciones se agrupan con <optgroup> cuando el filtro tiene una
+    // partición natural: el navegador dibuja los encabezados y el desplegable
+    // deja de ser una lista plana de veinte entradas.
+    const groups = groupOptions(key, options);
+
+    if (groups) {
+      for (const { label, rows } of groups) {
+        if (rows.length === 0) continue;
+
+        const optgroup = document.createElement('optgroup');
+        optgroup.label = label;
+        for (const row of rows) optgroup.append(buildOption(row));
+        select.append(optgroup);
+      }
+    } else {
+      for (const option of options) select.append(buildOption(option));
     }
 
     select.addEventListener('change', () => {

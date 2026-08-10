@@ -11,7 +11,8 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { createFetcher } from './lib/fetcher.mjs';
-import { extractCourse } from './lib/extract-lib.mjs';
+import { extractCourse, extractText } from './lib/extract-lib.mjs';
+import { classifyAccess } from './lib/pricing.mjs';
 import { normalizeCourse } from './lib/normalize.mjs';
 import { today } from './lib/dates.mjs';
 
@@ -66,12 +67,22 @@ async function procesar(candidato) {
 
   const extraido = extractCourse(result.body, candidato.url);
 
+  // Filtro de entrada del catálogo: un curso cuyo CONTENIDO se paga no
+  // pertenece, por prestigiosa que sea la institución. Se descarta aquí para
+  // que no llegue siquiera a la etapa de verificación.
+  const acceso = classifyAccess(extractText(result.body));
+  if (acceso === 'pagado') {
+    fallidos.push({ url: candidato.url, reason: 'Acceso de pago: fuera del alcance del catálogo' });
+    return;
+  }
+
   // La institución de la fuente configurada prevalece sobre la de la página:
   // está verificada en config/sources.json.
   if (candidato.institution) extraido.institution = candidato.institution;
 
   extraidos.push({
     ...normalizeCourse(extraido),
+    cost_access: acceso,
     evidence: extraido.evidence,
     source_id: candidato.source,
     adapter: candidato.adapter,

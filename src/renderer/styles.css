@@ -662,6 +662,24 @@ select.field__input option {
   padding: 6px;
 }
 
+/* Encabezado de grupo: rótulo, no opción seleccionable. */
+select.field__input optgroup {
+  background: var(--bg);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+select.field__input optgroup option {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--text);
+}
+
 .field__input--compact {
   width: auto;
   padding: 4px 8px;
