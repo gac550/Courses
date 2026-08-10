@@ -19,6 +19,9 @@ import { makeId } from './lib/normalize.mjs';
 import { isValidHttpUrl } from './lib/urls.mjs';
 import { today } from './lib/dates.mjs';
 
+// Proveedores de modelos de IA: se distinguen de las instituciones academicas.
+const AI_PROVIDERS = new Set(['Anthropic','OpenAI','Google','xAI','DeepSeek','Meta','Mistral AI']);
+
 const root = process.env.COURSES_ROOT ?? process.cwd();
 const discoveryDir = join(root, 'data', 'discovery');
 const extractedPath = join(discoveryDir, 'extracted.json');
@@ -81,7 +84,7 @@ for (const candidate of nuevos) {
     title: candidate.title,
     institution: candidate.institution,
     institution_country: null,
-    provider_type: 'institucion',
+    provider_type: AI_PROVIDERS.has(candidate.institution) ? 'proveedor-ia' : 'institucion',
     platform: null,
     course_code: candidate.course_code ?? null,
     domain: null,
